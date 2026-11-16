@@ -1,0 +1,961 @@
+model,shift,kind,level,detector,threshold,detected,n,power,median_delay
+glucose,nominal,drift,medium,D1_threshold,nominal_thr,14,300,0.04666666666666667,161.7359812803075
+glucose,nominal,drift,medium,D1_threshold,oracle_thr,16,300,0.05333333333333334,199.31996783781997
+glucose,nominal,drift,medium,D2_movavg,nominal_thr,24,300,0.08,209.71461972219237
+glucose,nominal,drift,medium,D2_movavg,oracle_thr,28,300,0.09333333333333334,188.46657519907885
+glucose,nominal,drift,medium,D3_ewma,nominal_thr,26,300,0.08666666666666667,206.26511438913957
+glucose,nominal,drift,medium,D3_ewma,oracle_thr,26,300,0.08666666666666667,206.26511438913957
+glucose,nominal,drift,medium,D4_cusum,nominal_thr,22,300,0.07333333333333333,223.97554952088467
+glucose,nominal,drift,medium,D4_cusum,oracle_thr,22,300,0.07333333333333333,227.0971148682552
+glucose,nominal,drift,medium,D5_glr,nominal_thr,20,300,0.06666666666666667,220.7891820886545
+glucose,nominal,drift,medium,D5_glr,oracle_thr,20,300,0.06666666666666667,247.48514477089944
+glucose,nominal,drift,medium,D6_sr,nominal_thr,26,300,0.08666666666666667,206.26511438913957
+glucose,nominal,drift,medium,D6_sr,oracle_thr,26,300,0.08666666666666667,206.26511438913957
+glucose,nominal,drift,medium,D7_bocpd,nominal_thr,23,300,0.07666666666666666,148.79493126261127
+glucose,nominal,drift,medium,D7_bocpd,oracle_thr,17,300,0.056666666666666664,208.9086315013705
+glucose,nominal,drift,medium,D8_conformal,nominal_thr,11,300,0.03666666666666667,155.15027494705777
+glucose,nominal,drift,medium,D8_conformal,oracle_thr,3,300,0.01,116.52568086625644
+glucose,nominal,drift,medium,D9_multiscale,nominal_thr,16,300,0.05333333333333334,186.9645853389526
+glucose,nominal,drift,medium,D9_multiscale,oracle_thr,16,300,0.05333333333333334,186.9645853389526
+glucose,nominal,drift,medium,D10_hybrid,nominal_thr,22,300,0.07333333333333333,153.154591905372
+glucose,nominal,drift,medium,D10_hybrid,oracle_thr,22,300,0.07333333333333333,153.154591905372
+glucose,nominal,structure,medium,D1_threshold,nominal_thr,50,300,0.16666666666666666,141.57645842564335
+glucose,nominal,structure,medium,D1_threshold,oracle_thr,56,300,0.18666666666666668,144.93793306463576
+glucose,nominal,structure,medium,D2_movavg,nominal_thr,77,300,0.25666666666666665,146.08956394444243
+glucose,nominal,structure,medium,D2_movavg,oracle_thr,80,300,0.26666666666666666,144.63761754982917
+glucose,nominal,structure,medium,D3_ewma,nominal_thr,78,300,0.26,147.38901250660433
+glucose,nominal,structure,medium,D3_ewma,oracle_thr,78,300,0.26,158.83403709424343
+glucose,nominal,structure,medium,D4_cusum,nominal_thr,63,300,0.21,204.8348223971908
+glucose,nominal,structure,medium,D4_cusum,oracle_thr,61,300,0.20333333333333334,209.672937604377
+glucose,nominal,structure,medium,D5_glr,nominal_thr,71,300,0.23666666666666666,190.53239143101268
+glucose,nominal,structure,medium,D5_glr,oracle_thr,71,300,0.23666666666666666,193.11281973395222
+glucose,nominal,structure,medium,D6_sr,nominal_thr,78,300,0.26,190.9054972574759
+glucose,nominal,structure,medium,D6_sr,oracle_thr,80,300,0.26666666666666666,192.9091556455058
+glucose,nominal,structure,medium,D7_bocpd,nominal_thr,69,300,0.23,146.25514855230244
+glucose,nominal,structure,medium,D7_bocpd,oracle_thr,62,300,0.20666666666666667,135.0558501593426
+glucose,nominal,structure,medium,D8_conformal,nominal_thr,27,300,0.09,209.8504069906694
+glucose,nominal,structure,medium,D8_conformal,oracle_thr,15,300,0.05,252.4763576083277
+glucose,nominal,structure,medium,D9_multiscale,nominal_thr,66,300,0.22,173.18609780135705
+glucose,nominal,structure,medium,D9_multiscale,oracle_thr,69,300,0.23,188.7647161591549
+glucose,nominal,structure,medium,D10_hybrid,nominal_thr,71,300,0.23666666666666666,144.99544562671292
+glucose,nominal,structure,medium,D10_hybrid,oracle_thr,71,300,0.23666666666666666,144.99544562671292
+glucose,nominal,feedback,medium,D1_threshold,nominal_thr,53,300,0.17666666666666667,144.1292011815488
+glucose,nominal,feedback,medium,D1_threshold,oracle_thr,54,300,0.18,144.24457130994378
+glucose,nominal,feedback,medium,D2_movavg,nominal_thr,67,300,0.22333333333333333,181.6269255210688
+glucose,nominal,feedback,medium,D2_movavg,oracle_thr,67,300,0.22333333333333333,166.96212872961553
+glucose,nominal,feedback,medium,D3_ewma,nominal_thr,65,300,0.21666666666666667,182.73541663541278
+glucose,nominal,feedback,medium,D3_ewma,oracle_thr,65,300,0.21666666666666667,182.73541663541278
+glucose,nominal,feedback,medium,D4_cusum,nominal_thr,57,300,0.19,206.9765272162536
+glucose,nominal,feedback,medium,D4_cusum,oracle_thr,58,300,0.19333333333333333,222.80940834817625
+glucose,nominal,feedback,medium,D5_glr,nominal_thr,58,300,0.19333333333333333,208.61148112921458
+glucose,nominal,feedback,medium,D5_glr,oracle_thr,54,300,0.18,196.26667860012617
+glucose,nominal,feedback,medium,D6_sr,nominal_thr,63,300,0.21,206.483733070112
+glucose,nominal,feedback,medium,D6_sr,oracle_thr,63,300,0.21,206.483733070112
+glucose,nominal,feedback,medium,D7_bocpd,nominal_thr,45,300,0.15,104.32149112287726
+glucose,nominal,feedback,medium,D7_bocpd,oracle_thr,35,300,0.11666666666666667,108.93882254956765
+glucose,nominal,feedback,medium,D8_conformal,nominal_thr,19,300,0.06333333333333334,203.9309671883646
+glucose,nominal,feedback,medium,D8_conformal,oracle_thr,6,300,0.02,229.3331919118887
+glucose,nominal,feedback,medium,D9_multiscale,nominal_thr,51,300,0.17,158.53176541612538
+glucose,nominal,feedback,medium,D9_multiscale,oracle_thr,52,300,0.17333333333333334,154.5703999859266
+glucose,nominal,feedback,medium,D10_hybrid,nominal_thr,63,300,0.21,165.07423143431055
+glucose,nominal,feedback,medium,D10_hybrid,oracle_thr,63,300,0.21,165.07423143431055
+glucose,noise x2,drift,medium,D1_threshold,nominal_thr,13,300,0.043333333333333335,201.4564130763069
+glucose,noise x2,drift,medium,D1_threshold,oracle_thr,22,300,0.07333333333333333,199.08528185462666
+glucose,noise x2,drift,medium,D2_movavg,nominal_thr,6,300,0.02,239.0004617867115
+glucose,noise x2,drift,medium,D2_movavg,oracle_thr,19,300,0.06333333333333334,215.93972759811993
+glucose,noise x2,drift,medium,D3_ewma,nominal_thr,7,300,0.023333333333333334,248.2987562796879
+glucose,noise x2,drift,medium,D3_ewma,oracle_thr,17,300,0.056666666666666664,215.4230071309691
+glucose,noise x2,drift,medium,D4_cusum,nominal_thr,2,300,0.006666666666666667,174.6668078191441
+glucose,noise x2,drift,medium,D4_cusum,oracle_thr,28,300,0.09333333333333334,239.44375364134004
+glucose,noise x2,drift,medium,D5_glr,nominal_thr,4,300,0.013333333333333334,174.6668078191441
+glucose,noise x2,drift,medium,D5_glr,oracle_thr,21,300,0.07,230.58875100299218
+glucose,noise x2,drift,medium,D6_sr,nominal_thr,5,300,0.016666666666666666,193.85977705866458
+glucose,noise x2,drift,medium,D6_sr,oracle_thr,29,300,0.09666666666666666,258.6728589420391
+glucose,noise x2,drift,medium,D7_bocpd,nominal_thr,22,300,0.07333333333333333,221.0778506339132
+glucose,noise x2,drift,medium,D7_bocpd,oracle_thr,31,300,0.10333333333333333,159.62853561190684
+glucose,noise x2,drift,medium,D8_conformal,nominal_thr,12,300,0.04,172.8870530841486
+glucose,noise x2,drift,medium,D8_conformal,oracle_thr,18,300,0.06,168.00272852463488
+glucose,noise x2,drift,medium,D9_multiscale,nominal_thr,8,300,0.02666666666666667,161.7067830888718
+glucose,noise x2,drift,medium,D9_multiscale,oracle_thr,22,300,0.07333333333333333,199.08528185462666
+glucose,noise x2,drift,medium,D10_hybrid,nominal_thr,14,300,0.04666666666666667,226.24604413292653
+glucose,noise x2,drift,medium,D10_hybrid,oracle_thr,24,300,0.08,193.59440390989383
+glucose,noise x2,structure,medium,D1_threshold,nominal_thr,15,300,0.05,212.23850881395384
+glucose,noise x2,structure,medium,D1_threshold,oracle_thr,31,300,0.10333333333333333,194.68668500553383
+glucose,noise x2,structure,medium,D2_movavg,nominal_thr,17,300,0.056666666666666664,135.08944460140333
+glucose,noise x2,structure,medium,D2_movavg,oracle_thr,37,300,0.12333333333333334,145.01774841746982
+glucose,noise x2,structure,medium,D3_ewma,nominal_thr,17,300,0.056666666666666664,212.96110252143416
+glucose,noise x2,structure,medium,D3_ewma,oracle_thr,35,300,0.11666666666666667,157.445916820712
+glucose,noise x2,structure,medium,D4_cusum,nominal_thr,12,300,0.04,251.65553948387418
+glucose,noise x2,structure,medium,D4_cusum,oracle_thr,43,300,0.14333333333333334,159.4787786588817
+glucose,noise x2,structure,medium,D5_glr,nominal_thr,15,300,0.05,236.737813865487
+glucose,noise x2,structure,medium,D5_glr,oracle_thr,41,300,0.13666666666666666,181.445916820712
+glucose,noise x2,structure,medium,D6_sr,nominal_thr,16,300,0.05333333333333334,229.0211631068192
+glucose,noise x2,structure,medium,D6_sr,oracle_thr,48,300,0.16,198.1492607726149
+glucose,noise x2,structure,medium,D7_bocpd,nominal_thr,30,300,0.1,178.61578764643147
+glucose,noise x2,structure,medium,D7_bocpd,oracle_thr,38,300,0.12666666666666668,161.0118344731054
+glucose,noise x2,structure,medium,D8_conformal,nominal_thr,13,300,0.043333333333333335,133.9235011452364
+glucose,noise x2,structure,medium,D8_conformal,oracle_thr,19,300,0.06333333333333334,114.38770973936198
+glucose,noise x2,structure,medium,D9_multiscale,nominal_thr,15,300,0.05,212.737813865487
+glucose,noise x2,structure,medium,D9_multiscale,oracle_thr,38,300,0.12666666666666668,202.87825852939466
+glucose,noise x2,structure,medium,D10_hybrid,nominal_thr,21,300,0.07,229.9235011452364
+glucose,noise x2,structure,medium,D10_hybrid,oracle_thr,41,300,0.13666666666666666,197.4136429999984
+glucose,noise x2,feedback,medium,D1_threshold,nominal_thr,22,300,0.07333333333333333,178.36775686427518
+glucose,noise x2,feedback,medium,D1_threshold,oracle_thr,32,300,0.10666666666666667,193.98633405834465
+glucose,noise x2,feedback,medium,D2_movavg,nominal_thr,17,300,0.056666666666666664,235.76037200419597
+glucose,noise x2,feedback,medium,D2_movavg,oracle_thr,39,300,0.13,204.15119043018495
+glucose,noise x2,feedback,medium,D3_ewma,nominal_thr,21,300,0.07,212.79222669813635
+glucose,noise x2,feedback,medium,D3_ewma,oracle_thr,40,300,0.13333333333333333,197.72641300234665
+glucose,noise x2,feedback,medium,D4_cusum,nominal_thr,13,300,0.043333333333333335,257.45582719907736
+glucose,noise x2,feedback,medium,D4_cusum,oracle_thr,46,300,0.15333333333333332,188.05742501620966
+glucose,noise x2,feedback,medium,D5_glr,nominal_thr,15,300,0.05,212.79222669813635
+glucose,noise x2,feedback,medium,D5_glr,oracle_thr,40,300,0.13333333333333333,215.46061098028827
+glucose,noise x2,feedback,medium,D6_sr,nominal_thr,19,300,0.06333333333333334,235.76037200419597
+glucose,noise x2,feedback,medium,D6_sr,oracle_thr,47,300,0.15666666666666668,193.13631169999604
+glucose,noise x2,feedback,medium,D7_bocpd,nominal_thr,29,300,0.09666666666666666,142.00580104985653
+glucose,noise x2,feedback,medium,D7_bocpd,oracle_thr,41,300,0.13666666666666666,139.42433153922195
+glucose,noise x2,feedback,medium,D8_conformal,nominal_thr,12,300,0.04,141.71983960194927
+glucose,noise x2,feedback,medium,D8_conformal,oracle_thr,15,300,0.05,118.00580104985653
+glucose,noise x2,feedback,medium,D9_multiscale,nominal_thr,20,300,0.06666666666666667,180.2578252961845
+glucose,noise x2,feedback,medium,D9_multiscale,oracle_thr,38,300,0.12666666666666668,174.72440206881112
+glucose,noise x2,feedback,medium,D10_hybrid,nominal_thr,24,300,0.08,223.1202906344128
+glucose,noise x2,feedback,medium,D10_hybrid,oracle_thr,41,300,0.13666666666666666,162.0093994162641
+glucose,noise x4,drift,medium,D1_threshold,nominal_thr,6,300,0.02,122.856149430796
+glucose,noise x4,drift,medium,D1_threshold,oracle_thr,10,300,0.03333333333333333,185.71936249899233
+glucose,noise x4,drift,medium,D2_movavg,nominal_thr,1,300,0.0033333333333333335,238.3106824645248
+glucose,noise x4,drift,medium,D2_movavg,oracle_thr,12,300,0.04,164.59454600087466
+glucose,noise x4,drift,medium,D3_ewma,nominal_thr,3,300,0.01,143.58251154877087
+glucose,noise x4,drift,medium,D3_ewma,oracle_thr,12,300,0.04,168.39496959005953
+glucose,noise x4,drift,medium,D4_cusum,nominal_thr,0,300,0.0,
+glucose,noise x4,drift,medium,D4_cusum,oracle_thr,13,300,0.043333333333333335,186.7913144071457
+glucose,noise x4,drift,medium,D5_glr,nominal_thr,0,300,0.0,
+glucose,noise x4,drift,medium,D5_glr,oracle_thr,21,300,0.07,182.00737614079986
+glucose,noise x4,drift,medium,D6_sr,nominal_thr,0,300,0.0,
+glucose,noise x4,drift,medium,D6_sr,oracle_thr,15,300,0.05,162.7913144071457
+glucose,noise x4,drift,medium,D7_bocpd,nominal_thr,14,300,0.04666666666666667,138.84923651379694
+glucose,noise x4,drift,medium,D7_bocpd,oracle_thr,14,300,0.04666666666666667,138.84923651379694
+glucose,noise x4,drift,medium,D8_conformal,nominal_thr,11,300,0.03666666666666667,115.29443406051786
+glucose,noise x4,drift,medium,D8_conformal,oracle_thr,10,300,0.03333333333333333,131.11447395187895
+glucose,noise x4,drift,medium,D9_multiscale,nominal_thr,1,300,0.0033333333333333335,59.21906698374619
+glucose,noise x4,drift,medium,D9_multiscale,oracle_thr,11,300,0.03666666666666667,114.7913144071457
+glucose,noise x4,drift,medium,D10_hybrid,nominal_thr,5,300,0.016666666666666666,149.46417398248911
+glucose,noise x4,drift,medium,D10_hybrid,oracle_thr,7,300,0.023333333333333334,149.46417398248911
+glucose,noise x4,structure,medium,D1_threshold,nominal_thr,2,300,0.006666666666666667,67.13692317239253
+glucose,noise x4,structure,medium,D1_threshold,oracle_thr,5,300,0.016666666666666666,105.08376020837972
+glucose,noise x4,structure,medium,D2_movavg,nominal_thr,0,300,0.0,
+glucose,noise x4,structure,medium,D2_movavg,oracle_thr,8,300,0.02666666666666667,154.23298572122692
+glucose,noise x4,structure,medium,D3_ewma,nominal_thr,1,300,0.0033333333333333335,155.8025140005845
+glucose,noise x4,structure,medium,D3_ewma,oracle_thr,12,300,0.04,159.20664945008448
+glucose,noise x4,structure,medium,D4_cusum,nominal_thr,0,300,0.0,
+glucose,noise x4,structure,medium,D4_cusum,oracle_thr,14,300,0.04666666666666667,164.77236544112463
+glucose,noise x4,structure,medium,D5_glr,nominal_thr,0,300,0.0,
+glucose,noise x4,structure,medium,D5_glr,oracle_thr,20,300,0.06666666666666667,171.355948864653
+glucose,noise x4,structure,medium,D6_sr,nominal_thr,0,300,0.0,
+glucose,noise x4,structure,medium,D6_sr,oracle_thr,14,300,0.04666666666666667,185.32489532811223
+glucose,noise x4,structure,medium,D7_bocpd,nominal_thr,10,300,0.03333333333333333,127.58793828802919
+glucose,noise x4,structure,medium,D7_bocpd,oracle_thr,10,300,0.03333333333333333,127.58793828802919
+glucose,noise x4,structure,medium,D8_conformal,nominal_thr,11,300,0.03666666666666667,101.31123170140529
+glucose,noise x4,structure,medium,D8_conformal,oracle_thr,11,300,0.03666666666666667,125.31123170140529
+glucose,noise x4,structure,medium,D9_multiscale,nominal_thr,0,300,0.0,
+glucose,noise x4,structure,medium,D9_multiscale,oracle_thr,8,300,0.02666666666666667,78.19653745649032
+glucose,noise x4,structure,medium,D10_hybrid,nominal_thr,5,300,0.016666666666666666,153.225072239135
+glucose,noise x4,structure,medium,D10_hybrid,oracle_thr,8,300,0.02666666666666667,127.58793828802919
+glucose,noise x4,feedback,medium,D1_threshold,nominal_thr,8,300,0.02666666666666667,138.2324079101684
+glucose,noise x4,feedback,medium,D1_threshold,oracle_thr,17,300,0.056666666666666664,171.47311099413122
+glucose,noise x4,feedback,medium,D2_movavg,nominal_thr,4,300,0.013333333333333334,181.08172039982944
+glucose,noise x4,feedback,medium,D2_movavg,oracle_thr,22,300,0.07333333333333333,181.09013046408626
+glucose,noise x4,feedback,medium,D3_ewma,nominal_thr,5,300,0.016666666666666666,141.78441791099465
+glucose,noise x4,feedback,medium,D3_ewma,oracle_thr,20,300,0.06666666666666667,170.19023027946542
+glucose,noise x4,feedback,medium,D4_cusum,nominal_thr,1,300,0.0033333333333333335,276.8709869572262
+glucose,noise x4,feedback,medium,D4_cusum,oracle_thr,31,300,0.10333333333333333,194.15295397813873
+glucose,noise x4,feedback,medium,D5_glr,nominal_thr,1,300,0.0033333333333333335,156.8709869572262
+glucose,noise x4,feedback,medium,D5_glr,oracle_thr,31,300,0.10333333333333333,194.15295397813873
+glucose,noise x4,feedback,medium,D6_sr,nominal_thr,1,300,0.0033333333333333335,156.8709869572262
+glucose,noise x4,feedback,medium,D6_sr,oracle_thr,33,300,0.11,177.19865876512478
+glucose,noise x4,feedback,medium,D7_bocpd,nominal_thr,18,300,0.06,142.71274008674993
+glucose,noise x4,feedback,medium,D7_bocpd,oracle_thr,18,300,0.06,142.71274008674993
+glucose,noise x4,feedback,medium,D8_conformal,nominal_thr,12,300,0.04,134.63867374570043
+glucose,noise x4,feedback,medium,D8_conformal,oracle_thr,11,300,0.03666666666666667,133.91918636764171
+glucose,noise x4,feedback,medium,D9_multiscale,nominal_thr,2,300,0.006666666666666667,109.1247728195172
+glucose,noise x4,feedback,medium,D9_multiscale,oracle_thr,19,300,0.06333333333333334,132.8709869572262
+glucose,noise x4,feedback,medium,D10_hybrid,nominal_thr,8,300,0.02666666666666667,138.2324079101684
+glucose,noise x4,feedback,medium,D10_hybrid,oracle_thr,12,300,0.04,148.36509093369546
+glucose,noise model x0.5,drift,medium,D1_threshold,nominal_thr,79,300,0.2633333333333333,108.3251610527858
+glucose,noise model x0.5,drift,medium,D1_threshold,oracle_thr,8,300,0.02666666666666667,121.24554685829986
+glucose,noise model x0.5,drift,medium,D2_movavg,nominal_thr,72,300,0.24,132.4141315860995
+glucose,noise model x0.5,drift,medium,D2_movavg,oracle_thr,19,300,0.06333333333333334,157.05069492170173
+glucose,noise model x0.5,drift,medium,D3_ewma,nominal_thr,70,300,0.23333333333333334,148.61922623004338
+glucose,noise model x0.5,drift,medium,D3_ewma,oracle_thr,20,300,0.06666666666666667,173.42273980062257
+glucose,noise model x0.5,drift,medium,D4_cusum,nominal_thr,82,300,0.2733333333333333,181.88772782080028
+glucose,noise model x0.5,drift,medium,D4_cusum,oracle_thr,38,300,0.12666666666666668,200.4893708256948
+glucose,noise model x0.5,drift,medium,D5_glr,nominal_thr,97,300,0.3233333333333333,136.7058147630886
+glucose,noise model x0.5,drift,medium,D5_glr,oracle_thr,32,300,0.10666666666666667,233.58452260464588
+glucose,noise model x0.5,drift,medium,D6_sr,nominal_thr,96,300,0.32,147.33827170107816
+glucose,noise model x0.5,drift,medium,D6_sr,oracle_thr,26,300,0.08666666666666667,194.48223914742996
+glucose,noise model x0.5,drift,medium,D7_bocpd,nominal_thr,22,300,0.07333333333333333,173.050984255322
+glucose,noise model x0.5,drift,medium,D7_bocpd,oracle_thr,14,300,0.04666666666666667,139.067373293814
+glucose,noise model x0.5,drift,medium,D8_conformal,nominal_thr,12,300,0.04,265.80596254307966
+glucose,noise model x0.5,drift,medium,D8_conformal,oracle_thr,9,300,0.03,261.72889027418097
+glucose,noise model x0.5,drift,medium,D9_multiscale,nominal_thr,74,300,0.24666666666666667,90.69886933758036
+glucose,noise model x0.5,drift,medium,D9_multiscale,oracle_thr,16,300,0.05333333333333334,211.78502484354726
+glucose,noise model x0.5,drift,medium,D10_hybrid,nominal_thr,77,300,0.25666666666666665,152.0894182571032
+glucose,noise model x0.5,drift,medium,D10_hybrid,oracle_thr,16,300,0.05333333333333334,195.15635069983497
+glucose,noise model x0.5,structure,medium,D1_threshold,nominal_thr,99,300,0.33,82.22251669455028
+glucose,noise model x0.5,structure,medium,D1_threshold,oracle_thr,40,300,0.13333333333333333,146.77495519495952
+glucose,noise model x0.5,structure,medium,D2_movavg,nominal_thr,112,300,0.37333333333333335,109.60316914818327
+glucose,noise model x0.5,structure,medium,D2_movavg,oracle_thr,67,300,0.22333333333333333,133.03797232141676
+glucose,noise model x0.5,structure,medium,D3_ewma,nominal_thr,104,300,0.3466666666666667,97.76448384464004
+glucose,noise model x0.5,structure,medium,D3_ewma,oracle_thr,67,300,0.22333333333333333,134.30251181048573
+glucose,noise model x0.5,structure,medium,D4_cusum,nominal_thr,123,300,0.41,114.17970025524932
+glucose,noise model x0.5,structure,medium,D4_cusum,oracle_thr,73,300,0.24333333333333335,174.17024408629578
+glucose,noise model x0.5,structure,medium,D5_glr,nominal_thr,127,300,0.42333333333333334,101.48769223428815
+glucose,noise model x0.5,structure,medium,D5_glr,oracle_thr,76,300,0.25333333333333335,171.65391261828228
+glucose,noise model x0.5,structure,medium,D6_sr,nominal_thr,124,300,0.41333333333333333,101.15118412370475
+glucose,noise model x0.5,structure,medium,D6_sr,oracle_thr,73,300,0.24333333333333335,185.1577266680368
+glucose,noise model x0.5,structure,medium,D7_bocpd,nominal_thr,49,300,0.16333333333333333,113.76728080208619
+glucose,noise model x0.5,structure,medium,D7_bocpd,oracle_thr,39,300,0.13,140.5327047710794
+glucose,noise model x0.5,structure,medium,D8_conformal,nominal_thr,29,300,0.09666666666666666,186.65264895251062
+glucose,noise model x0.5,structure,medium,D8_conformal,oracle_thr,26,300,0.08666666666666667,184.6273249992509
+glucose,noise model x0.5,structure,medium,D9_multiscale,nominal_thr,98,300,0.32666666666666666,86.63733132890317
+glucose,noise model x0.5,structure,medium,D9_multiscale,oracle_thr,59,300,0.19666666666666666,147.52615214914044
+glucose,noise model x0.5,structure,medium,D10_hybrid,nominal_thr,108,300,0.36,88.72484180766622
+glucose,noise model x0.5,structure,medium,D10_hybrid,oracle_thr,67,300,0.22333333333333333,206.09725811256487
+glucose,noise model x0.5,feedback,medium,D1_threshold,nominal_thr,103,300,0.3433333333333333,88.81295225663348
+glucose,noise model x0.5,feedback,medium,D1_threshold,oracle_thr,33,300,0.11,111.30385839440464
+glucose,noise model x0.5,feedback,medium,D2_movavg,nominal_thr,109,300,0.36333333333333334,125.49197813259866
+glucose,noise model x0.5,feedback,medium,D2_movavg,oracle_thr,46,300,0.15333333333333332,149.42053919059444
+glucose,noise model x0.5,feedback,medium,D3_ewma,nominal_thr,105,300,0.35,120.1169694825249
+glucose,noise model x0.5,feedback,medium,D3_ewma,oracle_thr,58,300,0.19333333333333333,158.07313542059262
+glucose,noise model x0.5,feedback,medium,D4_cusum,nominal_thr,114,300,0.38,146.22298273178933
+glucose,noise model x0.5,feedback,medium,D4_cusum,oracle_thr,74,300,0.24666666666666667,192.13993835089823
+glucose,noise model x0.5,feedback,medium,D5_glr,nominal_thr,126,300,0.42,116.75914493575996
+glucose,noise model x0.5,feedback,medium,D5_glr,oracle_thr,66,300,0.22,196.82381808017837
+glucose,noise model x0.5,feedback,medium,D6_sr,nominal_thr,125,300,0.4166666666666667,121.4058904391024
+glucose,noise model x0.5,feedback,medium,D6_sr,oracle_thr,61,300,0.20333333333333334,206.765435510595
+glucose,noise model x0.5,feedback,medium,D7_bocpd,nominal_thr,47,300,0.15666666666666668,112.4152725510931
+glucose,noise model x0.5,feedback,medium,D7_bocpd,oracle_thr,34,300,0.11333333333333333,110.70310857384982
+glucose,noise model x0.5,feedback,medium,D8_conformal,nominal_thr,20,300,0.06666666666666667,182.90194842662
+glucose,noise model x0.5,feedback,medium,D8_conformal,oracle_thr,17,300,0.056666666666666664,184.81295225663348
+glucose,noise model x0.5,feedback,medium,D9_multiscale,nominal_thr,99,300,0.33,111.24558421499927
+glucose,noise model x0.5,feedback,medium,D9_multiscale,oracle_thr,42,300,0.14,155.9697711685819
+glucose,noise model x0.5,feedback,medium,D10_hybrid,nominal_thr,103,300,0.3433333333333333,110.7612662601282
+glucose,noise model x0.5,feedback,medium,D10_hybrid,oracle_thr,43,300,0.14333333333333334,143.2215255221417
+glucose,noise model x2,drift,medium,D1_threshold,nominal_thr,0,300,0.0,
+glucose,noise model x2,drift,medium,D1_threshold,oracle_thr,23,300,0.07666666666666666,182.91246274817735
+glucose,noise model x2,drift,medium,D2_movavg,nominal_thr,0,300,0.0,
+glucose,noise model x2,drift,medium,D2_movavg,oracle_thr,26,300,0.08666666666666667,190.78167987690432
+glucose,noise model x2,drift,medium,D3_ewma,nominal_thr,0,300,0.0,
+glucose,noise model x2,drift,medium,D3_ewma,oracle_thr,27,300,0.09,207.8142706014347
+glucose,noise model x2,drift,medium,D4_cusum,nominal_thr,0,300,0.0,
+glucose,noise model x2,drift,medium,D4_cusum,oracle_thr,28,300,0.09333333333333334,195.2628740691434
+glucose,noise model x2,drift,medium,D5_glr,nominal_thr,4,300,0.013333333333333334,293.4085887622475
+glucose,noise model x2,drift,medium,D5_glr,oracle_thr,9,300,0.03,295.35695038614864
+glucose,noise model x2,drift,medium,D6_sr,nominal_thr,0,300,0.0,
+glucose,noise model x2,drift,medium,D6_sr,oracle_thr,28,300,0.09333333333333334,210.55644407682914
+glucose,noise model x2,drift,medium,D7_bocpd,nominal_thr,7,300,0.023333333333333334,205.0398413043439
+glucose,noise model x2,drift,medium,D7_bocpd,oracle_thr,25,300,0.08333333333333333,219.27869017674413
+glucose,noise model x2,drift,medium,D8_conformal,nominal_thr,13,300,0.043333333333333335,106.05366748682513
+glucose,noise model x2,drift,medium,D8_conformal,oracle_thr,15,300,0.05,97.2915881096904
+glucose,noise model x2,drift,medium,D9_multiscale,nominal_thr,0,300,0.0,
+glucose,noise model x2,drift,medium,D9_multiscale,oracle_thr,22,300,0.07333333333333333,202.56985050948472
+glucose,noise model x2,drift,medium,D10_hybrid,nominal_thr,6,300,0.02,194.57188240658664
+glucose,noise model x2,drift,medium,D10_hybrid,oracle_thr,18,300,0.06,195.75931276670778
+glucose,noise model x2,structure,medium,D1_threshold,nominal_thr,0,300,0.0,
+glucose,noise model x2,structure,medium,D1_threshold,oracle_thr,55,300,0.18333333333333332,158.7404395996187
+glucose,noise model x2,structure,medium,D2_movavg,nominal_thr,6,300,0.02,133.9570319076244
+glucose,noise model x2,structure,medium,D2_movavg,oracle_thr,71,300,0.23666666666666666,146.54990925054688
+glucose,noise model x2,structure,medium,D3_ewma,nominal_thr,6,300,0.02,157.9570319076244
+glucose,noise model x2,structure,medium,D3_ewma,oracle_thr,63,300,0.21,155.28339761732718
+glucose,noise model x2,structure,medium,D4_cusum,nominal_thr,6,300,0.02,269.38820636726507
+glucose,noise model x2,structure,medium,D4_cusum,oracle_thr,73,300,0.24333333333333335,139.8552746050541
+glucose,noise model x2,structure,medium,D5_glr,nominal_thr,17,300,0.056666666666666664,258.39363638244674
+glucose,noise model x2,structure,medium,D5_glr,oracle_thr,25,300,0.08333333333333333,265.5121660802068
+glucose,noise model x2,structure,medium,D6_sr,nominal_thr,6,300,0.02,233.47155045075266
+glucose,noise model x2,structure,medium,D6_sr,oracle_thr,67,300,0.22333333333333333,179.97727376783888
+glucose,noise model x2,structure,medium,D7_bocpd,nominal_thr,28,300,0.09333333333333334,161.2563399018884
+glucose,noise model x2,structure,medium,D7_bocpd,oracle_thr,58,300,0.19333333333333333,156.2671012806137
+glucose,noise model x2,structure,medium,D8_conformal,nominal_thr,25,300,0.08333333333333333,174.95228715383843
+glucose,noise model x2,structure,medium,D8_conformal,oracle_thr,31,300,0.10333333333333333,174.95228715383843
+glucose,noise model x2,structure,medium,D9_multiscale,nominal_thr,5,300,0.016666666666666666,287.3149482113359
+glucose,noise model x2,structure,medium,D9_multiscale,oracle_thr,65,300,0.21666666666666667,152.47555698608528
+glucose,noise model x2,structure,medium,D10_hybrid,nominal_thr,17,300,0.056666666666666664,193.44059754325212
+glucose,noise model x2,structure,medium,D10_hybrid,oracle_thr,43,300,0.14333333333333334,205.0240198136854
+glucose,noise model x2,feedback,medium,D1_threshold,nominal_thr,0,300,0.0,
+glucose,noise model x2,feedback,medium,D1_threshold,oracle_thr,60,300,0.2,156.56554294902
+glucose,noise model x2,feedback,medium,D2_movavg,nominal_thr,3,300,0.01,237.10446869814967
+glucose,noise model x2,feedback,medium,D2_movavg,oracle_thr,73,300,0.24333333333333335,152.7204406120431
+glucose,noise model x2,feedback,medium,D3_ewma,nominal_thr,2,300,0.006666666666666667,220.00466208818588
+glucose,noise model x2,feedback,medium,D3_ewma,oracle_thr,70,300,0.23333333333333334,165.95851308220904
+glucose,noise model x2,feedback,medium,D4_cusum,nominal_thr,2,300,0.006666666666666667,326.070010981226
+glucose,noise model x2,feedback,medium,D4_cusum,oracle_thr,73,300,0.24333333333333335,161.40225696574163
+glucose,noise model x2,feedback,medium,D5_glr,nominal_thr,11,300,0.03666666666666667,296.69656032400246
+glucose,noise model x2,feedback,medium,D5_glr,oracle_thr,21,300,0.07,302.1242066259427
+glucose,noise model x2,feedback,medium,D6_sr,nominal_thr,3,300,0.01,296.3893083517821
+glucose,noise model x2,feedback,medium,D6_sr,oracle_thr,65,300,0.21666666666666667,183.83314251060602
+glucose,noise model x2,feedback,medium,D7_bocpd,nominal_thr,26,300,0.08666666666666667,156.90305941552495
+glucose,noise model x2,feedback,medium,D7_bocpd,oracle_thr,56,300,0.18666666666666668,155.6132321192813
+glucose,noise model x2,feedback,medium,D8_conformal,nominal_thr,22,300,0.07333333333333333,149.06849008773517
+glucose,noise model x2,feedback,medium,D8_conformal,oracle_thr,25,300,0.08333333333333333,142.267274441239
+glucose,noise model x2,feedback,medium,D9_multiscale,nominal_thr,1,300,0.0033333333333333335,296.3893083517821
+glucose,noise model x2,feedback,medium,D9_multiscale,oracle_thr,64,300,0.21333333333333335,166.60056169728585
+glucose,noise model x2,feedback,medium,D10_hybrid,nominal_thr,13,300,0.043333333333333335,161.3476407933369
+glucose,noise model x2,feedback,medium,D10_hybrid,oracle_thr,37,300,0.12333333333333334,168.28835549450116
+glucose,param error 15%,drift,medium,D1_threshold,nominal_thr,35,300,0.11666666666666667,141.14304888514522
+glucose,param error 15%,drift,medium,D1_threshold,oracle_thr,16,300,0.05333333333333334,183.9875802632357
+glucose,param error 15%,drift,medium,D2_movavg,nominal_thr,51,300,0.17,130.0318871308304
+glucose,param error 15%,drift,medium,D2_movavg,oracle_thr,13,300,0.043333333333333335,152.27679111984816
+glucose,param error 15%,drift,medium,D3_ewma,nominal_thr,53,300,0.17666666666666667,119.10195375497398
+glucose,param error 15%,drift,medium,D3_ewma,oracle_thr,13,300,0.043333333333333335,145.70452914747767
+glucose,param error 15%,drift,medium,D4_cusum,nominal_thr,77,300,0.25666666666666665,150.05467370521313
+glucose,param error 15%,drift,medium,D4_cusum,oracle_thr,25,300,0.08333333333333333,209.0393860885784
+glucose,param error 15%,drift,medium,D5_glr,nominal_thr,73,300,0.24333333333333335,149.23099222576025
+glucose,param error 15%,drift,medium,D5_glr,oracle_thr,22,300,0.07333333333333333,167.8022391307192
+glucose,param error 15%,drift,medium,D6_sr,nominal_thr,66,300,0.22,146.1664729903671
+glucose,param error 15%,drift,medium,D6_sr,oracle_thr,24,300,0.08,184.90586360851339
+glucose,param error 15%,drift,medium,D7_bocpd,nominal_thr,17,300,0.056666666666666664,132.03223845830917
+glucose,param error 15%,drift,medium,D7_bocpd,oracle_thr,22,300,0.07333333333333333,170.46879703696064
+glucose,param error 15%,drift,medium,D8_conformal,nominal_thr,12,300,0.04,137.21036904941332
+glucose,param error 15%,drift,medium,D8_conformal,oracle_thr,12,300,0.04,137.21036904941332
+glucose,param error 15%,drift,medium,D9_multiscale,nominal_thr,47,300,0.15666666666666668,162.13035540129334
+glucose,param error 15%,drift,medium,D9_multiscale,oracle_thr,22,300,0.07333333333333333,174.3904305437686
+glucose,param error 15%,drift,medium,D10_hybrid,nominal_thr,65,300,0.21666666666666667,160.66791463927098
+glucose,param error 15%,drift,medium,D10_hybrid,oracle_thr,21,300,0.07,145.77456015388879
+glucose,param error 15%,structure,medium,D1_threshold,nominal_thr,56,300,0.18666666666666668,123.77956041930264
+glucose,param error 15%,structure,medium,D1_threshold,oracle_thr,26,300,0.08666666666666667,160.2710439381787
+glucose,param error 15%,structure,medium,D2_movavg,nominal_thr,66,300,0.22,126.97118284507934
+glucose,param error 15%,structure,medium,D2_movavg,oracle_thr,21,300,0.07,139.84433808917225
+glucose,param error 15%,structure,medium,D3_ewma,nominal_thr,69,300,0.23,105.20798055273951
+glucose,param error 15%,structure,medium,D3_ewma,oracle_thr,24,300,0.08,153.75333638310403
+glucose,param error 15%,structure,medium,D4_cusum,nominal_thr,89,300,0.2966666666666667,126.59193028760006
+glucose,param error 15%,structure,medium,D4_cusum,oracle_thr,25,300,0.08333333333333333,229.12757885735374
+glucose,param error 15%,structure,medium,D5_glr,nominal_thr,90,300,0.3,127.61326249981073
+glucose,param error 15%,structure,medium,D5_glr,oracle_thr,23,300,0.07666666666666666,215.09626435446762
+glucose,param error 15%,structure,medium,D6_sr,nominal_thr,88,300,0.29333333333333333,126.83096505601137
+glucose,param error 15%,structure,medium,D6_sr,oracle_thr,26,300,0.08666666666666667,225.3285849017441
+glucose,param error 15%,structure,medium,D7_bocpd,nominal_thr,49,300,0.16333333333333333,149.37546538705624
+glucose,param error 15%,structure,medium,D7_bocpd,oracle_thr,57,300,0.19,153.6888234754981
+glucose,param error 15%,structure,medium,D8_conformal,nominal_thr,22,300,0.07333333333333333,195.59887876077448
+glucose,param error 15%,structure,medium,D8_conformal,oracle_thr,22,300,0.07333333333333333,195.59887876077448
+glucose,param error 15%,structure,medium,D9_multiscale,nominal_thr,75,300,0.25,137.52859977791286
+glucose,param error 15%,structure,medium,D9_multiscale,oracle_thr,28,300,0.09333333333333334,172.2647135832777
+glucose,param error 15%,structure,medium,D10_hybrid,nominal_thr,87,300,0.29,131.96903811365638
+glucose,param error 15%,structure,medium,D10_hybrid,oracle_thr,44,300,0.14666666666666667,123.60254930623134
+glucose,param error 15%,feedback,medium,D1_threshold,nominal_thr,55,300,0.18333333333333332,138.76590221534275
+glucose,param error 15%,feedback,medium,D1_threshold,oracle_thr,36,300,0.12,148.15669682729379
+glucose,param error 15%,feedback,medium,D2_movavg,nominal_thr,71,300,0.23666666666666666,114.07245643317776
+glucose,param error 15%,feedback,medium,D2_movavg,oracle_thr,32,300,0.10666666666666667,156.81346797287367
+glucose,param error 15%,feedback,medium,D3_ewma,nominal_thr,77,300,0.25666666666666665,111.64126915117589
+glucose,param error 15%,feedback,medium,D3_ewma,oracle_thr,26,300,0.08666666666666667,124.38322556184343
+glucose,param error 15%,feedback,medium,D4_cusum,nominal_thr,91,300,0.30333333333333334,145.1038280122778
+glucose,param error 15%,feedback,medium,D4_cusum,oracle_thr,29,300,0.09666666666666666,201.11288749323552
+glucose,param error 15%,feedback,medium,D5_glr,nominal_thr,90,300,0.3,142.81323526207504
+glucose,param error 15%,feedback,medium,D5_glr,oracle_thr,25,300,0.08333333333333333,165.31629141527537
+glucose,param error 15%,feedback,medium,D6_sr,nominal_thr,88,300,0.29333333333333333,136.86193098938617
+glucose,param error 15%,feedback,medium,D6_sr,oracle_thr,30,300,0.1,190.25528346967235
+glucose,param error 15%,feedback,medium,D7_bocpd,nominal_thr,37,300,0.12333333333333334,114.07245643317776
+glucose,param error 15%,feedback,medium,D7_bocpd,oracle_thr,48,300,0.16,128.4174237335261
+glucose,param error 15%,feedback,medium,D8_conformal,nominal_thr,20,300,0.06666666666666667,164.08748404946772
+glucose,param error 15%,feedback,medium,D8_conformal,oracle_thr,20,300,0.06666666666666667,164.08748404946772
+glucose,param error 15%,feedback,medium,D9_multiscale,nominal_thr,67,300,0.22333333333333333,138.08259282759644
+glucose,param error 15%,feedback,medium,D9_multiscale,oracle_thr,27,300,0.09,162.85867668366006
+glucose,param error 15%,feedback,medium,D10_hybrid,nominal_thr,88,300,0.29333333333333333,135.87988451039482
+glucose,param error 15%,feedback,medium,D10_hybrid,oracle_thr,43,300,0.14333333333333334,131.18191912189218
+glucose,missing 30%,drift,medium,D1_threshold,nominal_thr,14,300,0.04666666666666667,174.13763471825484
+glucose,missing 30%,drift,medium,D1_threshold,oracle_thr,26,300,0.08666666666666667,167.57313343548233
+glucose,missing 30%,drift,medium,D2_movavg,nominal_thr,15,300,0.05,181.10896092108078
+glucose,missing 30%,drift,medium,D2_movavg,oracle_thr,21,300,0.07,197.60653715588046
+glucose,missing 30%,drift,medium,D3_ewma,nominal_thr,20,300,0.06666666666666667,180.2731631936072
+glucose,missing 30%,drift,medium,D3_ewma,oracle_thr,23,300,0.07666666666666666,190.48791574190437
+glucose,missing 30%,drift,medium,D4_cusum,nominal_thr,12,300,0.04,246.54143893923845
+glucose,missing 30%,drift,medium,D4_cusum,oracle_thr,22,300,0.07333333333333333,222.99987071842537
+glucose,missing 30%,drift,medium,D5_glr,nominal_thr,14,300,0.04666666666666667,238.58351479502582
+glucose,missing 30%,drift,medium,D5_glr,oracle_thr,24,300,0.08,190.8197290560196
+glucose,missing 30%,drift,medium,D6_sr,nominal_thr,16,300,0.05333333333333334,223.4368497902413
+glucose,missing 30%,drift,medium,D6_sr,oracle_thr,23,300,0.07666666666666666,188.24282110459194
+glucose,missing 30%,drift,medium,D7_bocpd,nominal_thr,12,300,0.04,206.3206698985007
+glucose,missing 30%,drift,medium,D7_bocpd,oracle_thr,23,300,0.07666666666666666,219.7588464177656
+glucose,missing 30%,drift,medium,D8_conformal,nominal_thr,1,300,0.0033333333333333335,280.00223402679205
+glucose,missing 30%,drift,medium,D8_conformal,oracle_thr,6,300,0.02,136.24604294396002
+glucose,missing 30%,drift,medium,D9_multiscale,nominal_thr,9,300,0.03,157.10896092108078
+glucose,missing 30%,drift,medium,D9_multiscale,oracle_thr,28,300,0.09333333333333334,192.1047385850884
+glucose,missing 30%,drift,medium,D10_hybrid,nominal_thr,10,300,0.03333333333333333,215.25571085085383
+glucose,missing 30%,drift,medium,D10_hybrid,oracle_thr,15,300,0.05,190.81284016272951
+glucose,missing 30%,structure,medium,D1_threshold,nominal_thr,35,300,0.11666666666666667,155.57029686567665
+glucose,missing 30%,structure,medium,D1_threshold,oracle_thr,49,300,0.16333333333333333,162.1356760664288
+glucose,missing 30%,structure,medium,D2_movavg,nominal_thr,43,300,0.14333333333333334,162.21930339342862
+glucose,missing 30%,structure,medium,D2_movavg,oracle_thr,55,300,0.18333333333333332,161.77125061350557
+glucose,missing 30%,structure,medium,D3_ewma,nominal_thr,44,300,0.14666666666666667,153.72042335519436
+glucose,missing 30%,structure,medium,D3_ewma,oracle_thr,54,300,0.18,161.2637594536587
+glucose,missing 30%,structure,medium,D4_cusum,nominal_thr,32,300,0.10666666666666667,224.88496327252398
+glucose,missing 30%,structure,medium,D4_cusum,oracle_thr,49,300,0.16333333333333333,158.69151253158725
+glucose,missing 30%,structure,medium,D5_glr,nominal_thr,35,300,0.11666666666666667,170.86216137016334
+glucose,missing 30%,structure,medium,D5_glr,oracle_thr,57,300,0.19,162.21930339342862
+glucose,missing 30%,structure,medium,D6_sr,nominal_thr,39,300,0.13,175.10709131552983
+glucose,missing 30%,structure,medium,D6_sr,oracle_thr,62,300,0.20666666666666667,169.76471885424448
+glucose,missing 30%,structure,medium,D7_bocpd,nominal_thr,28,300,0.09333333333333334,172.86607651506185
+glucose,missing 30%,structure,medium,D7_bocpd,oracle_thr,45,300,0.15,183.11285504164618
+glucose,missing 30%,structure,medium,D8_conformal,nominal_thr,4,300,0.013333333333333334,128.17135015942904
+glucose,missing 30%,structure,medium,D8_conformal,oracle_thr,15,300,0.05,180.23857850516566
+glucose,missing 30%,structure,medium,D9_multiscale,nominal_thr,41,300,0.13666666666666666,178.69471275675454
+glucose,missing 30%,structure,medium,D9_multiscale,oracle_thr,69,300,0.23,153.45379871189976
+glucose,missing 30%,structure,medium,D10_hybrid,nominal_thr,36,300,0.12,189.08998950437183
+glucose,missing 30%,structure,medium,D10_hybrid,oracle_thr,48,300,0.16,184.85965955917513
+glucose,missing 30%,feedback,medium,D1_threshold,nominal_thr,50,300,0.16666666666666666,139.65025421622693
+glucose,missing 30%,feedback,medium,D1_threshold,oracle_thr,61,300,0.20333333333333334,144.8507142673884
+glucose,missing 30%,feedback,medium,D2_movavg,nominal_thr,50,300,0.16666666666666666,170.2988066955473
+glucose,missing 30%,feedback,medium,D2_movavg,oracle_thr,70,300,0.23333333333333334,187.94926919163495
+glucose,missing 30%,feedback,medium,D3_ewma,nominal_thr,53,300,0.17666666666666667,167.94532899591275
+glucose,missing 30%,feedback,medium,D3_ewma,oracle_thr,61,300,0.20333333333333334,165.77744297233238
+glucose,missing 30%,feedback,medium,D4_cusum,nominal_thr,37,300,0.12333333333333334,237.96180412385667
+glucose,missing 30%,feedback,medium,D4_cusum,oracle_thr,55,300,0.18333333333333332,191.94532899591275
+glucose,missing 30%,feedback,medium,D5_glr,nominal_thr,43,300,0.14333333333333334,191.5256902377957
+glucose,missing 30%,feedback,medium,D5_glr,oracle_thr,58,300,0.19333333333333333,183.01991597609108
+glucose,missing 30%,feedback,medium,D6_sr,nominal_thr,48,300,0.16,192.39802163165058
+glucose,missing 30%,feedback,medium,D6_sr,oracle_thr,69,300,0.23,177.66270872955533
+glucose,missing 30%,feedback,medium,D7_bocpd,nominal_thr,26,300,0.08666666666666667,162.69013283280665
+glucose,missing 30%,feedback,medium,D7_bocpd,oracle_thr,42,300,0.14,145.8817295629979
+glucose,missing 30%,feedback,medium,D8_conformal,nominal_thr,2,300,0.006666666666666667,224.08328329036505
+glucose,missing 30%,feedback,medium,D8_conformal,oracle_thr,12,300,0.04,179.03625197098546
+glucose,missing 30%,feedback,medium,D9_multiscale,nominal_thr,46,300,0.15333333333333332,168.24759484393698
+glucose,missing 30%,feedback,medium,D9_multiscale,oracle_thr,76,300,0.25333333333333335,166.84261975956545
+glucose,missing 30%,feedback,medium,D10_hybrid,nominal_thr,42,300,0.14,212.313105971619
+glucose,missing 30%,feedback,medium,D10_hybrid,oracle_thr,53,300,0.17666666666666667,191.94532899591275
+glucose,irregular visits,drift,medium,D1_threshold,nominal_thr,22,300,0.07333333333333333,240.25235508345028
+glucose,irregular visits,drift,medium,D1_threshold,oracle_thr,27,300,0.09,180.91453142955476
+glucose,irregular visits,drift,medium,D2_movavg,nominal_thr,17,300,0.056666666666666664,186.1389817192183
+glucose,irregular visits,drift,medium,D2_movavg,oracle_thr,30,300,0.1,185.28393709132186
+glucose,irregular visits,drift,medium,D3_ewma,nominal_thr,21,300,0.07,202.64317410021948
+glucose,irregular visits,drift,medium,D3_ewma,oracle_thr,37,300,0.12333333333333334,184.42889246342543
+glucose,irregular visits,drift,medium,D4_cusum,nominal_thr,18,300,0.06,258.0632135891175
+glucose,irregular visits,drift,medium,D4_cusum,oracle_thr,27,300,0.09,223.73672252388866
+glucose,irregular visits,drift,medium,D5_glr,nominal_thr,16,300,0.05333333333333334,221.0140579305599
+glucose,irregular visits,drift,medium,D5_glr,oracle_thr,28,300,0.09333333333333334,154.12571358911745
+glucose,irregular visits,drift,medium,D6_sr,nominal_thr,16,300,0.05333333333333334,253.21510271804388
+glucose,irregular visits,drift,medium,D6_sr,oracle_thr,26,300,0.08666666666666667,233.13363611584413
+glucose,irregular visits,drift,medium,D7_bocpd,nominal_thr,14,300,0.04666666666666667,224.0418135205163
+glucose,irregular visits,drift,medium,D7_bocpd,oracle_thr,11,300,0.03666666666666667,260.3127146618779
+glucose,irregular visits,drift,medium,D8_conformal,nominal_thr,12,300,0.04,120.63006086928596
+glucose,irregular visits,drift,medium,D8_conformal,oracle_thr,6,300,0.02,154.00024560388528
+glucose,irregular visits,drift,medium,D9_multiscale,nominal_thr,12,300,0.04,227.2873193519896
+glucose,irregular visits,drift,medium,D9_multiscale,oracle_thr,26,300,0.08666666666666667,212.93461567016024
+glucose,irregular visits,drift,medium,D10_hybrid,nominal_thr,16,300,0.05333333333333334,233.55767404565188
+glucose,irregular visits,drift,medium,D10_hybrid,oracle_thr,22,300,0.07333333333333333,226.23844472729246
+glucose,irregular visits,structure,medium,D1_threshold,nominal_thr,50,300,0.16666666666666666,164.37472327211054
+glucose,irregular visits,structure,medium,D1_threshold,oracle_thr,72,300,0.24,161.41469159506536
+glucose,irregular visits,structure,medium,D2_movavg,nominal_thr,37,300,0.12333333333333334,193.94398279518578
+glucose,irregular visits,structure,medium,D2_movavg,oracle_thr,55,300,0.18333333333333332,183.98385336787044
+glucose,irregular visits,structure,medium,D3_ewma,nominal_thr,42,300,0.14,165.15379466154263
+glucose,irregular visits,structure,medium,D3_ewma,oracle_thr,61,300,0.20333333333333334,163.21585496387888
+glucose,irregular visits,structure,medium,D4_cusum,nominal_thr,29,300,0.09666666666666666,173.73649145116912
+glucose,irregular visits,structure,medium,D4_cusum,oracle_thr,40,300,0.13333333333333333,159.07496240408906
+glucose,irregular visits,structure,medium,D5_glr,nominal_thr,41,300,0.13666666666666666,189.50054547124773
+glucose,irregular visits,structure,medium,D5_glr,oracle_thr,51,300,0.17,165.5335915803422
+glucose,irregular visits,structure,medium,D6_sr,nominal_thr,43,300,0.14333333333333334,192.71585496387888
+glucose,irregular visits,structure,medium,D6_sr,oracle_thr,49,300,0.16333333333333333,189.50054547124773
+glucose,irregular visits,structure,medium,D7_bocpd,nominal_thr,30,300,0.1,160.48592646894716
+glucose,irregular visits,structure,medium,D7_bocpd,oracle_thr,26,300,0.08666666666666667,173.10154273469539
+glucose,irregular visits,structure,medium,D8_conformal,nominal_thr,29,300,0.09666666666666666,132.66108185850567
+glucose,irregular visits,structure,medium,D8_conformal,oracle_thr,15,300,0.05,193.1573187938783
+glucose,irregular visits,structure,medium,D9_multiscale,nominal_thr,58,300,0.19333333333333333,218.46335455951365
+glucose,irregular visits,structure,medium,D9_multiscale,oracle_thr,79,300,0.2633333333333333,181.08302400050547
+glucose,irregular visits,structure,medium,D10_hybrid,nominal_thr,36,300,0.12,195.71047422646063
+glucose,irregular visits,structure,medium,D10_hybrid,oracle_thr,55,300,0.18333333333333332,196.23025490220317
+glucose,irregular visits,feedback,medium,D1_threshold,nominal_thr,57,300,0.19,182.05317660656112
+glucose,irregular visits,feedback,medium,D1_threshold,oracle_thr,76,300,0.25333333333333335,165.58728681943654
+glucose,irregular visits,feedback,medium,D2_movavg,nominal_thr,48,300,0.16,174.53543454376526
+glucose,irregular visits,feedback,medium,D2_movavg,oracle_thr,69,300,0.23,194.08692001793287
+glucose,irregular visits,feedback,medium,D3_ewma,nominal_thr,54,300,0.18,167.6361715088529
+glucose,irregular visits,feedback,medium,D3_ewma,oracle_thr,73,300,0.24333333333333335,169.3600688570308
+glucose,irregular visits,feedback,medium,D4_cusum,nominal_thr,41,300,0.13666666666666666,223.15833565272663
+glucose,irregular visits,feedback,medium,D4_cusum,oracle_thr,60,300,0.2,202.53951173028585
+glucose,irregular visits,feedback,medium,D5_glr,nominal_thr,49,300,0.16333333333333333,216.66855894526094
+glucose,irregular visits,feedback,medium,D5_glr,oracle_thr,63,300,0.21,182.05317660656112
+glucose,irregular visits,feedback,medium,D6_sr,nominal_thr,49,300,0.16333333333333333,208.90833565272663
+glucose,irregular visits,feedback,medium,D6_sr,oracle_thr,61,300,0.20333333333333334,192.33692001793287
+glucose,irregular visits,feedback,medium,D7_bocpd,nominal_thr,39,300,0.13,190.51780101472792
+glucose,irregular visits,feedback,medium,D7_bocpd,oracle_thr,32,300,0.10666666666666667,179.8166938633979
+glucose,irregular visits,feedback,medium,D8_conformal,nominal_thr,20,300,0.06666666666666667,156.17746780729453
+glucose,irregular visits,feedback,medium,D8_conformal,oracle_thr,8,300,0.02666666666666667,126.42823024721676
+glucose,irregular visits,feedback,medium,D9_multiscale,nominal_thr,45,300,0.15,183.15859492685553
+glucose,irregular visits,feedback,medium,D9_multiscale,oracle_thr,67,300,0.22333333333333333,165.912274160675
+glucose,irregular visits,feedback,medium,D10_hybrid,nominal_thr,44,300,0.14666666666666667,217.4903498957277
+glucose,irregular visits,feedback,medium,D10_hybrid,oracle_thr,55,300,0.18333333333333332,216.66855894526094
+tumor,nominal,drift,medium,D1_threshold,nominal_thr,110,300,0.36666666666666664,23.186325572829226
+tumor,nominal,drift,medium,D1_threshold,oracle_thr,128,300,0.4266666666666667,23.186325572829226
+tumor,nominal,drift,medium,D2_movavg,nominal_thr,129,300,0.43,19.61093084096599
+tumor,nominal,drift,medium,D2_movavg,oracle_thr,135,300,0.45,19.277758676533622
+tumor,nominal,drift,medium,D3_ewma,nominal_thr,126,300,0.42,22.26133908873028
+tumor,nominal,drift,medium,D3_ewma,oracle_thr,150,300,0.5,20.567645956807795
+tumor,nominal,drift,medium,D4_cusum,nominal_thr,84,300,0.28,70.93229999786294
+tumor,nominal,drift,medium,D4_cusum,oracle_thr,118,300,0.3933333333333333,58.52582786763654
+tumor,nominal,drift,medium,D5_glr,nominal_thr,108,300,0.36,46.64234932956386
+tumor,nominal,drift,medium,D5_glr,oracle_thr,120,300,0.4,45.03485093529876
+tumor,nominal,drift,medium,D6_sr,nominal_thr,96,300,0.32,51.04769450113581
+tumor,nominal,drift,medium,D6_sr,oracle_thr,117,300,0.39,46.98406280853848
+tumor,nominal,drift,medium,D7_bocpd,nominal_thr,205,300,0.6833333333333333,16.798752781342287
+tumor,nominal,drift,medium,D7_bocpd,oracle_thr,220,300,0.7333333333333333,15.74123896590902
+tumor,nominal,drift,medium,D8_conformal,nominal_thr,87,300,0.29,18.678704588767687
+tumor,nominal,drift,medium,D8_conformal,oracle_thr,106,300,0.35333333333333333,21.765276557820172
+tumor,nominal,drift,medium,D9_multiscale,nominal_thr,161,300,0.5366666666666666,32.98842378700297
+tumor,nominal,drift,medium,D9_multiscale,oracle_thr,160,300,0.5333333333333333,32.62865547052095
+tumor,nominal,drift,medium,D10_hybrid,nominal_thr,191,300,0.6366666666666667,18.87617620872291
+tumor,nominal,drift,medium,D10_hybrid,oracle_thr,201,300,0.67,18.87617620872291
+tumor,nominal,structure,medium,D1_threshold,nominal_thr,229,300,0.7633333333333333,9.761106659367343
+tumor,nominal,structure,medium,D1_threshold,oracle_thr,233,300,0.7766666666666666,8.573192887118367
+tumor,nominal,structure,medium,D2_movavg,nominal_thr,201,300,0.67,31.271496719119952
+tumor,nominal,structure,medium,D2_movavg,oracle_thr,199,300,0.6633333333333333,30.919121477259992
+tumor,nominal,structure,medium,D3_ewma,nominal_thr,200,300,0.6666666666666666,25.239048500384257
+tumor,nominal,structure,medium,D3_ewma,oracle_thr,206,300,0.6866666666666666,20.421299172331977
+tumor,nominal,structure,medium,D4_cusum,nominal_thr,87,300,0.29,81.29072514718031
+tumor,nominal,structure,medium,D4_cusum,oracle_thr,135,300,0.45,71.47515047751881
+tumor,nominal,structure,medium,D5_glr,nominal_thr,197,300,0.6566666666666666,33.93097372211598
+tumor,nominal,structure,medium,D5_glr,oracle_thr,199,300,0.6633333333333333,25.181180478295943
+tumor,nominal,structure,medium,D6_sr,nominal_thr,199,300,0.6633333333333333,41.93030879573635
+tumor,nominal,structure,medium,D6_sr,oracle_thr,203,300,0.6766666666666666,29.35263979679023
+tumor,nominal,structure,medium,D7_bocpd,nominal_thr,250,300,0.8333333333333334,7.07201152771286
+tumor,nominal,structure,medium,D7_bocpd,oracle_thr,252,300,0.84,6.732463577395407
+tumor,nominal,structure,medium,D8_conformal,nominal_thr,119,300,0.39666666666666667,51.922371143085044
+tumor,nominal,structure,medium,D8_conformal,oracle_thr,133,300,0.44333333333333336,44.09750568421944
+tumor,nominal,structure,medium,D9_multiscale,nominal_thr,225,300,0.75,13.23865700379082
+tumor,nominal,structure,medium,D9_multiscale,oracle_thr,224,300,0.7466666666666667,13.733248994669971
+tumor,nominal,structure,medium,D10_hybrid,nominal_thr,242,300,0.8066666666666666,7.642737389695206
+tumor,nominal,structure,medium,D10_hybrid,oracle_thr,242,300,0.8066666666666666,7.3796116916381465
+tumor,nominal,feedback,medium,D1_threshold,nominal_thr,90,300,0.3,29.23960217291245
+tumor,nominal,feedback,medium,D1_threshold,oracle_thr,101,300,0.33666666666666667,28.27592321000479
+tumor,nominal,feedback,medium,D2_movavg,nominal_thr,140,300,0.4666666666666667,31.431435783111134
+tumor,nominal,feedback,medium,D2_movavg,oracle_thr,147,300,0.49,31.62848187923693
+tumor,nominal,feedback,medium,D3_ewma,nominal_thr,141,300,0.47,34.388729443408266
+tumor,nominal,feedback,medium,D3_ewma,oracle_thr,156,300,0.52,30.76989945107693
+tumor,nominal,feedback,medium,D4_cusum,nominal_thr,95,300,0.31666666666666665,73.96831122878969
+tumor,nominal,feedback,medium,D4_cusum,oracle_thr,130,300,0.43333333333333335,62.811942594276616
+tumor,nominal,feedback,medium,D5_glr,nominal_thr,122,300,0.4066666666666667,57.311026554806915
+tumor,nominal,feedback,medium,D5_glr,oracle_thr,136,300,0.4533333333333333,52.20257792209811
+tumor,nominal,feedback,medium,D6_sr,nominal_thr,104,300,0.3466666666666667,61.22694734825697
+tumor,nominal,feedback,medium,D6_sr,oracle_thr,123,300,0.41,53.13639259052184
+tumor,nominal,feedback,medium,D7_bocpd,nominal_thr,203,300,0.6766666666666666,27.09249217642703
+tumor,nominal,feedback,medium,D7_bocpd,oracle_thr,217,300,0.7233333333333334,26.139200461442414
+tumor,nominal,feedback,medium,D8_conformal,nominal_thr,105,300,0.35,34.111101699397366
+tumor,nominal,feedback,medium,D8_conformal,oracle_thr,110,300,0.36666666666666664,32.07922008692144
+tumor,nominal,feedback,medium,D9_multiscale,nominal_thr,120,300,0.4,39.97444082795429
+tumor,nominal,feedback,medium,D9_multiscale,oracle_thr,118,300,0.3933333333333333,39.97444082795429
+tumor,nominal,feedback,medium,D10_hybrid,nominal_thr,186,300,0.62,28.882617819955087
+tumor,nominal,feedback,medium,D10_hybrid,oracle_thr,197,300,0.6566666666666666,27.935693444122023
+tumor,noise x2,drift,medium,D1_threshold,nominal_thr,110,300,0.36666666666666664,24.222410865791495
+tumor,noise x2,drift,medium,D1_threshold,oracle_thr,103,300,0.3433333333333333,24.06811766112493
+tumor,noise x2,drift,medium,D2_movavg,nominal_thr,123,300,0.41,25.216240948957505
+tumor,noise x2,drift,medium,D2_movavg,oracle_thr,124,300,0.41333333333333333,25.26468651836386
+tumor,noise x2,drift,medium,D3_ewma,nominal_thr,113,300,0.37666666666666665,27.25225110107489
+tumor,noise x2,drift,medium,D3_ewma,oracle_thr,110,300,0.36666666666666664,27.32589349398119
+tumor,noise x2,drift,medium,D4_cusum,nominal_thr,51,300,0.17,70.2162409489575
+tumor,noise x2,drift,medium,D4_cusum,oracle_thr,113,300,0.37666666666666665,50.35206799373819
+tumor,noise x2,drift,medium,D5_glr,nominal_thr,78,300,0.26,47.98965051813387
+tumor,noise x2,drift,medium,D5_glr,oracle_thr,107,300,0.3566666666666667,41.810326445651555
+tumor,noise x2,drift,medium,D6_sr,nominal_thr,72,300,0.24,53.45962547461153
+tumor,noise x2,drift,medium,D6_sr,oracle_thr,118,300,0.3933333333333333,50.600041906738745
+tumor,noise x2,drift,medium,D7_bocpd,nominal_thr,156,300,0.52,19.838049636610307
+tumor,noise x2,drift,medium,D7_bocpd,oracle_thr,121,300,0.4033333333333333,20.82250176119105
+tumor,noise x2,drift,medium,D8_conformal,nominal_thr,84,300,0.28,32.79349086938579
+tumor,noise x2,drift,medium,D8_conformal,oracle_thr,67,300,0.22333333333333333,40.99677220285142
+tumor,noise x2,drift,medium,D9_multiscale,nominal_thr,140,300,0.4666666666666667,36.93084217130653
+tumor,noise x2,drift,medium,D9_multiscale,oracle_thr,131,300,0.43666666666666665,32.363267817951254
+tumor,noise x2,drift,medium,D10_hybrid,nominal_thr,136,300,0.4533333333333333,23.645657276365476
+tumor,noise x2,drift,medium,D10_hybrid,oracle_thr,138,300,0.46,23.645657276365476
+tumor,noise x2,structure,medium,D1_threshold,nominal_thr,239,300,0.7966666666666666,17.50533339110673
+tumor,noise x2,structure,medium,D1_threshold,oracle_thr,238,300,0.7933333333333333,17.78330657365305
+tumor,noise x2,structure,medium,D2_movavg,nominal_thr,204,300,0.68,38.15144899076356
+tumor,noise x2,structure,medium,D2_movavg,oracle_thr,204,300,0.68,38.15144899076356
+tumor,noise x2,structure,medium,D3_ewma,nominal_thr,208,300,0.6933333333333334,36.54040415305878
+tumor,noise x2,structure,medium,D3_ewma,oracle_thr,206,300,0.6866666666666666,36.2919267374021
+tumor,noise x2,structure,medium,D4_cusum,nominal_thr,68,300,0.22666666666666666,84.72963609645089
+tumor,noise x2,structure,medium,D4_cusum,oracle_thr,176,300,0.5866666666666667,57.48875124427598
+tumor,noise x2,structure,medium,D5_glr,nominal_thr,195,300,0.65,41.40331389114044
+tumor,noise x2,structure,medium,D5_glr,oracle_thr,213,300,0.71,32.141242231198675
+tumor,noise x2,structure,medium,D6_sr,nominal_thr,189,300,0.63,44.19403382545167
+tumor,noise x2,structure,medium,D6_sr,oracle_thr,217,300,0.7233333333333334,31.704456970379297
+tumor,noise x2,structure,medium,D7_bocpd,nominal_thr,243,300,0.81,10.597844011307458
+tumor,noise x2,structure,medium,D7_bocpd,oracle_thr,237,300,0.79,14.10584222733803
+tumor,noise x2,structure,medium,D8_conformal,nominal_thr,128,300,0.4266666666666667,56.12703296181785
+tumor,noise x2,structure,medium,D8_conformal,oracle_thr,106,300,0.35333333333333333,56.94767915302586
+tumor,noise x2,structure,medium,D9_multiscale,nominal_thr,236,300,0.7866666666666666,17.849533703158784
+tumor,noise x2,structure,medium,D9_multiscale,oracle_thr,230,300,0.7666666666666667,18.90620706014144
+tumor,noise x2,structure,medium,D10_hybrid,nominal_thr,240,300,0.8,16.76055729094172
+tumor,noise x2,structure,medium,D10_hybrid,oracle_thr,238,300,0.7933333333333333,15.044513695539464
+tumor,noise x2,feedback,medium,D1_threshold,nominal_thr,108,300,0.36,34.51109099684058
+tumor,noise x2,feedback,medium,D1_threshold,oracle_thr,94,300,0.31333333333333335,40.55765982983597
+tumor,noise x2,feedback,medium,D2_movavg,nominal_thr,130,300,0.43333333333333335,37.605207129269786
+tumor,noise x2,feedback,medium,D2_movavg,oracle_thr,132,300,0.44,37.151641177075675
+tumor,noise x2,feedback,medium,D3_ewma,nominal_thr,135,300,0.45,46.184167240337544
+tumor,noise x2,feedback,medium,D3_ewma,oracle_thr,129,300,0.43,45.45853787326044
+tumor,noise x2,feedback,medium,D4_cusum,nominal_thr,60,300,0.2,91.15245978400596
+tumor,noise x2,feedback,medium,D4_cusum,oracle_thr,130,300,0.43333333333333335,63.931547179628225
+tumor,noise x2,feedback,medium,D5_glr,nominal_thr,78,300,0.26,64.80885368515911
+tumor,noise x2,feedback,medium,D5_glr,oracle_thr,130,300,0.43333333333333335,60.39168325574893
+tumor,noise x2,feedback,medium,D6_sr,nominal_thr,75,300,0.25,74.7876426915823
+tumor,noise x2,feedback,medium,D6_sr,oracle_thr,133,300,0.44333333333333336,62.721181335544685
+tumor,noise x2,feedback,medium,D7_bocpd,nominal_thr,150,300,0.5,30.978621600052136
+tumor,noise x2,feedback,medium,D7_bocpd,oracle_thr,130,300,0.43333333333333335,33.488790382452606
+tumor,noise x2,feedback,medium,D8_conformal,nominal_thr,95,300,0.31666666666666665,52.05019886114442
+tumor,noise x2,feedback,medium,D8_conformal,oracle_thr,79,300,0.2633333333333333,49.184167240337544
+tumor,noise x2,feedback,medium,D9_multiscale,nominal_thr,122,300,0.4066666666666667,43.96984811194847
+tumor,noise x2,feedback,medium,D9_multiscale,oracle_thr,115,300,0.38333333333333336,45.25823262686151
+tumor,noise x2,feedback,medium,D10_hybrid,nominal_thr,141,300,0.47,40.20299286747648
+tumor,noise x2,feedback,medium,D10_hybrid,oracle_thr,140,300,0.4666666666666667,37.61705423412055
+tumor,noise x4,drift,medium,D1_threshold,nominal_thr,118,300,0.3933333333333333,41.7706038523464
+tumor,noise x4,drift,medium,D1_threshold,oracle_thr,69,300,0.23,49.209940661502515
+tumor,noise x4,drift,medium,D2_movavg,nominal_thr,86,300,0.2866666666666667,51.77892564318626
+tumor,noise x4,drift,medium,D2_movavg,oracle_thr,66,300,0.22,56.625660298960625
+tumor,noise x4,drift,medium,D3_ewma,nominal_thr,82,300,0.2733333333333333,57.506204517054115
+tumor,noise x4,drift,medium,D3_ewma,oracle_thr,75,300,0.25,56.52092911867682
+tumor,noise x4,drift,medium,D4_cusum,nominal_thr,17,300,0.056666666666666664,60.31830566051504
+tumor,noise x4,drift,medium,D4_cusum,oracle_thr,55,300,0.18333333333333332,85.5112172643715
+tumor,noise x4,drift,medium,D5_glr,nominal_thr,46,300,0.15333333333333332,69.84626843117974
+tumor,noise x4,drift,medium,D5_glr,oracle_thr,69,300,0.23,61.82509148160652
+tumor,noise x4,drift,medium,D6_sr,nominal_thr,43,300,0.14333333333333334,70.43833095300346
+tumor,noise x4,drift,medium,D6_sr,oracle_thr,68,300,0.22666666666666666,60.225231140196684
+tumor,noise x4,drift,medium,D7_bocpd,nominal_thr,105,300,0.35,41.96540073895484
+tumor,noise x4,drift,medium,D7_bocpd,oracle_thr,56,300,0.18666666666666668,34.97978909116648
+tumor,noise x4,drift,medium,D8_conformal,nominal_thr,46,300,0.15333333333333332,65.1330264161792
+tumor,noise x4,drift,medium,D8_conformal,oracle_thr,38,300,0.12666666666666668,61.575796943308696
+tumor,noise x4,drift,medium,D9_multiscale,nominal_thr,127,300,0.42333333333333334,55.23211492874596
+tumor,noise x4,drift,medium,D9_multiscale,oracle_thr,89,300,0.2966666666666667,62.52092911867682
+tumor,noise x4,drift,medium,D10_hybrid,nominal_thr,99,300,0.33,51.10853382771987
+tumor,noise x4,drift,medium,D10_hybrid,oracle_thr,65,300,0.21666666666666667,44.541503759520054
+tumor,noise x4,structure,medium,D1_threshold,nominal_thr,225,300,0.75,22.854831160342854
+tumor,noise x4,structure,medium,D1_threshold,oracle_thr,209,300,0.6966666666666667,33.01302352326961
+tumor,noise x4,structure,medium,D2_movavg,nominal_thr,188,300,0.6266666666666667,49.934757670454076
+tumor,noise x4,structure,medium,D2_movavg,oracle_thr,170,300,0.5666666666666667,53.055798508963996
+tumor,noise x4,structure,medium,D3_ewma,nominal_thr,190,300,0.6333333333333333,46.44750419872109
+tumor,noise x4,structure,medium,D3_ewma,oracle_thr,181,300,0.6033333333333334,48.28323206796982
+tumor,noise x4,structure,medium,D4_cusum,nominal_thr,71,300,0.23666666666666666,73.70465022367945
+tumor,noise x4,structure,medium,D4_cusum,oracle_thr,142,300,0.47333333333333333,70.33880430956498
+tumor,noise x4,structure,medium,D5_glr,nominal_thr,179,300,0.5966666666666667,51.06075926512054
+tumor,noise x4,structure,medium,D5_glr,oracle_thr,197,300,0.6566666666666666,41.03046118728662
+tumor,noise x4,structure,medium,D6_sr,nominal_thr,178,300,0.5933333333333334,50.9387842513263
+tumor,noise x4,structure,medium,D6_sr,oracle_thr,198,300,0.66,40.430681473348145
+tumor,noise x4,structure,medium,D7_bocpd,nominal_thr,220,300,0.7333333333333333,29.51830062786918
+tumor,noise x4,structure,medium,D7_bocpd,oracle_thr,199,300,0.6633333333333333,34.50303273612671
+tumor,noise x4,structure,medium,D8_conformal,nominal_thr,100,300,0.3333333333333333,63.090725573326445
+tumor,noise x4,structure,medium,D8_conformal,oracle_thr,92,300,0.30666666666666664,70.07105127079055
+tumor,noise x4,structure,medium,D9_multiscale,nominal_thr,228,300,0.76,31.4731604797351
+tumor,noise x4,structure,medium,D9_multiscale,oracle_thr,211,300,0.7033333333333334,35.400875678077824
+tumor,noise x4,structure,medium,D10_hybrid,nominal_thr,224,300,0.7466666666666667,31.389227225086202
+tumor,noise x4,structure,medium,D10_hybrid,oracle_thr,205,300,0.6833333333333333,35.400875678077824
+tumor,noise x4,feedback,medium,D1_threshold,nominal_thr,103,300,0.3433333333333333,48.18084771041262
+tumor,noise x4,feedback,medium,D1_threshold,oracle_thr,54,300,0.18,65.1839211667842
+tumor,noise x4,feedback,medium,D2_movavg,nominal_thr,85,300,0.2833333333333333,65.12878814358707
+tumor,noise x4,feedback,medium,D2_movavg,oracle_thr,65,300,0.21666666666666667,61.1465389997349
+tumor,noise x4,feedback,medium,D3_ewma,nominal_thr,75,300,0.25,59.12878814358707
+tumor,noise x4,feedback,medium,D3_ewma,oracle_thr,62,300,0.20666666666666667,61.89227261830528
+tumor,noise x4,feedback,medium,D4_cusum,nominal_thr,18,300,0.06,77.23530601370523
+tumor,noise x4,feedback,medium,D4_cusum,oracle_thr,39,300,0.13,69.27552554657522
+tumor,noise x4,feedback,medium,D5_glr,nominal_thr,22,300,0.07333333333333333,86.463615767746
+tumor,noise x4,feedback,medium,D5_glr,oracle_thr,45,300,0.15,69.27552554657522
+tumor,noise x4,feedback,medium,D6_sr,nominal_thr,23,300,0.07666666666666666,75.11689834378319
+tumor,noise x4,feedback,medium,D6_sr,oracle_thr,41,300,0.13666666666666666,69.11689834378319
+tumor,noise x4,feedback,medium,D7_bocpd,nominal_thr,96,300,0.32,52.34489427798411
+tumor,noise x4,feedback,medium,D7_bocpd,oracle_thr,61,300,0.20333333333333334,54.83797191646265
+tumor,noise x4,feedback,medium,D8_conformal,nominal_thr,54,300,0.18,67.18842062646581
+tumor,noise x4,feedback,medium,D8_conformal,oracle_thr,41,300,0.13666666666666666,68.67321718880649
+tumor,noise x4,feedback,medium,D9_multiscale,nominal_thr,100,300,0.3333333333333333,59.35448332225649
+tumor,noise x4,feedback,medium,D9_multiscale,oracle_thr,54,300,0.18,54.32946343589339
+tumor,noise x4,feedback,medium,D10_hybrid,nominal_thr,91,300,0.30333333333333334,56.60567073977704
+tumor,noise x4,feedback,medium,D10_hybrid,oracle_thr,41,300,0.13666666666666666,57.67662979538727
+tumor,noise model x0.5,drift,medium,D1_threshold,nominal_thr,127,300,0.42333333333333334,18.54304952043327
+tumor,noise model x0.5,drift,medium,D1_threshold,oracle_thr,106,300,0.35333333333333333,23.906210023483574
+tumor,noise model x0.5,drift,medium,D2_movavg,nominal_thr,157,300,0.5233333333333333,20.12665242739709
+tumor,noise model x0.5,drift,medium,D2_movavg,oracle_thr,149,300,0.49666666666666665,21.004573281606312
+tumor,noise model x0.5,drift,medium,D3_ewma,nominal_thr,165,300,0.55,22.344602664019703
+tumor,noise model x0.5,drift,medium,D3_ewma,oracle_thr,154,300,0.5133333333333333,22.60736551632222
+tumor,noise model x0.5,drift,medium,D4_cusum,nominal_thr,120,300,0.4,68.87857835885956
+tumor,noise model x0.5,drift,medium,D4_cusum,oracle_thr,134,300,0.44666666666666666,61.603154062057975
+tumor,noise model x0.5,drift,medium,D5_glr,nominal_thr,145,300,0.48333333333333334,45.676398200626934
+tumor,noise model x0.5,drift,medium,D5_glr,oracle_thr,152,300,0.5066666666666667,46.14634592740033
+tumor,noise model x0.5,drift,medium,D6_sr,nominal_thr,143,300,0.4766666666666667,52.954877769981806
+tumor,noise model x0.5,drift,medium,D6_sr,oracle_thr,143,300,0.4766666666666667,52.39986396676079
+tumor,noise model x0.5,drift,medium,D7_bocpd,nominal_thr,202,300,0.6733333333333333,13.934040638448138
+tumor,noise model x0.5,drift,medium,D7_bocpd,oracle_thr,191,300,0.6366666666666667,13.986270112827725
+tumor,noise model x0.5,drift,medium,D8_conformal,nominal_thr,106,300,0.35333333333333333,21.347587480957202
+tumor,noise model x0.5,drift,medium,D8_conformal,oracle_thr,93,300,0.31,21.865052640276815
+tumor,noise model x0.5,drift,medium,D9_multiscale,nominal_thr,161,300,0.5366666666666666,23.335157721295815
+tumor,noise model x0.5,drift,medium,D9_multiscale,oracle_thr,150,300,0.5,27.630446678484056
+tumor,noise model x0.5,drift,medium,D10_hybrid,nominal_thr,204,300,0.68,15.385102284286411
+tumor,noise model x0.5,drift,medium,D10_hybrid,oracle_thr,202,300,0.6733333333333333,15.386895298778889
+tumor,noise model x0.5,structure,medium,D1_threshold,nominal_thr,249,300,0.83,10.079289545098703
+tumor,noise model x0.5,structure,medium,D1_threshold,oracle_thr,246,300,0.82,15.510914764377787
+tumor,noise model x0.5,structure,medium,D2_movavg,nominal_thr,214,300,0.7133333333333334,25.826455154278335
+tumor,noise model x0.5,structure,medium,D2_movavg,oracle_thr,208,300,0.6933333333333334,27.692530159049802
+tumor,noise model x0.5,structure,medium,D3_ewma,nominal_thr,219,300,0.73,23.952240038162458
+tumor,noise model x0.5,structure,medium,D3_ewma,oracle_thr,213,300,0.71,28.001405883335707
+tumor,noise model x0.5,structure,medium,D4_cusum,nominal_thr,124,300,0.41333333333333333,72.33519562145008
+tumor,noise model x0.5,structure,medium,D4_cusum,oracle_thr,143,300,0.4766666666666667,69.37579863824767
+tumor,noise model x0.5,structure,medium,D5_glr,nominal_thr,215,300,0.7166666666666667,32.41272533790668
+tumor,noise model x0.5,structure,medium,D5_glr,oracle_thr,218,300,0.7266666666666667,32.1677016256806
+tumor,noise model x0.5,structure,medium,D6_sr,nominal_thr,217,300,0.7233333333333334,36.78261894100082
+tumor,noise model x0.5,structure,medium,D6_sr,oracle_thr,218,300,0.7266666666666667,35.26773104992189
+tumor,noise model x0.5,structure,medium,D7_bocpd,nominal_thr,254,300,0.8466666666666667,6.982864168604806
+tumor,noise model x0.5,structure,medium,D7_bocpd,oracle_thr,251,300,0.8366666666666667,7.0261510062603065
+tumor,noise model x0.5,structure,medium,D8_conformal,nominal_thr,132,300,0.44,48.263688259904455
+tumor,noise model x0.5,structure,medium,D8_conformal,oracle_thr,117,300,0.39,52.4848777712038
+tumor,noise model x0.5,structure,medium,D9_multiscale,nominal_thr,245,300,0.8166666666666667,15.383654434763898
+tumor,noise model x0.5,structure,medium,D9_multiscale,oracle_thr,243,300,0.81,17.14947458552676
+tumor,noise model x0.5,structure,medium,D10_hybrid,nominal_thr,257,300,0.8566666666666667,7.729468503744911
+tumor,noise model x0.5,structure,medium,D10_hybrid,oracle_thr,257,300,0.8566666666666667,7.729468503744911
+tumor,noise model x0.5,feedback,medium,D1_threshold,nominal_thr,124,300,0.41333333333333333,29.856857535220136
+tumor,noise model x0.5,feedback,medium,D1_threshold,oracle_thr,90,300,0.3,29.454039768270405
+tumor,noise model x0.5,feedback,medium,D2_movavg,nominal_thr,170,300,0.5666666666666667,29.68972465717345
+tumor,noise model x0.5,feedback,medium,D2_movavg,oracle_thr,163,300,0.5433333333333333,31.2288354168019
+tumor,noise model x0.5,feedback,medium,D3_ewma,nominal_thr,178,300,0.5933333333333334,31.350340959355577
+tumor,noise model x0.5,feedback,medium,D3_ewma,oracle_thr,162,300,0.54,31.61886175584052
+tumor,noise model x0.5,feedback,medium,D4_cusum,nominal_thr,135,300,0.45,70.39343810329723
+tumor,noise model x0.5,feedback,medium,D4_cusum,oracle_thr,147,300,0.49,65.8099162039812
+tumor,noise model x0.5,feedback,medium,D5_glr,nominal_thr,154,300,0.5133333333333333,53.870406774031565
+tumor,noise model x0.5,feedback,medium,D5_glr,oracle_thr,158,300,0.5266666666666666,52.94507072619026
+tumor,noise model x0.5,feedback,medium,D6_sr,nominal_thr,147,300,0.49,61.48731591521302
+tumor,noise model x0.5,feedback,medium,D6_sr,oracle_thr,147,300,0.49,59.58488473740438
+tumor,noise model x0.5,feedback,medium,D7_bocpd,nominal_thr,225,300,0.75,25.981718671403414
+tumor,noise model x0.5,feedback,medium,D7_bocpd,oracle_thr,209,300,0.6966666666666667,26.08009316011156
+tumor,noise model x0.5,feedback,medium,D8_conformal,nominal_thr,121,300,0.4033333333333333,32.98243456799486
+tumor,noise model x0.5,feedback,medium,D8_conformal,oracle_thr,108,300,0.36,33.142633781602676
+tumor,noise model x0.5,feedback,medium,D9_multiscale,nominal_thr,159,300,0.53,32.67069723451196
+tumor,noise model x0.5,feedback,medium,D9_multiscale,oracle_thr,140,300,0.4666666666666667,37.2461934908246
+tumor,noise model x0.5,feedback,medium,D10_hybrid,nominal_thr,219,300,0.73,27.303229614804266
+tumor,noise model x0.5,feedback,medium,D10_hybrid,oracle_thr,212,300,0.7066666666666667,26.757404374370566
+tumor,noise model x2,drift,medium,D1_threshold,nominal_thr,80,300,0.26666666666666666,27.079430426163356
+tumor,noise model x2,drift,medium,D1_threshold,oracle_thr,143,300,0.4766666666666667,17.295593209035772
+tumor,noise model x2,drift,medium,D2_movavg,nominal_thr,74,300,0.24666666666666667,24.960950785623062
+tumor,noise model x2,drift,medium,D2_movavg,oracle_thr,142,300,0.47333333333333333,21.922172871956498
+tumor,noise model x2,drift,medium,D3_ewma,nominal_thr,76,300,0.25333333333333335,31.783603132725915
+tumor,noise model x2,drift,medium,D3_ewma,oracle_thr,138,300,0.46,22.781639253936483
+tumor,noise model x2,drift,medium,D4_cusum,nominal_thr,37,300,0.12333333333333334,87.37571916438624
+tumor,noise model x2,drift,medium,D4_cusum,oracle_thr,99,300,0.33,65.04499736054396
+tumor,noise model x2,drift,medium,D5_glr,nominal_thr,59,300,0.19666666666666666,65.37157201395536
+tumor,noise model x2,drift,medium,D5_glr,oracle_thr,93,300,0.31,65.04499736054396
+tumor,noise model x2,drift,medium,D6_sr,nominal_thr,48,300,0.16,71.13100078721948
+tumor,noise model x2,drift,medium,D6_sr,oracle_thr,99,300,0.33,68.10210389810942
+tumor,noise model x2,drift,medium,D7_bocpd,nominal_thr,189,300,0.63,16.941089469839795
+tumor,noise model x2,drift,medium,D7_bocpd,oracle_thr,213,300,0.71,15.296191215726225
+tumor,noise model x2,drift,medium,D8_conformal,nominal_thr,104,300,0.3466666666666667,22.57628881893578
+tumor,noise model x2,drift,medium,D8_conformal,oracle_thr,123,300,0.41,19.404483594324745
+tumor,noise model x2,drift,medium,D9_multiscale,nominal_thr,112,300,0.37333333333333335,43.76394654494297
+tumor,noise model x2,drift,medium,D9_multiscale,oracle_thr,156,300,0.52,23.581647785544362
+tumor,noise model x2,drift,medium,D10_hybrid,nominal_thr,162,300,0.54,17.898049192142885
+tumor,noise model x2,drift,medium,D10_hybrid,oracle_thr,197,300,0.6566666666666666,16.941089469839795
+tumor,noise model x2,structure,medium,D1_threshold,nominal_thr,222,300,0.74,15.980270507422425
+tumor,noise model x2,structure,medium,D1_threshold,oracle_thr,247,300,0.8233333333333334,7.774869210466065
+tumor,noise model x2,structure,medium,D2_movavg,nominal_thr,184,300,0.6133333333333333,31.983884605364686
+tumor,noise model x2,structure,medium,D2_movavg,oracle_thr,214,300,0.7133333333333334,23.656160002521105
+tumor,noise model x2,structure,medium,D3_ewma,nominal_thr,186,300,0.62,32.62178014888704
+tumor,noise model x2,structure,medium,D3_ewma,oracle_thr,217,300,0.7233333333333334,18.53134424723416
+tumor,noise model x2,structure,medium,D4_cusum,nominal_thr,67,300,0.22333333333333333,86.29724063137105
+tumor,noise model x2,structure,medium,D4_cusum,oracle_thr,174,300,0.58,58.22997781017651
+tumor,noise model x2,structure,medium,D5_glr,nominal_thr,177,300,0.59,43.288379597502015
+tumor,noise model x2,structure,medium,D5_glr,oracle_thr,199,300,0.6633333333333333,32.31021775629941
+tumor,noise model x2,structure,medium,D6_sr,nominal_thr,175,300,0.5833333333333334,50.86254979040926
+tumor,noise model x2,structure,medium,D6_sr,oracle_thr,204,300,0.68,28.092012444251665
+tumor,noise model x2,structure,medium,D7_bocpd,nominal_thr,251,300,0.8366666666666667,7.08169110028895
+tumor,noise model x2,structure,medium,D7_bocpd,oracle_thr,258,300,0.86,7.030101506237564
+tumor,noise model x2,structure,medium,D8_conformal,nominal_thr,134,300,0.44666666666666666,43.12081323426731
+tumor,noise model x2,structure,medium,D8_conformal,oracle_thr,153,300,0.51,31.3372654342473
+tumor,noise model x2,structure,medium,D9_multiscale,nominal_thr,221,300,0.7366666666666667,17.920420190117085
+tumor,noise model x2,structure,medium,D9_multiscale,oracle_thr,244,300,0.8133333333333334,11.132176410149619
+tumor,noise model x2,structure,medium,D10_hybrid,nominal_thr,250,300,0.8333333333333334,8.294464464188032
+tumor,noise model x2,structure,medium,D10_hybrid,oracle_thr,253,300,0.8433333333333334,7.08169110028895
+tumor,noise model x2,feedback,medium,D1_threshold,nominal_thr,46,300,0.15333333333333332,31.94739437726853
+tumor,noise model x2,feedback,medium,D1_threshold,oracle_thr,119,300,0.39666666666666667,28.052463387621685
+tumor,noise model x2,feedback,medium,D2_movavg,nominal_thr,83,300,0.27666666666666667,44.648024535053466
+tumor,noise model x2,feedback,medium,D2_movavg,oracle_thr,153,300,0.51,32.13434840577442
+tumor,noise model x2,feedback,medium,D3_ewma,nominal_thr,94,300,0.31333333333333335,50.925331232029336
+tumor,noise model x2,feedback,medium,D3_ewma,oracle_thr,153,300,0.51,34.29266980856241
+tumor,noise model x2,feedback,medium,D4_cusum,nominal_thr,41,300,0.13666666666666666,86.98804873144583
+tumor,noise model x2,feedback,medium,D4_cusum,oracle_thr,127,300,0.42333333333333334,70.08446579341336
+tumor,noise model x2,feedback,medium,D5_glr,nominal_thr,73,300,0.24333333333333335,80.1720848130497
+tumor,noise model x2,feedback,medium,D5_glr,oracle_thr,124,300,0.41333333333333333,73.75614836264198
+tumor,noise model x2,feedback,medium,D6_sr,nominal_thr,49,300,0.16333333333333333,75.66454061491034
+tumor,noise model x2,feedback,medium,D6_sr,oracle_thr,113,300,0.37666666666666665,68.9141473271876
+tumor,noise model x2,feedback,medium,D7_bocpd,nominal_thr,187,300,0.6233333333333333,28.052463387621685
+tumor,noise model x2,feedback,medium,D7_bocpd,oracle_thr,213,300,0.71,26.3719108010595
+tumor,noise model x2,feedback,medium,D8_conformal,nominal_thr,94,300,0.31333333333333335,34.73198102594962
+tumor,noise model x2,feedback,medium,D8_conformal,oracle_thr,113,300,0.37666666666666665,33.582412051107426
+tumor,noise model x2,feedback,medium,D9_multiscale,nominal_thr,64,300,0.21333333333333335,48.72468862628791
+tumor,noise model x2,feedback,medium,D9_multiscale,oracle_thr,136,300,0.4533333333333333,33.188752292985015
+tumor,noise model x2,feedback,medium,D10_hybrid,nominal_thr,151,300,0.5033333333333333,30.039608859284073
+tumor,noise model x2,feedback,medium,D10_hybrid,oracle_thr,197,300,0.6566666666666666,28.532545658913392
+tumor,param error 15%,drift,medium,D1_threshold,nominal_thr,47,300,0.15666666666666668,20.87223164655714
+tumor,param error 15%,drift,medium,D1_threshold,oracle_thr,47,300,0.15666666666666668,20.87223164655714
+tumor,param error 15%,drift,medium,D2_movavg,nominal_thr,63,300,0.21,21.121891413118064
+tumor,param error 15%,drift,medium,D2_movavg,oracle_thr,42,300,0.14,24.562465005080412
+tumor,param error 15%,drift,medium,D3_ewma,nominal_thr,73,300,0.24333333333333335,27.060391595642756
+tumor,param error 15%,drift,medium,D3_ewma,oracle_thr,47,300,0.15666666666666668,24.22944154609148
+tumor,param error 15%,drift,medium,D4_cusum,nominal_thr,70,300,0.23333333333333334,67.11346347887132
+tumor,param error 15%,drift,medium,D4_cusum,oracle_thr,27,300,0.09,65.25528627560864
+tumor,param error 15%,drift,medium,D5_glr,nominal_thr,66,300,0.22,44.9456890208144
+tumor,param error 15%,drift,medium,D5_glr,oracle_thr,26,300,0.08666666666666667,67.21442640420042
+tumor,param error 15%,drift,medium,D6_sr,nominal_thr,78,300,0.26,65.85192149400754
+tumor,param error 15%,drift,medium,D6_sr,oracle_thr,32,300,0.10666666666666667,57.45837558422624
+tumor,param error 15%,drift,medium,D7_bocpd,nominal_thr,67,300,0.22333333333333333,18.822737050211373
+tumor,param error 15%,drift,medium,D7_bocpd,oracle_thr,135,300,0.45,16.880897048351628
+tumor,param error 15%,drift,medium,D8_conformal,nominal_thr,14,300,0.04666666666666667,22.203820347487174
+tumor,param error 15%,drift,medium,D8_conformal,oracle_thr,51,300,0.17,23.466249435404777
+tumor,param error 15%,drift,medium,D9_multiscale,nominal_thr,84,300,0.28,37.47967352698025
+tumor,param error 15%,drift,medium,D9_multiscale,oracle_thr,59,300,0.19666666666666666,53.42410363184362
+tumor,param error 15%,drift,medium,D10_hybrid,nominal_thr,106,300,0.35333333333333333,26.742459422131986
+tumor,param error 15%,drift,medium,D10_hybrid,oracle_thr,54,300,0.18,44.11054671884792
+tumor,param error 15%,structure,medium,D1_threshold,nominal_thr,175,300,0.5833333333333334,19.046346978441676
+tumor,param error 15%,structure,medium,D1_threshold,oracle_thr,175,300,0.5833333333333334,19.046346978441676
+tumor,param error 15%,structure,medium,D2_movavg,nominal_thr,154,300,0.5133333333333333,33.65147374738327
+tumor,param error 15%,structure,medium,D2_movavg,oracle_thr,138,300,0.46,43.42865142010954
+tumor,param error 15%,structure,medium,D3_ewma,nominal_thr,157,300,0.5233333333333333,29.9908092789571
+tumor,param error 15%,structure,medium,D3_ewma,oracle_thr,144,300,0.48,41.74911804555768
+tumor,param error 15%,structure,medium,D4_cusum,nominal_thr,100,300,0.3333333333333333,74.33567570059196
+tumor,param error 15%,structure,medium,D4_cusum,oracle_thr,42,300,0.14,73.31357536565173
+tumor,param error 15%,structure,medium,D5_glr,nominal_thr,154,300,0.5133333333333333,40.21071877996306
+tumor,param error 15%,structure,medium,D5_glr,oracle_thr,119,300,0.39666666666666667,61.99867858871478
+tumor,param error 15%,structure,medium,D6_sr,nominal_thr,161,300,0.5366666666666666,43.53875804672161
+tumor,param error 15%,structure,medium,D6_sr,oracle_thr,98,300,0.32666666666666666,77.38922778700903
+tumor,param error 15%,structure,medium,D7_bocpd,nominal_thr,220,300,0.7333333333333333,13.864092486924307
+tumor,param error 15%,structure,medium,D7_bocpd,oracle_thr,242,300,0.8066666666666666,10.200341032436327
+tumor,param error 15%,structure,medium,D8_conformal,nominal_thr,66,300,0.22,67.34173002783527
+tumor,param error 15%,structure,medium,D8_conformal,oracle_thr,127,300,0.42333333333333334,55.43664221848391
+tumor,param error 15%,structure,medium,D9_multiscale,nominal_thr,169,300,0.5633333333333334,20.395767368599167
+tumor,param error 15%,structure,medium,D9_multiscale,oracle_thr,164,300,0.5466666666666666,30.8069272182982
+tumor,param error 15%,structure,medium,D10_hybrid,nominal_thr,206,300,0.6866666666666666,14.699772750656699
+tumor,param error 15%,structure,medium,D10_hybrid,oracle_thr,206,300,0.6866666666666666,19.03917358866137
+tumor,param error 15%,feedback,medium,D1_threshold,nominal_thr,40,300,0.13333333333333333,27.456862404003544
+tumor,param error 15%,feedback,medium,D1_threshold,oracle_thr,40,300,0.13333333333333333,27.456862404003544
+tumor,param error 15%,feedback,medium,D2_movavg,nominal_thr,67,300,0.22333333333333333,31.48861571182681
+tumor,param error 15%,feedback,medium,D2_movavg,oracle_thr,48,300,0.16,32.17178971193877
+tumor,param error 15%,feedback,medium,D3_ewma,nominal_thr,73,300,0.24333333333333335,29.683868168997265
+tumor,param error 15%,feedback,medium,D3_ewma,oracle_thr,50,300,0.16666666666666666,45.768634361033
+tumor,param error 15%,feedback,medium,D4_cusum,nominal_thr,74,300,0.24666666666666667,68.69142613620406
+tumor,param error 15%,feedback,medium,D4_cusum,oracle_thr,26,300,0.08666666666666667,63.73589918080389
+tumor,param error 15%,feedback,medium,D5_glr,nominal_thr,71,300,0.23666666666666666,47.962564711393085
+tumor,param error 15%,feedback,medium,D5_glr,oracle_thr,30,300,0.1,75.50080696985651
+tumor,param error 15%,feedback,medium,D6_sr,nominal_thr,81,300,0.27,69.06028736493806
+tumor,param error 15%,feedback,medium,D6_sr,oracle_thr,29,300,0.09666666666666666,53.92458143295637
+tumor,param error 15%,feedback,medium,D7_bocpd,nominal_thr,82,300,0.2733333333333333,32.09761942838082
+tumor,param error 15%,feedback,medium,D7_bocpd,oracle_thr,143,300,0.4766666666666667,30.782924578927208
+tumor,param error 15%,feedback,medium,D8_conformal,nominal_thr,18,300,0.06,32.59431735845585
+tumor,param error 15%,feedback,medium,D8_conformal,oracle_thr,48,300,0.16,37.956914042339776
+tumor,param error 15%,feedback,medium,D9_multiscale,nominal_thr,61,300,0.20333333333333334,34.73321143744157
+tumor,param error 15%,feedback,medium,D9_multiscale,oracle_thr,43,300,0.14333333333333334,47.962564711393085
+tumor,param error 15%,feedback,medium,D10_hybrid,nominal_thr,101,300,0.33666666666666667,38.60058672075341
+tumor,param error 15%,feedback,medium,D10_hybrid,oracle_thr,53,300,0.17666666666666667,41.609276146445765
+tumor,missing 30%,drift,medium,D1_threshold,nominal_thr,86,300,0.2866666666666667,42.49768719661501
+tumor,missing 30%,drift,medium,D1_threshold,oracle_thr,92,300,0.30666666666666664,43.070463177329565
+tumor,missing 30%,drift,medium,D2_movavg,nominal_thr,87,300,0.29,50.644812807810965
+tumor,missing 30%,drift,medium,D2_movavg,oracle_thr,89,300,0.2966666666666667,47.30308668655445
+tumor,missing 30%,drift,medium,D3_ewma,nominal_thr,89,300,0.2966666666666667,50.644812807810965
+tumor,missing 30%,drift,medium,D3_ewma,oracle_thr,99,300,0.33,45.699164094542226
+tumor,missing 30%,drift,medium,D4_cusum,nominal_thr,19,300,0.06333333333333334,91.93510588886791
+tumor,missing 30%,drift,medium,D4_cusum,oracle_thr,74,300,0.24666666666666667,80.4739497471827
+tumor,missing 30%,drift,medium,D5_glr,nominal_thr,39,300,0.13,73.93510588886791
+tumor,missing 30%,drift,medium,D5_glr,oracle_thr,73,300,0.24333333333333335,69.49833474460166
+tumor,missing 30%,drift,medium,D6_sr,nominal_thr,34,300,0.11333333333333333,70.42217842896332
+tumor,missing 30%,drift,medium,D6_sr,oracle_thr,79,300,0.2633333333333333,69.49833474460166
+tumor,missing 30%,drift,medium,D7_bocpd,nominal_thr,120,300,0.4,22.65560638601032
+tumor,missing 30%,drift,medium,D7_bocpd,oracle_thr,139,300,0.4633333333333333,21.21656946472912
+tumor,missing 30%,drift,medium,D8_conformal,nominal_thr,36,300,0.12,44.84073755493377
+tumor,missing 30%,drift,medium,D8_conformal,oracle_thr,83,300,0.27666666666666667,41.644812807810965
+tumor,missing 30%,drift,medium,D9_multiscale,nominal_thr,104,300,0.3466666666666667,61.412062263677925
+tumor,missing 30%,drift,medium,D9_multiscale,oracle_thr,110,300,0.36666666666666664,61.412062263677925
+tumor,missing 30%,drift,medium,D10_hybrid,nominal_thr,104,300,0.3466666666666667,25.3074804941131
+tumor,missing 30%,drift,medium,D10_hybrid,oracle_thr,121,300,0.4033333333333333,26.629021117080228
+tumor,missing 30%,structure,medium,D1_threshold,nominal_thr,214,300,0.7133333333333334,19.291622594946475
+tumor,missing 30%,structure,medium,D1_threshold,oracle_thr,214,300,0.7133333333333334,19.1780073789364
+tumor,missing 30%,structure,medium,D2_movavg,nominal_thr,185,300,0.6166666666666667,49.33232751189968
+tumor,missing 30%,structure,medium,D2_movavg,oracle_thr,187,300,0.6233333333333333,48.48053828844577
+tumor,missing 30%,structure,medium,D3_ewma,nominal_thr,186,300,0.62,39.591708329978324
+tumor,missing 30%,structure,medium,D3_ewma,oracle_thr,194,300,0.6466666666666666,35.32669620941469
+tumor,missing 30%,structure,medium,D4_cusum,nominal_thr,70,300,0.23333333333333334,75.49015026259602
+tumor,missing 30%,structure,medium,D4_cusum,oracle_thr,146,300,0.4866666666666667,62.56818360943039
+tumor,missing 30%,structure,medium,D5_glr,nominal_thr,173,300,0.5766666666666667,46.78067149928984
+tumor,missing 30%,structure,medium,D5_glr,oracle_thr,183,300,0.61,33.834717537747764
+tumor,missing 30%,structure,medium,D6_sr,nominal_thr,171,300,0.57,48.38212512560031
+tumor,missing 30%,structure,medium,D6_sr,oracle_thr,190,300,0.6333333333333333,34.23889051333984
+tumor,missing 30%,structure,medium,D7_bocpd,nominal_thr,231,300,0.77,11.235815382163509
+tumor,missing 30%,structure,medium,D7_bocpd,oracle_thr,245,300,0.8166666666666667,10.780671499289838
+tumor,missing 30%,structure,medium,D8_conformal,nominal_thr,71,300,0.23666666666666666,58.1105383624713
+tumor,missing 30%,structure,medium,D8_conformal,oracle_thr,134,300,0.44666666666666666,51.86883319457947
+tumor,missing 30%,structure,medium,D9_multiscale,nominal_thr,211,300,0.7033333333333334,21.638876264203148
+tumor,missing 30%,structure,medium,D9_multiscale,oracle_thr,218,300,0.7266666666666667,21.70822743310358
+tumor,missing 30%,structure,medium,D10_hybrid,nominal_thr,223,300,0.7433333333333333,17.65035419914895
+tumor,missing 30%,structure,medium,D10_hybrid,oracle_thr,230,300,0.7666666666666667,16.92491974593753
+tumor,missing 30%,feedback,medium,D1_threshold,nominal_thr,57,300,0.19,47.80077676644936
+tumor,missing 30%,feedback,medium,D1_threshold,oracle_thr,63,300,0.21,48.71607818466501
+tumor,missing 30%,feedback,medium,D2_movavg,nominal_thr,86,300,0.2866666666666667,55.77965212417823
+tumor,missing 30%,feedback,medium,D2_movavg,oracle_thr,89,300,0.2966666666666667,56.65199284679832
+tumor,missing 30%,feedback,medium,D3_ewma,nominal_thr,87,300,0.29,52.475951732319885
+tumor,missing 30%,feedback,medium,D3_ewma,oracle_thr,102,300,0.34,54.37472296387187
+tumor,missing 30%,feedback,medium,D4_cusum,nominal_thr,26,300,0.08666666666666667,100.94725935392651
+tumor,missing 30%,feedback,medium,D4_cusum,oracle_thr,80,300,0.26666666666666666,82.66564633077937
+tumor,missing 30%,feedback,medium,D5_glr,nominal_thr,40,300,0.13333333333333333,87.8868324038915
+tumor,missing 30%,feedback,medium,D5_glr,oracle_thr,68,300,0.22666666666666666,84.49623003383604
+tumor,missing 30%,feedback,medium,D6_sr,nominal_thr,36,300,0.12,96.61179147498622
+tumor,missing 30%,feedback,medium,D6_sr,oracle_thr,80,300,0.26666666666666666,77.41127113539181
+tumor,missing 30%,feedback,medium,D7_bocpd,nominal_thr,130,300,0.43333333333333335,36.43622981948412
+tumor,missing 30%,feedback,medium,D7_bocpd,oracle_thr,155,300,0.5166666666666667,36.53130022794359
+tumor,missing 30%,feedback,medium,D8_conformal,nominal_thr,47,300,0.15666666666666668,65.13672925422175
+tumor,missing 30%,feedback,medium,D8_conformal,oracle_thr,86,300,0.2866666666666667,51.62167308687535
+tumor,missing 30%,feedback,medium,D9_multiscale,nominal_thr,71,300,0.23666666666666666,52.643764735809526
+tumor,missing 30%,feedback,medium,D9_multiscale,oracle_thr,80,300,0.26666666666666666,50.95397094650615
+tumor,missing 30%,feedback,medium,D10_hybrid,nominal_thr,100,300,0.3333333333333333,40.60125978190572
+tumor,missing 30%,feedback,medium,D10_hybrid,oracle_thr,120,300,0.4,40.050191241914995
+tumor,irregular visits,drift,medium,D1_threshold,nominal_thr,70,300,0.23333333333333334,37.14115347243081
+tumor,irregular visits,drift,medium,D1_threshold,oracle_thr,73,300,0.24333333333333335,35.93551711223142
+tumor,irregular visits,drift,medium,D2_movavg,nominal_thr,62,300,0.20666666666666667,40.01299275637005
+tumor,irregular visits,drift,medium,D2_movavg,oracle_thr,91,300,0.30333333333333334,40.40124521656905
+tumor,irregular visits,drift,medium,D3_ewma,nominal_thr,61,300,0.20333333333333334,44.43301791118351
+tumor,irregular visits,drift,medium,D3_ewma,oracle_thr,88,300,0.29333333333333333,36.644955319359035
+tumor,irregular visits,drift,medium,D4_cusum,nominal_thr,13,300,0.043333333333333335,80.48901097919763
+tumor,irregular visits,drift,medium,D4_cusum,oracle_thr,62,300,0.20666666666666667,48.01990815248
+tumor,irregular visits,drift,medium,D5_glr,nominal_thr,31,300,0.10333333333333333,83.3399004343254
+tumor,irregular visits,drift,medium,D5_glr,oracle_thr,58,300,0.19333333333333333,50.00248730788571
+tumor,irregular visits,drift,medium,D6_sr,nominal_thr,23,300,0.07666666666666666,75.58516844771572
+tumor,irregular visits,drift,medium,D6_sr,oracle_thr,73,300,0.24333333333333335,45.497845895605195
+tumor,irregular visits,drift,medium,D7_bocpd,nominal_thr,85,300,0.2833333333333333,23.8399004343254
+tumor,irregular visits,drift,medium,D7_bocpd,oracle_thr,84,300,0.28,23.880520158237736
+tumor,irregular visits,drift,medium,D8_conformal,nominal_thr,37,300,0.12333333333333334,45.4946706823781
+tumor,irregular visits,drift,medium,D8_conformal,oracle_thr,61,300,0.20333333333333334,37.22820775686367
+tumor,irregular visits,drift,medium,D9_multiscale,nominal_thr,82,300,0.2733333333333333,46.93529671080021
+tumor,irregular visits,drift,medium,D9_multiscale,oracle_thr,92,300,0.30666666666666664,41.23265975396399
+tumor,irregular visits,drift,medium,D10_hybrid,nominal_thr,76,300,0.25333333333333335,29.095588538733388
+tumor,irregular visits,drift,medium,D10_hybrid,oracle_thr,88,300,0.29333333333333333,32.52174308669492
+tumor,irregular visits,structure,medium,D1_threshold,nominal_thr,202,300,0.6733333333333333,19.227920716562565
+tumor,irregular visits,structure,medium,D1_threshold,oracle_thr,202,300,0.6733333333333333,18.982086336865024
+tumor,irregular visits,structure,medium,D2_movavg,nominal_thr,159,300,0.53,47.552291095559724
+tumor,irregular visits,structure,medium,D2_movavg,oracle_thr,180,300,0.6,44.20244105701924
+tumor,irregular visits,structure,medium,D3_ewma,nominal_thr,172,300,0.5733333333333334,46.96150148055735
+tumor,irregular visits,structure,medium,D3_ewma,oracle_thr,195,300,0.65,36.86205785727668
+tumor,irregular visits,structure,medium,D4_cusum,nominal_thr,65,300,0.21666666666666667,74.7132275425734
+tumor,irregular visits,structure,medium,D4_cusum,oracle_thr,158,300,0.5266666666666666,50.49254729502892
+tumor,irregular visits,structure,medium,D5_glr,nominal_thr,160,300,0.5333333333333333,51.89850292543673
+tumor,irregular visits,structure,medium,D5_glr,oracle_thr,184,300,0.6133333333333333,38.28492543855285
+tumor,irregular visits,structure,medium,D6_sr,nominal_thr,158,300,0.5266666666666666,55.60816885499689
+tumor,irregular visits,structure,medium,D6_sr,oracle_thr,192,300,0.64,33.314835070315624
+tumor,irregular visits,structure,medium,D7_bocpd,nominal_thr,204,300,0.68,18.506076428327688
+tumor,irregular visits,structure,medium,D7_bocpd,oracle_thr,202,300,0.6733333333333333,18.506076428327688
+tumor,irregular visits,structure,medium,D8_conformal,nominal_thr,75,300,0.25,43.93613187475012
+tumor,irregular visits,structure,medium,D8_conformal,oracle_thr,110,300,0.36666666666666664,37.6329844376297
+tumor,irregular visits,structure,medium,D9_multiscale,nominal_thr,201,300,0.67,28.173292711987102
+tumor,irregular visits,structure,medium,D9_multiscale,oracle_thr,210,300,0.7,25.03619817297602
+tumor,irregular visits,structure,medium,D10_hybrid,nominal_thr,202,300,0.6733333333333333,19.074071427328285
+tumor,irregular visits,structure,medium,D10_hybrid,oracle_thr,203,300,0.6766666666666666,18.846015000007597
+tumor,irregular visits,feedback,medium,D1_threshold,nominal_thr,51,300,0.17,46.21757516319566
+tumor,irregular visits,feedback,medium,D1_threshold,oracle_thr,57,300,0.19,50.753560690116075
+tumor,irregular visits,feedback,medium,D2_movavg,nominal_thr,54,300,0.18,50.52986698734208
+tumor,irregular visits,feedback,medium,D2_movavg,oracle_thr,75,300,0.25,52.65356069011605
+tumor,irregular visits,feedback,medium,D3_ewma,nominal_thr,58,300,0.19333333333333333,64.80421314004481
+tumor,irregular visits,feedback,medium,D3_ewma,oracle_thr,84,300,0.28,56.062248309282836
+tumor,irregular visits,feedback,medium,D4_cusum,nominal_thr,19,300,0.06333333333333334,90.03061833414337
+tumor,irregular visits,feedback,medium,D4_cusum,oracle_thr,71,300,0.23666666666666666,70.2355152633121
+tumor,irregular visits,feedback,medium,D5_glr,nominal_thr,23,300,0.07666666666666666,72.00566629608947
+tumor,irregular visits,feedback,medium,D5_glr,oracle_thr,53,300,0.17666666666666667,63.56889949746258
+tumor,irregular visits,feedback,medium,D6_sr,nominal_thr,23,300,0.07666666666666666,89.13883063429802
+tumor,irregular visits,feedback,medium,D6_sr,oracle_thr,77,300,0.25666666666666665,73.24160939220866
+tumor,irregular visits,feedback,medium,D7_bocpd,nominal_thr,87,300,0.29,34.55485533101984
+tumor,irregular visits,feedback,medium,D7_bocpd,oracle_thr,85,300,0.2833333333333333,34.55485533101984
+tumor,irregular visits,feedback,medium,D8_conformal,nominal_thr,35,300,0.11666666666666667,60.53178837137263
+tumor,irregular visits,feedback,medium,D8_conformal,oracle_thr,55,300,0.18333333333333332,57.935685707628906
+tumor,irregular visits,feedback,medium,D9_multiscale,nominal_thr,48,300,0.16,47.30587931409843
+tumor,irregular visits,feedback,medium,D9_multiscale,oracle_thr,60,300,0.2,53.83999777625734
+tumor,irregular visits,feedback,medium,D10_hybrid,nominal_thr,67,300,0.22333333333333333,34.55485533101984
+tumor,irregular visits,feedback,medium,D10_hybrid,oracle_thr,77,300,0.25666666666666665,43.3717128251032

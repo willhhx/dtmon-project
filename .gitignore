@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.idea/
+.DS_Store
+*.xlsx
+docs/
+literature/
+Claude outputs/
+results/cache/
+results/*/diag_*.npz
+results/*/patients_*.csv.gz
+results/*/summary_*.csv.gz
+results/*/thr_*.json
+results/analysis/
+results/pilot/
+results/figures/
+results/realdata/demo_*
+results_quick/
+results/**/diag_*.npz
+results/**/patients_*.csv.gz
+results/**/summary_*.csv.gz
+results/**/thr_*.json
+results/**/diag_*.npz
+results/**/patients_*.csv.gz
+results/**/summary_*.csv.gz
+results/**/thr_*.json

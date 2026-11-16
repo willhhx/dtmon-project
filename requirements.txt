@@ -1,0 +1,9 @@
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+scikit-learn>=1.3
+matplotlib>=3.7
+joblib>=1.3
+pyyaml>=6.0
+requests>=2.31      # literature search script only
+xgboost>=2.0        # optional: used by classifier F2 when installed (falls back to sklearn HistGradientBoosting)

@@ -1,0 +1,63 @@
+{
+  "details": [
+    {
+      "candidate": "D9_multiscale",
+      "label": "RED",
+      "per_model": {
+        "glucose": {
+          "A_frac_green": 0.09027777777777778,
+          "mean_delta_detect": -0.013000000000000003,
+          "mean_delay_reduction": 0.005400642143502961,
+          "C_frac_green_sparse": 0.1111111111111111,
+          "oracle_cell_mean_delta": -0.03001388888888889,
+          "best_baseline": "D6_sr",
+          "n_cells": 144
+        },
+        "tumor": {
+          "A_frac_green": 0.11805555555555555,
+          "mean_delta_detect": -0.07188888888888889,
+          "mean_delay_reduction": -0.0914066379565579,
+          "C_frac_green_sparse": 0.013888888888888888,
+          "oracle_cell_mean_delta": -0.10113888888888889,
+          "best_baseline": "D7_bocpd",
+          "n_cells": 144
+        }
+      },
+      "criterion_D_transferable": false
+    },
+    {
+      "candidate": "D10_hybrid",
+      "label": "RED",
+      "per_model": {
+        "glucose": {
+          "A_frac_green": 0.09722222222222222,
+          "mean_delta_detect": -0.0018055555555555572,
+          "mean_delay_reduction": 0.007623534971165163,
+          "C_frac_green_sparse": 0.1111111111111111,
+          "oracle_cell_mean_delta": -0.018819444444444444,
+          "best_baseline": "D6_sr",
+          "n_cells": 144
+        },
+        "tumor": {
+          "A_frac_green": 0.09722222222222222,
+          "mean_delta_detect": -0.019375000000000003,
+          "mean_delay_reduction": -0.03432528131188575,
+          "C_frac_green_sparse": 0.0,
+          "oracle_cell_mean_delta": -0.048625,
+          "best_baseline": "D7_bocpd",
+          "n_cells": 144
+        }
+      },
+      "criterion_D_transferable": false
+    }
+  ],
+  "D9_multiscale": "RED",
+  "proposals": [
+    "Stronger baselines: add a likelihood-ratio detector with the TRUE post-change model (oracle upper bound) and a Kalman-residual chi-square (windowed NIS) test; confirm the candidate is not just matching them.",
+    "Alternative detectors: add a kernel / MMD sequential test, an e-process (mixture martingale) detector, and a learned (neural/ensemble) detector trained on simulated failures.",
+    "Revised hypothesis: restrict the claim to the regime where the candidate wins (e.g. periodic structural errors, or sparse sampling) and demonstrate it over a finer sparsity grid.",
+    "Increase failure realism / difficulty: smaller magnitudes, mixed simultaneous failures, longer ramps; advantages of multi-scale methods usually appear for weak, slowly-developing changes.",
+    "Strengthen the diagnostic contribution: report fault-isolation accuracy at EQUAL detection delay, which is often where residual-signature methods separate from CUSUM."
+  ],
+  "D10_hybrid": "RED"
+}

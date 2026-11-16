@@ -1,0 +1,12 @@
+detector,threshold,far,far_lo,far_hi,alpha,n_eval
+D1_threshold,calibrated on real calibration split,0.077,0.06204766009579463,0.09518989610829176,0.05,1000
+D2_movavg,calibrated on real calibration split,0.101,0.08382372191011535,0.12123014316182433,0.05,1000
+D3_ewma,calibrated on real calibration split,0.101,0.08382372191011535,0.12123014316182433,0.05,1000
+D4_cusum,calibrated on real calibration split,0.102,0.08473884484006548,0.12230736643470137,0.05,1000
+D5_glr,calibrated on real calibration split,0.082,0.06655169717368087,0.10064759004454163,0.05,1000
+D6_sr,calibrated on real calibration split,0.089,0.0728879752136599,0.10825773542435312,0.05,1000
+D7_bocpd,calibrated on real calibration split,0.081,0.06564936712410993,0.09955757389128536,0.05,1000
+D8_conformal,calibrated on real calibration split,0.096,0.0792566195200465,0.11583551453775706,0.05,1000
+D9_multiscale,calibrated on real calibration split,0.139,0.11893604544071834,0.1618269753386557,0.05,1000
+D10_hybrid,calibrated on real calibration split,0.177,0.15459299077028155,0.20187918571652674,0.05,1000
+D6_sr,nominal theory log(N/alpha) (T1),0.156,0.13483095057810354,0.17980195564933318,0.05,1000

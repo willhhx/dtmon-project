@@ -1,0 +1,6 @@
+{
+  "n_patients": 20,
+  "k_burn": 5,
+  "median_obs": 10.0,
+  "n_splits": 100
+}

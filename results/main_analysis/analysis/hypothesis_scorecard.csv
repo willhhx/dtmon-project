@@ -1,0 +1,6 @@
+hypothesis,effect,ci_lo,ci_hi,label,note
+H1 multi-scale > CUSUM on structural failures,0.13922916666666665,0.10590729166666668,0.17336041666666668,GREEN,71% of 96 cells have CI > 0; mean delay change -0.15 (rel.)
+H4 BOCPD > CUSUM under sparse sampling,0.08291666666666668,0.04938055555555556,0.11635208333333333,GREEN,51% of 144 cells have CI > 0; mean delay change -0.10 (rel.)
+"H3 conformal alarm keeps FA at nominal (|FA-alpha|, lower=better)",7.211538461538575e-05,,,YELLOW,D8 0.010 vs others 0.010; use `dtmon transfer` for the misspecification test
+H2 frequency features improve diagnosis (acc. gain),0.009062107356850884,,,RED,"gain in detection-conditional accuracy, F1_rf"
+H5 fault signatures isolate faults with a SHARED detection statistic (CUSUM alarms),0.4327040031506391,,,YELLOW,accuracy 0.77 vs chance 0.33

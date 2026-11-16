@@ -1,0 +1,701 @@
+model,scheme,detector,method,group,value,n,acc,lo,hi
+tumor,moderate,D4_cusum,majority class,true class,drift,1882,0.0,0.0,0.0
+tumor,moderate,D4_cusum,majority class,true class,structure,2606,1.0,1.0,1.0
+tumor,moderate,D4_cusum,majority class,true class,feedback,2368,0.0,0.0,0.0
+tumor,moderate,D4_cusum,majority class,magnitude,small,831,0.4548736462093863,0.4276247319493308,0.48405551015040066
+tumor,moderate,D4_cusum,majority class,magnitude,medium,2179,0.40110142267095,0.38727520427260315,0.41554985136258105
+tumor,moderate,D4_cusum,majority class,magnitude,large,3846,0.35205408216328654,0.3448278003390497,0.35966249381737414
+tumor,moderate,D4_cusum,majority class,structural subtype,periodic,626,1.0,1.0,1.0
+tumor,moderate,D4_cusum,majority class,structural subtype,saturation,573,1.0,1.0,1.0
+tumor,moderate,D4_cusum,majority class,structural subtype,delay,833,1.0,1.0,1.0
+tumor,moderate,D4_cusum,majority class,structural subtype,omitted,574,1.0,1.0,1.0
+tumor,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,drift,1882,0.0,0.0,0.0
+tumor,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,structure,2606,0.760552570990023,0.7416003823245204,0.7794060933281913
+tumor,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,feedback,2368,0.8817567567567568,0.8697810627261358,0.8939832299253664
+tumor,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,small,831,0.5848375451263538,0.5607081016980286,0.6109109601287324
+tumor,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,medium,2179,0.59889857732905,0.5846364639144731,0.6137858574140477
+tumor,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,large,3846,0.592563702548102,0.5813842541432782,0.6039807517941801
+tumor,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,periodic,626,0.9440894568690096,0.9236760124610592,0.961759870164282
+tumor,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,saturation,573,0.7609075043630017,0.7191675832636719,0.7991305624429075
+tumor,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,delay,833,0.8907563025210085,0.8653521354695385,0.9144686411149826
+tumor,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,omitted,574,0.3710801393728223,0.33949188578823103,0.4062997513375028
+tumor,moderate,D4_cusum,LDA on residual moments,true class,drift,1882,0.49681190223166843,0.47359767025089605,0.5211279754631696
+tumor,moderate,D4_cusum,LDA on residual moments,true class,structure,2606,0.8192632386799693,0.8001080363912055,0.8365935708817017
+tumor,moderate,D4_cusum,LDA on residual moments,true class,feedback,2368,0.6684966216216216,0.6480506085295805,0.6916530293293901
+tumor,moderate,D4_cusum,LDA on residual moments,magnitude,small,831,0.6353790613718412,0.605905512611466,0.6637351455334647
+tumor,moderate,D4_cusum,LDA on residual moments,magnitude,medium,2179,0.6594768242312987,0.643630652756353,0.6760391575209675
+tumor,moderate,D4_cusum,LDA on residual moments,magnitude,large,3846,0.6989079563182528,0.6859784872388298,0.7115570054312804
+tumor,moderate,D4_cusum,LDA on residual moments,structural subtype,periodic,626,0.9664536741214057,0.9524921512969167,0.9803951513856998
+tumor,moderate,D4_cusum,LDA on residual moments,structural subtype,saturation,573,0.7364746945898778,0.6932403233561726,0.7799221066891223
+tumor,moderate,D4_cusum,LDA on residual moments,structural subtype,delay,833,0.9879951980792316,0.9737140434618766,0.9987901147998396
+tumor,moderate,D4_cusum,LDA on residual moments,structural subtype,omitted,574,0.4965156794425087,0.45268438619342233,0.5406437293976626
+tumor,moderate,D4_cusum,RF on residual moments,true class,drift,1882,0.5850159404888416,0.5611429056735776,0.6101011488327563
+tumor,moderate,D4_cusum,RF on residual moments,true class,structure,2606,0.8798925556408289,0.8647502373507052,0.8936638751910668
+tumor,moderate,D4_cusum,RF on residual moments,true class,feedback,2368,0.7618243243243243,0.7439690025687025,0.7780403503673508
+tumor,moderate,D4_cusum,RF on residual moments,magnitude,small,831,0.6377858002406739,0.6098818069998881,0.6666666666666666
+tumor,moderate,D4_cusum,RF on residual moments,magnitude,medium,2179,0.7131711794401101,0.6955817513324389,0.7324023940708887
+tumor,moderate,D4_cusum,RF on residual moments,magnitude,large,3846,0.8096723868954758,0.7980555971195548,0.8217245672541297
+tumor,moderate,D4_cusum,RF on residual moments,structural subtype,periodic,626,0.9568690095846646,0.9397228622889456,0.9722027518519509
+tumor,moderate,D4_cusum,RF on residual moments,structural subtype,saturation,573,0.9354275741710296,0.9113993843786071,0.9567624956363455
+tumor,moderate,D4_cusum,RF on residual moments,structural subtype,delay,833,0.9891956782713085,0.9779365976779404,0.997630468810321
+tumor,moderate,D4_cusum,RF on residual moments,structural subtype,omitted,574,0.5818815331010453,0.5504763639122847,0.6136229314420804
+tumor,moderate,D4_cusum,RF on all features,true class,drift,1882,0.6934112646121148,0.6705269748501336,0.7197569617755711
+tumor,moderate,D4_cusum,RF on all features,true class,structure,2606,0.9017651573292402,0.8881460464376005,0.9146846935998244
+tumor,moderate,D4_cusum,RF on all features,true class,feedback,2368,0.823902027027027,0.806928438372543,0.839752278453157
+tumor,moderate,D4_cusum,RF on all features,magnitude,small,831,0.690734055354994,0.6597521291390589,0.7199057698935263
+tumor,moderate,D4_cusum,RF on all features,magnitude,medium,2179,0.7792565396971087,0.7621604408166079,0.7960515899271724
+tumor,moderate,D4_cusum,RF on all features,magnitude,large,3846,0.8668746749869994,0.8569930768078824,0.8776020894136394
+tumor,moderate,D4_cusum,RF on all features,structural subtype,periodic,626,0.9968051118210862,0.9919607478229852,1.0
+tumor,moderate,D4_cusum,RF on all features,structural subtype,saturation,573,0.9406631762652705,0.9167231387542524,0.9619408949273085
+tumor,moderate,D4_cusum,RF on all features,structural subtype,delay,833,0.992797118847539,0.9819905315722346,1.0
+tumor,moderate,D4_cusum,RF on all features,structural subtype,omitted,574,0.627177700348432,0.5952747686062577,0.657829191569676
+tumor,sparse,D4_cusum,majority class,true class,drift,434,0.0,0.0,0.0
+tumor,sparse,D4_cusum,majority class,true class,structure,1856,1.0,1.0,1.0
+tumor,sparse,D4_cusum,majority class,true class,feedback,1005,0.0,0.0,0.0
+tumor,sparse,D4_cusum,majority class,magnitude,small,420,0.719047619047619,0.6749937587767203,0.7678802910052911
+tumor,sparse,D4_cusum,majority class,magnitude,medium,857,0.7012835472578763,0.6679611632284238,0.7278767939635248
+tumor,sparse,D4_cusum,majority class,magnitude,large,2018,0.4722497522299306,0.4583622262773723,0.4880062937062937
+tumor,sparse,D4_cusum,majority class,structural subtype,periodic,355,1.0,1.0,1.0
+tumor,sparse,D4_cusum,majority class,structural subtype,saturation,552,1.0,1.0,1.0
+tumor,sparse,D4_cusum,majority class,structural subtype,delay,687,1.0,1.0,1.0
+tumor,sparse,D4_cusum,majority class,structural subtype,omitted,262,1.0,1.0,1.0
+tumor,sparse,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,drift,434,0.0,0.0,0.0
+tumor,sparse,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,structure,1856,0.90625,0.888357921098139,0.9220049358237999
+tumor,sparse,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,feedback,1005,0.8427860696517413,0.8199201716490153,0.8652831447664092
+tumor,sparse,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,small,420,0.7761904761904762,0.7368361208920188,0.815
+tumor,sparse,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,medium,857,0.8063010501750292,0.7791273057257915,0.8319471153846154
+tumor,sparse,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,large,2018,0.7492566897918731,0.7306634105519161,0.7653672404587063
+tumor,sparse,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,periodic,355,0.9577464788732394,0.9305555555555556,0.985409418806917
+tumor,sparse,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,saturation,552,0.9384057971014492,0.9078031718719163,0.9647701141916434
+tumor,sparse,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,delay,687,0.9883551673944687,0.9737116368286445,0.9985633186420734
+tumor,sparse,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,omitted,262,0.5534351145038168,0.4942707802141765,0.616985466823253
+tumor,sparse,D4_cusum,LDA on residual moments,true class,drift,434,0.0,0.0,0.0
+tumor,sparse,D4_cusum,LDA on residual moments,true class,structure,1856,0.8879310344827587,0.8702999923120593,0.9037948580241812
+tumor,sparse,D4_cusum,LDA on residual moments,true class,feedback,1005,0.9054726368159204,0.884671585474896,0.9235759680756724
+tumor,sparse,D4_cusum,LDA on residual moments,magnitude,small,420,0.7380952380952381,0.6998480161295287,0.7821865176388404
+tumor,sparse,D4_cusum,LDA on residual moments,magnitude,medium,857,0.8004667444574096,0.7738069467297408,0.8257544417926279
+tumor,sparse,D4_cusum,LDA on residual moments,magnitude,large,2018,0.7740336967294351,0.7577703830743079,0.7891952873301806
+tumor,sparse,D4_cusum,LDA on residual moments,structural subtype,periodic,355,0.8873239436619719,0.8463979869877106,0.9289257999272216
+tumor,sparse,D4_cusum,LDA on residual moments,structural subtype,saturation,552,0.9039855072463768,0.874427412384813,0.9356893382352941
+tumor,sparse,D4_cusum,LDA on residual moments,structural subtype,delay,687,0.9781659388646288,0.9611746410098446,0.9911771002964972
+tumor,sparse,D4_cusum,LDA on residual moments,structural subtype,omitted,262,0.6183206106870229,0.5582605469578121,0.6783764367816092
+tumor,sparse,D4_cusum,RF on residual moments,true class,drift,434,0.4608294930875576,0.4117175502180724,0.5174287756678542
+tumor,sparse,D4_cusum,RF on residual moments,true class,structure,1856,0.9256465517241379,0.9109590242764133,0.9377829942407003
+tumor,sparse,D4_cusum,RF on residual moments,true class,feedback,1005,0.8527363184079602,0.8254186775461466,0.8772215174362449
+tumor,sparse,D4_cusum,RF on residual moments,magnitude,small,420,0.7642857142857142,0.7228637413394919,0.8089330024813896
+tumor,sparse,D4_cusum,RF on residual moments,magnitude,medium,857,0.8308051341890315,0.8025965200565145,0.8563899223914183
+tumor,sparse,D4_cusum,RF on residual moments,magnitude,large,2018,0.8632309217046581,0.8476319742394742,0.8755905826509793
+tumor,sparse,D4_cusum,RF on residual moments,structural subtype,periodic,355,0.9549295774647887,0.9337863851912843,0.9745420607864791
+tumor,sparse,D4_cusum,RF on residual moments,structural subtype,saturation,552,0.9347826086956522,0.9100530548153788,0.9607205174488568
+tumor,sparse,D4_cusum,RF on residual moments,structural subtype,delay,687,0.9970887918486172,0.9925920276368234,1.0
+tumor,sparse,D4_cusum,RF on residual moments,structural subtype,omitted,262,0.6793893129770993,0.6141112569740728,0.7432457601453665
+tumor,sparse,D4_cusum,RF on all features,true class,drift,434,0.5506912442396313,0.49945426195426196,0.6066230059430716
+tumor,sparse,D4_cusum,RF on all features,true class,structure,1856,0.9450431034482759,0.934157106682146,0.9563470895171784
+tumor,sparse,D4_cusum,RF on all features,true class,feedback,1005,0.8676616915422886,0.8413708229312881,0.89161655011655
+tumor,sparse,D4_cusum,RF on all features,magnitude,small,420,0.7952380952380952,0.7609644817634287,0.8320994091067083
+tumor,sparse,D4_cusum,RF on all features,magnitude,medium,857,0.8494749124854143,0.8245412844036697,0.8727713700321118
+tumor,sparse,D4_cusum,RF on all features,magnitude,large,2018,0.8934588701684837,0.8791436815454498,0.9059994995198439
+tumor,sparse,D4_cusum,RF on all features,structural subtype,periodic,355,1.0,1.0,1.0
+tumor,sparse,D4_cusum,RF on all features,structural subtype,saturation,552,0.9565217391304348,0.9337993175018698,0.9776119402985075
+tumor,sparse,D4_cusum,RF on all features,structural subtype,delay,687,0.9941775836972343,0.9824126115836614,1.0
+tumor,sparse,D4_cusum,RF on all features,structural subtype,omitted,262,0.7175572519083969,0.6616506706998176,0.7750569535052293
+glucose,realistic,D4_cusum,majority class,true class,drift,395,0.0,0.0,0.0
+glucose,realistic,D4_cusum,majority class,true class,structure,512,0.0,0.0,0.0
+glucose,realistic,D4_cusum,majority class,true class,feedback,997,1.0,1.0,1.0
+glucose,realistic,D4_cusum,majority class,magnitude,small,311,0.3762057877813505,0.3455435944418995,0.40931750129065564
+glucose,realistic,D4_cusum,majority class,magnitude,medium,544,0.48161764705882354,0.4529791903103981,0.5111133211703864
+glucose,realistic,D4_cusum,majority class,magnitude,large,1049,0.5891325071496664,0.5645694226237236,0.6138844108498611
+glucose,realistic,D4_cusum,majority class,structural subtype,periodic,142,0.0,0.0,0.0
+glucose,realistic,D4_cusum,majority class,structural subtype,saturation,91,0.0,0.0,0.0
+glucose,realistic,D4_cusum,majority class,structural subtype,delay,90,0.0,0.0,0.0
+glucose,realistic,D4_cusum,majority class,structural subtype,omitted,189,0.0,0.0,0.0
+glucose,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,drift,395,0.0,0.0,0.0
+glucose,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,structure,512,0.634765625,0.56904163021289,0.7013567885869262
+glucose,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,feedback,997,0.9679037111334002,0.9521386076609957,0.9838632368737996
+glucose,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,small,311,0.5401929260450161,0.5045725161038453,0.5852019532191945
+glucose,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,medium,544,0.6507352941176471,0.617204631787965,0.6894605832872375
+glucose,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,large,1049,0.7321258341277407,0.7064762856334288,0.7569793920644668
+glucose,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,periodic,142,0.647887323943662,0.5430152197546203,0.7570486111111111
+glucose,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,saturation,91,0.15384615384615385,0.04570271682340648,0.26738717476398804
+glucose,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,delay,90,0.4666666666666667,0.3068181818181818,0.641724828375286
+glucose,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,omitted,189,0.9365079365079365,0.8782441822882999,0.9833816758747698
+glucose,realistic,D4_cusum,LDA on residual moments,true class,drift,395,0.1620253164556962,0.11082425579710627,0.2128588138963621
+glucose,realistic,D4_cusum,LDA on residual moments,true class,structure,512,0.671875,0.6098654271469806,0.733101160203433
+glucose,realistic,D4_cusum,LDA on residual moments,true class,feedback,997,0.9187562688064193,0.8955329773416077,0.9406607712160315
+glucose,realistic,D4_cusum,LDA on residual moments,magnitude,small,311,0.5369774919614148,0.5,0.5787226486424562
+glucose,realistic,D4_cusum,LDA on residual moments,magnitude,medium,544,0.6691176470588235,0.6327956344260252,0.7061851851851851
+glucose,realistic,D4_cusum,LDA on residual moments,magnitude,large,1049,0.7559580552907531,0.7335400931488654,0.7789238157607509
+glucose,realistic,D4_cusum,LDA on residual moments,structural subtype,periodic,142,0.7464788732394366,0.6539486921529175,0.8473776223776224
+glucose,realistic,D4_cusum,LDA on residual moments,structural subtype,saturation,91,0.15384615384615385,0.04570271682340648,0.26738717476398804
+glucose,realistic,D4_cusum,LDA on residual moments,structural subtype,delay,90,0.4666666666666667,0.3068181818181818,0.641724828375286
+glucose,realistic,D4_cusum,LDA on residual moments,structural subtype,omitted,189,0.9629629629629629,0.9195596860445058,0.9948058344127806
+glucose,realistic,D4_cusum,RF on residual moments,true class,drift,395,0.1569620253164557,0.10480460434280153,0.21014927881677054
+glucose,realistic,D4_cusum,RF on residual moments,true class,structure,512,0.703125,0.6459553588013126,0.7599305797029456
+glucose,realistic,D4_cusum,RF on residual moments,true class,feedback,997,0.9137412236710131,0.8913096131793301,0.9340486804050658
+glucose,realistic,D4_cusum,RF on residual moments,magnitude,small,311,0.5401929260450161,0.502211772901428,0.5824069561364642
+glucose,realistic,D4_cusum,RF on residual moments,magnitude,medium,544,0.6709558823529411,0.6369988470332907,0.7057140313390313
+glucose,realistic,D4_cusum,RF on residual moments,magnitude,large,1049,0.7626310772163966,0.7397738405189532,0.7846392103471749
+glucose,realistic,D4_cusum,RF on residual moments,structural subtype,periodic,142,0.8309859154929577,0.7543129496402877,0.9150219907992517
+glucose,realistic,D4_cusum,RF on residual moments,structural subtype,saturation,91,0.18681318681318682,0.0768900966183575,0.2932175010979359
+glucose,realistic,D4_cusum,RF on residual moments,structural subtype,delay,90,0.4888888888888889,0.33505434782608695,0.647737556561086
+glucose,realistic,D4_cusum,RF on residual moments,structural subtype,omitted,189,0.9576719576719577,0.9170747422680412,0.9900775862068966
+glucose,realistic,D4_cusum,RF on all features,true class,drift,395,0.08860759493670886,0.049871875429536396,0.12515813253012048
+glucose,realistic,D4_cusum,RF on all features,true class,structure,512,0.703125,0.639763779527559,0.7620639310024753
+glucose,realistic,D4_cusum,RF on all features,true class,feedback,997,0.9378134403209629,0.9184643420215375,0.9536786585751902
+glucose,realistic,D4_cusum,RF on all features,magnitude,small,311,0.5594855305466238,0.5219024664908811,0.6027397260273972
+glucose,realistic,D4_cusum,RF on all features,magnitude,medium,544,0.6636029411764706,0.6281239388794567,0.6999074074074074
+glucose,realistic,D4_cusum,RF on all features,magnitude,large,1049,0.7578646329837941,0.734163936416521,0.781129679144385
+glucose,realistic,D4_cusum,RF on all features,structural subtype,periodic,142,0.8028169014084507,0.7206638599495743,0.8816127775613556
+glucose,realistic,D4_cusum,RF on all features,structural subtype,saturation,91,0.16483516483516483,0.062094907407407404,0.277516501650165
+glucose,realistic,D4_cusum,RF on all features,structural subtype,delay,90,0.5333333333333333,0.37709150326797386,0.7117885334441213
+glucose,realistic,D4_cusum,RF on all features,structural subtype,omitted,189,0.9682539682539683,0.9310026737967915,0.9948058344127806
+glucose,dense,D4_cusum,majority class,true class,drift,1959,0.0,0.0,0.0
+glucose,dense,D4_cusum,majority class,true class,structure,2470,0.0,0.0,0.0
+glucose,dense,D4_cusum,majority class,true class,feedback,3491,1.0,1.0,1.0
+glucose,dense,D4_cusum,majority class,magnitude,small,1461,0.45927446954141,0.44474191506700844,0.4741482190845248
+glucose,dense,D4_cusum,majority class,magnitude,medium,2756,0.4404934687953556,0.43176690027472764,0.44959155070468787
+glucose,dense,D4_cusum,majority class,magnitude,large,3703,0.4337024034566568,0.42685378494811854,0.44062258052479875
+glucose,dense,D4_cusum,majority class,structural subtype,periodic,831,0.0,0.0,0.0
+glucose,dense,D4_cusum,majority class,structural subtype,saturation,441,0.0,0.0,0.0
+glucose,dense,D4_cusum,majority class,structural subtype,delay,369,0.0,0.0,0.0
+glucose,dense,D4_cusum,majority class,structural subtype,omitted,829,0.0,0.0,0.0
+glucose,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,drift,1959,0.0,0.0,0.0
+glucose,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,structure,2470,0.7408906882591093,0.7176361584130256,0.7649670947448994
+glucose,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,feedback,3491,0.9934116299054712,0.9896947741397133,0.9965376026339048
+glucose,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,small,1461,0.783025325119781,0.7635371598993501,0.8048212975131851
+glucose,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,medium,2756,0.6719883889695211,0.6585175467479101,0.6858528431778834
+glucose,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,large,3703,0.621658115041858,0.6119855457835847,0.6312394485666522
+glucose,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,periodic,831,0.8098676293622142,0.7775675921013189,0.8413549740761934
+glucose,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,saturation,441,0.031746031746031744,0.013245033112582781,0.05449344973664951
+glucose,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,delay,369,0.8536585365853658,0.8018704071174687,0.9028145930298558
+glucose,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,omitted,829,0.9987937273823885,0.9963381157305379,1.0
+glucose,dense,D4_cusum,LDA on residual moments,true class,drift,1959,0.3057682491066871,0.28674528851413544,0.3252508039230716
+glucose,dense,D4_cusum,LDA on residual moments,true class,structure,2470,0.7680161943319838,0.744082352501588,0.7917542888402482
+glucose,dense,D4_cusum,LDA on residual moments,true class,feedback,3491,0.8444571755943856,0.8322631884715804,0.8574944746928308
+glucose,dense,D4_cusum,LDA on residual moments,magnitude,small,1461,0.6735112936344969,0.6528946469117681,0.6941757507112127
+glucose,dense,D4_cusum,LDA on residual moments,magnitude,medium,2756,0.7082728592162555,0.6923667464758835,0.7240053893185664
+glucose,dense,D4_cusum,LDA on residual moments,magnitude,large,3703,0.6772886848501215,0.6652730980271072,0.6912950812434823
+glucose,dense,D4_cusum,LDA on residual moments,structural subtype,periodic,831,0.8640192539109507,0.8351056404451991,0.8936608480879169
+glucose,dense,D4_cusum,LDA on residual moments,structural subtype,saturation,441,0.045351473922902494,0.024553571428571428,0.07052473262032086
+glucose,dense,D4_cusum,LDA on residual moments,structural subtype,delay,369,0.8970189701897019,0.8468600586088119,0.9389149712173374
+glucose,dense,D4_cusum,LDA on residual moments,structural subtype,omitted,829,0.9987937273823885,0.9963381157305379,1.0
+glucose,dense,D4_cusum,RF on residual moments,true class,drift,1959,0.3328228688106177,0.3118644431729786,0.35487054434767207
+glucose,dense,D4_cusum,RF on residual moments,true class,structure,2470,0.791497975708502,0.76894324107501,0.8154784806328677
+glucose,dense,D4_cusum,RF on residual moments,true class,feedback,3491,0.8266972214265254,0.8135074059041547,0.8403090499024847
+glucose,dense,D4_cusum,RF on residual moments,magnitude,small,1461,0.6632443531827515,0.6410510456981479,0.6846700883209622
+glucose,dense,D4_cusum,RF on residual moments,magnitude,medium,2756,0.7184325108853411,0.7010882019322716,0.7356822971548999
+glucose,dense,D4_cusum,RF on residual moments,magnitude,large,3703,0.6870105320010802,0.6745653577534466,0.7003095011633181
+glucose,dense,D4_cusum,RF on residual moments,structural subtype,periodic,831,0.9205776173285198,0.8958798145982596,0.9399070477247503
+glucose,dense,D4_cusum,RF on residual moments,structural subtype,saturation,441,0.05895691609977324,0.03419605242627555,0.08629286619870742
+glucose,dense,D4_cusum,RF on residual moments,structural subtype,delay,369,0.9105691056910569,0.8656307585995087,0.9513678766317727
+glucose,dense,D4_cusum,RF on residual moments,structural subtype,omitted,829,0.9987937273823885,0.9963381157305379,1.0
+glucose,dense,D4_cusum,RF on all features,true class,drift,1959,0.3517100561510975,0.3309234399115176,0.3750771208226221
+glucose,dense,D4_cusum,RF on all features,true class,structure,2470,0.8024291497975709,0.7805234269466378,0.8269755835734346
+glucose,dense,D4_cusum,RF on all features,true class,feedback,3491,0.8321397880263535,0.8195499218267588,0.8450349065650637
+glucose,dense,D4_cusum,RF on all features,magnitude,small,1461,0.6468172484599589,0.6261217202192659,0.664963081653321
+glucose,dense,D4_cusum,RF on all features,magnitude,medium,2756,0.7362119013062409,0.7191988293801519,0.7519908562464787
+glucose,dense,D4_cusum,RF on all features,magnitude,large,3703,0.7026735079665136,0.6902767362713428,0.7156765789007355
+glucose,dense,D4_cusum,RF on all features,structural subtype,periodic,831,0.9626955475330926,0.946761082334087,0.976020587875869
+glucose,dense,D4_cusum,RF on all features,structural subtype,saturation,441,0.04081632653061224,0.01905270331667424,0.0676901092654582
+glucose,dense,D4_cusum,RF on all features,structural subtype,delay,369,0.9105691056910569,0.8677338903889659,0.9536897204588484
+glucose,dense,D4_cusum,RF on all features,structural subtype,omitted,829,0.9987937273823885,0.9963381157305379,1.0
+tumor,dense,D4_cusum,majority class,true class,drift,2520,0.0,0.0,0.0
+tumor,dense,D4_cusum,majority class,true class,structure,2915,0.0,0.0,0.0
+tumor,dense,D4_cusum,majority class,true class,feedback,3185,1.0,1.0,1.0
+tumor,dense,D4_cusum,majority class,magnitude,small,1125,0.336,0.32022005772005774,0.3505709162318146
+tumor,dense,D4_cusum,majority class,magnitude,medium,2941,0.37300238014280857,0.3660130718954248,0.38174161685857433
+tumor,dense,D4_cusum,majority class,magnitude,large,4554,0.37549407114624506,0.3712363393424797,0.379677509893626
+tumor,dense,D4_cusum,majority class,structural subtype,periodic,417,0.0,0.0,0.0
+tumor,dense,D4_cusum,majority class,structural subtype,saturation,662,0.0,0.0,0.0
+tumor,dense,D4_cusum,majority class,structural subtype,delay,1072,0.0,0.0,0.0
+tumor,dense,D4_cusum,majority class,structural subtype,omitted,764,0.0,0.0,0.0
+tumor,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,drift,2520,0.0,0.0,0.0
+tumor,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,structure,2915,0.7632933104631218,0.7431530050036543,0.7830097616495726
+tumor,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,feedback,3185,0.9014128728414442,0.8919078395165352,0.9115322011704181
+tumor,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,small,1125,0.5626666666666666,0.5428478176179773,0.5826859488701078
+tumor,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,medium,2941,0.5817749064943897,0.5684903607922476,0.5942789947062415
+tumor,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,large,4554,0.6043039086517348,0.5947552506432796,0.6135272056377951
+tumor,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,periodic,417,0.8752997601918465,0.839757049286942,0.9113672220905724
+tumor,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,saturation,662,0.7658610271903323,0.7151223017976392,0.8079021263825774
+tumor,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,delay,1072,0.9039179104477612,0.8787878787878788,0.9243498882954585
+tumor,dense,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,omitted,764,0.5026178010471204,0.476586217964545,0.5315833212141359
+tumor,dense,D4_cusum,LDA on residual moments,true class,drift,2520,0.49206349206349204,0.46924112765347575,0.5129120199069254
+tumor,dense,D4_cusum,LDA on residual moments,true class,structure,2915,0.7900514579759863,0.7711634039889307,0.8073259646763641
+tumor,dense,D4_cusum,LDA on residual moments,true class,feedback,3185,0.6094191522762952,0.5878104953434534,0.627083211427981
+tumor,dense,D4_cusum,LDA on residual moments,magnitude,small,1125,0.5786666666666667,0.5554081062949235,0.5995438421235041
+tumor,dense,D4_cusum,LDA on residual moments,magnitude,medium,2941,0.5994559673580415,0.5854427013338601,0.6126277595816968
+tumor,dense,D4_cusum,LDA on residual moments,magnitude,large,4554,0.6741326306543698,0.6627702725752667,0.6861840651539484
+tumor,dense,D4_cusum,LDA on residual moments,structural subtype,periodic,417,0.9088729016786571,0.8788285887467603,0.9418386778258416
+tumor,dense,D4_cusum,LDA on residual moments,structural subtype,saturation,662,0.7311178247734139,0.6835507346392148,0.7753476010306167
+tumor,dense,D4_cusum,LDA on residual moments,structural subtype,delay,1072,0.9440298507462687,0.924650405542709,0.9609624078491351
+tumor,dense,D4_cusum,LDA on residual moments,structural subtype,omitted,764,0.5602094240837696,0.5305970180884774,0.5911667777763802
+tumor,dense,D4_cusum,RF on residual moments,true class,drift,2520,0.5753968253968254,0.55577610162763,0.5974085491891381
+tumor,dense,D4_cusum,RF on residual moments,true class,structure,2915,0.8377358490566038,0.8192614778294184,0.8542638517327089
+tumor,dense,D4_cusum,RF on residual moments,true class,feedback,3185,0.7682888540031397,0.7530145161870105,0.7826169547693844
+tumor,dense,D4_cusum,RF on residual moments,magnitude,small,1125,0.6097777777777778,0.5811343669128022,0.638203536906854
+tumor,dense,D4_cusum,RF on residual moments,magnitude,medium,2941,0.6888813328799728,0.6730456942711059,0.7045293010427662
+tumor,dense,D4_cusum,RF on residual moments,magnitude,large,4554,0.7964426877470355,0.7852098936495654,0.8072111379327892
+tumor,dense,D4_cusum,RF on residual moments,structural subtype,periodic,417,0.9640287769784173,0.944060120971947,0.9830097087378641
+tumor,dense,D4_cusum,RF on residual moments,structural subtype,saturation,662,0.8610271903323263,0.821314935064935,0.896131318765869
+tumor,dense,D4_cusum,RF on residual moments,structural subtype,delay,1072,0.9720149253731343,0.9566344175953344,0.985193040040155
+tumor,dense,D4_cusum,RF on residual moments,structural subtype,omitted,764,0.5602094240837696,0.532670357498902,0.5899193278436098
+tumor,dense,D4_cusum,RF on all features,true class,drift,2520,0.6591269841269841,0.6363448312916398,0.678318285522443
+tumor,dense,D4_cusum,RF on all features,true class,structure,2915,0.8765008576329331,0.861679539633909,0.8904930795847751
+tumor,dense,D4_cusum,RF on all features,true class,feedback,3185,0.8357927786499215,0.8231573810816731,0.8500355675400088
+tumor,dense,D4_cusum,RF on all features,magnitude,small,1125,0.6435555555555555,0.6176557501321932,0.6689777587967195
+tumor,dense,D4_cusum,RF on all features,magnitude,medium,2941,0.7602856171370282,0.7463320699035922,0.7741747034912249
+tumor,dense,D4_cusum,RF on all features,magnitude,large,4554,0.8603425559947299,0.8509873663078066,0.8696561199127135
+tumor,dense,D4_cusum,RF on all features,structural subtype,periodic,417,0.9832134292565947,0.9678122225510506,0.9952098608194784
+tumor,dense,D4_cusum,RF on all features,structural subtype,saturation,662,0.9335347432024169,0.9064856711915535,0.955962162897639
+tumor,dense,D4_cusum,RF on all features,structural subtype,delay,1072,0.9869402985074627,0.975194566646617,0.9962919943738114
+tumor,dense,D4_cusum,RF on all features,structural subtype,omitted,764,0.6138743455497382,0.586759807549963,0.6414789709172259
+tumor,realistic,D4_cusum,majority class,true class,drift,1198,0.0,0.0,0.0
+tumor,realistic,D4_cusum,majority class,true class,structure,2769,1.0,1.0,1.0
+tumor,realistic,D4_cusum,majority class,true class,feedback,1462,0.0,0.0,0.0
+tumor,realistic,D4_cusum,majority class,magnitude,small,759,0.6469038208168643,0.6137646766347001,0.6828159028908094
+tumor,realistic,D4_cusum,majority class,magnitude,medium,1640,0.5634146341463414,0.5445838311429709,0.5843024852489327
+tumor,realistic,D4_cusum,majority class,magnitude,large,3030,0.44686468646864685,0.43638595361848304,0.45814445346388977
+tumor,realistic,D4_cusum,majority class,structural subtype,periodic,663,1.0,1.0,1.0
+tumor,realistic,D4_cusum,majority class,structural subtype,saturation,649,1.0,1.0,1.0
+tumor,realistic,D4_cusum,majority class,structural subtype,delay,1042,1.0,1.0,1.0
+tumor,realistic,D4_cusum,majority class,structural subtype,omitted,415,1.0,1.0,1.0
+tumor,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,drift,1198,0.0,0.0,0.0
+tumor,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,structure,2769,0.8598772119898881,0.8424949484881175,0.875655920843869
+tumor,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,feedback,1462,0.8864569083447332,0.8686788120979727,0.9039707764505119
+tumor,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,small,759,0.6877470355731226,0.6577982298743977,0.7205309068034788
+tumor,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,medium,1640,0.6792682926829269,0.6603404944366043,0.6999018232683959
+tumor,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,large,3030,0.6735973597359736,0.6590337590268753,0.6876167488066134
+tumor,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,periodic,663,0.9698340874811463,0.9549207288878926,0.983358547655068
+tumor,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,saturation,649,0.8212634822804314,0.7825644841269841,0.860096608211698
+tumor,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,delay,1042,0.9702495201535508,0.9574144576790623,0.9821995066027613
+tumor,realistic,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,omitted,415,0.4674698795180723,0.4216258256395285,0.5169756815728966
+tumor,realistic,D4_cusum,LDA on residual moments,true class,drift,1198,0.22454090150250416,0.20181103633248068,0.25337767267711103
+tumor,realistic,D4_cusum,LDA on residual moments,true class,structure,2769,0.872517154207295,0.8553523264998613,0.8892934957625455
+tumor,realistic,D4_cusum,LDA on residual moments,true class,feedback,1462,0.7708618331053352,0.7450194963825989,0.7982823307806324
+tumor,realistic,D4_cusum,LDA on residual moments,magnitude,small,759,0.689064558629776,0.6553809509314502,0.7218075592848784
+tumor,realistic,D4_cusum,LDA on residual moments,magnitude,medium,1640,0.7073170731707317,0.6879298671792193,0.7295683569353413
+tumor,realistic,D4_cusum,LDA on residual moments,magnitude,large,3030,0.7026402640264027,0.6883487433904847,0.7159862861081185
+tumor,realistic,D4_cusum,LDA on residual moments,structural subtype,periodic,663,0.9457013574660633,0.9252131282626704,0.9622790916076155
+tumor,realistic,D4_cusum,LDA on residual moments,structural subtype,saturation,649,0.8166409861325116,0.7782642089093702,0.8599358398332194
+tumor,realistic,D4_cusum,LDA on residual moments,structural subtype,delay,1042,0.9616122840690979,0.9436788169183684,0.977547198603713
+tumor,realistic,D4_cusum,LDA on residual moments,structural subtype,omitted,415,0.619277108433735,0.5683418660837551,0.6727787887828162
+tumor,realistic,D4_cusum,RF on residual moments,true class,drift,1198,0.4732888146911519,0.44384199292866955,0.5048876681988894
+tumor,realistic,D4_cusum,RF on residual moments,true class,structure,2769,0.8959913326110509,0.8804337198793115,0.9105460031437049
+tumor,realistic,D4_cusum,RF on residual moments,true class,feedback,1462,0.7305061559507524,0.7038963768508977,0.7576442643168947
+tumor,realistic,D4_cusum,RF on residual moments,magnitude,small,759,0.7061923583662714,0.675743319397349,0.7391081773319744
+tumor,realistic,D4_cusum,RF on residual moments,magnitude,medium,1640,0.7542682926829268,0.7333464141052104,0.7738209409355624
+tumor,realistic,D4_cusum,RF on residual moments,magnitude,large,3030,0.7732673267326733,0.7602085212762938,0.786946248349291
+tumor,realistic,D4_cusum,RF on residual moments,structural subtype,periodic,663,0.9381598793363499,0.9197127659574468,0.9554234769687965
+tumor,realistic,D4_cusum,RF on residual moments,structural subtype,saturation,649,0.901386748844376,0.869894099848714,0.9337218603445784
+tumor,realistic,D4_cusum,RF on residual moments,structural subtype,delay,1042,0.9846449136276392,0.9702179708529387,0.993801954992813
+tumor,realistic,D4_cusum,RF on residual moments,structural subtype,omitted,415,0.5975903614457831,0.54699892649659,0.6476842273779617
+tumor,realistic,D4_cusum,RF on all features,true class,drift,1198,0.5283806343906511,0.49687501726052063,0.5648046891398346
+tumor,realistic,D4_cusum,RF on all features,true class,structure,2769,0.9302997472011556,0.9186127497783536,0.9415619688600918
+tumor,realistic,D4_cusum,RF on all features,true class,feedback,1462,0.79890560875513,0.774540365263708,0.8245587824439705
+tumor,realistic,D4_cusum,RF on all features,magnitude,small,759,0.758893280632411,0.7272574643297516,0.7911743849332721
+tumor,realistic,D4_cusum,RF on all features,magnitude,medium,1640,0.7993902439024391,0.7808938192360787,0.8180421325867081
+tumor,realistic,D4_cusum,RF on all features,magnitude,large,3030,0.8217821782178217,0.8089795487185303,0.8341190542580077
+tumor,realistic,D4_cusum,RF on all features,structural subtype,periodic,663,0.9924585218702866,0.9836655092592592,0.9985119047619048
+tumor,realistic,D4_cusum,RF on all features,structural subtype,saturation,649,0.9306625577812019,0.9064036173131527,0.9545454545454546
+tumor,realistic,D4_cusum,RF on all features,structural subtype,delay,1042,0.9923224568138196,0.9827742796861607,0.9990509685162393
+tumor,realistic,D4_cusum,RF on all features,structural subtype,omitted,415,0.6746987951807228,0.6248441211401425,0.7218898593064332
+glucose,moderate,D4_cusum,majority class,true class,drift,550,0.0,0.0,0.0
+glucose,moderate,D4_cusum,majority class,true class,structure,947,0.0,0.0,0.0
+glucose,moderate,D4_cusum,majority class,true class,feedback,1232,1.0,1.0,1.0
+glucose,moderate,D4_cusum,majority class,magnitude,small,456,0.3399122807017544,0.31601731601731603,0.3647609386026817
+glucose,moderate,D4_cusum,majority class,magnitude,medium,829,0.45958986731001206,0.43475566799026516,0.482802520151005
+glucose,moderate,D4_cusum,majority class,magnitude,large,1444,0.481994459833795,0.46426648175997554,0.49948741425851706
+glucose,moderate,D4_cusum,majority class,structural subtype,periodic,316,0.0,0.0,0.0
+glucose,moderate,D4_cusum,majority class,structural subtype,saturation,123,0.0,0.0,0.0
+glucose,moderate,D4_cusum,majority class,structural subtype,delay,168,0.0,0.0,0.0
+glucose,moderate,D4_cusum,majority class,structural subtype,omitted,340,0.0,0.0,0.0
+glucose,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,drift,550,0.0,0.0,0.0
+glucose,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,structure,947,0.6103484688489969,0.5615313598366106,0.653819767137453
+glucose,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",true class,feedback,1232,0.9626623376623377,0.9453263463137332,0.9767094984825963
+glucose,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,small,456,0.5394736842105263,0.50831171750709,0.5746246768741301
+glucose,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,medium,829,0.6658624849215923,0.6377683408802973,0.6963212025316455
+glucose,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",magnitude,large,1444,0.6689750692520776,0.6503605165310019,0.6908851602645286
+glucose,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,periodic,316,0.6424050632911392,0.5718461538461538,0.7171617824167
+glucose,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,saturation,123,0.10569105691056911,0.02459016393442623,0.20315249266862165
+glucose,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,delay,168,0.40476190476190477,0.2922830374753452,0.5265324675324674
+glucose,moderate,D4_cusum,"depth-2 rule (mean, sd, |z|)",structural subtype,omitted,340,0.8647058823529412,0.8101743987574036,0.910991652578191
+glucose,moderate,D4_cusum,LDA on residual moments,true class,drift,550,0.1709090909090909,0.13235114814062182,0.21735351562499997
+glucose,moderate,D4_cusum,LDA on residual moments,true class,structure,947,0.6367476240760296,0.5869069548487453,0.6810151193121436
+glucose,moderate,D4_cusum,LDA on residual moments,true class,feedback,1232,0.8993506493506493,0.8775406981509655,0.9202089552238806
+glucose,moderate,D4_cusum,LDA on residual moments,magnitude,small,456,0.5372807017543859,0.5053730480046269,0.5732478873539241
+glucose,moderate,D4_cusum,LDA on residual moments,magnitude,medium,829,0.6767189384800965,0.6484316375198728,0.7055488379396985
+glucose,moderate,D4_cusum,LDA on residual moments,magnitude,large,1444,0.6918282548476454,0.6715158796345991,0.7151183291339644
+glucose,moderate,D4_cusum,LDA on residual moments,structural subtype,periodic,316,0.7183544303797469,0.650894385357408,0.7868409412597311
+glucose,moderate,D4_cusum,LDA on residual moments,structural subtype,saturation,123,0.11382113821138211,0.033601694915254235,0.2064869473960383
+glucose,moderate,D4_cusum,LDA on residual moments,structural subtype,delay,168,0.39285714285714285,0.27271307288029695,0.5168655303030303
+glucose,moderate,D4_cusum,LDA on residual moments,structural subtype,omitted,340,0.8705882352941177,0.8203299584245889,0.9155512628301234
+glucose,moderate,D4_cusum,RF on residual moments,true class,drift,550,0.15636363636363637,0.11844844974837082,0.19682490782305934
+glucose,moderate,D4_cusum,RF on residual moments,true class,structure,947,0.665258711721225,0.6201881427546438,0.7087807077386541
+glucose,moderate,D4_cusum,RF on residual moments,true class,feedback,1232,0.8636363636363636,0.8390338968733785,0.886072333522781
+glucose,moderate,D4_cusum,RF on residual moments,magnitude,small,456,0.5263157894736842,0.4936298683736026,0.5676085577240311
+glucose,moderate,D4_cusum,RF on residual moments,magnitude,medium,829,0.6537997587454765,0.6262191539365453,0.6823269517367878
+glucose,moderate,D4_cusum,RF on residual moments,magnitude,large,1444,0.6911357340720221,0.6707995508278065,0.713236976964028
+glucose,moderate,D4_cusum,RF on residual moments,structural subtype,periodic,316,0.7563291139240507,0.6887749233128835,0.8176100628930818
+glucose,moderate,D4_cusum,RF on residual moments,structural subtype,saturation,123,0.13821138211382114,0.050199579831932774,0.24400326483579796
+glucose,moderate,D4_cusum,RF on residual moments,structural subtype,delay,168,0.44642857142857145,0.3284857723577236,0.5637976694915253
+glucose,moderate,D4_cusum,RF on residual moments,structural subtype,omitted,340,0.8794117647058823,0.8320849451539399,0.921021305586523
+glucose,moderate,D4_cusum,RF on all features,true class,drift,550,0.13090909090909092,0.09495438483777706,0.17365565000611666
+glucose,moderate,D4_cusum,RF on all features,true class,structure,947,0.6663146779303062,0.6198337697049038,0.7077179965191704
+glucose,moderate,D4_cusum,RF on all features,true class,feedback,1232,0.9099025974025974,0.8875930689048328,0.9321015227221879
+glucose,moderate,D4_cusum,RF on all features,magnitude,small,456,0.5570175438596491,0.5237113402061856,0.5963121174437571
+glucose,moderate,D4_cusum,RF on all features,magnitude,medium,829,0.6670687575392038,0.6381606582817401,0.6961412823459886
+glucose,moderate,D4_cusum,RF on all features,magnitude,large,1444,0.7042936288088643,0.6831210376841456,0.7263395390070922
+glucose,moderate,D4_cusum,RF on all features,structural subtype,periodic,316,0.7689873417721519,0.7043351648351649,0.8333791534810125
+glucose,moderate,D4_cusum,RF on all features,structural subtype,saturation,123,0.13008130081300814,0.04595665961945032,0.2333426028921023
+glucose,moderate,D4_cusum,RF on all features,structural subtype,delay,168,0.43452380952380953,0.31264096762965543,0.5457473508087004
+glucose,moderate,D4_cusum,RF on all features,structural subtype,omitted,340,0.8794117647058823,0.8308613619848437,0.9227428897378754
+tumor,moderate,D9_multiscale,majority class,true class,drift,2372,0.0,0.0,0.0
+tumor,moderate,D9_multiscale,majority class,true class,structure,4152,1.0,1.0,1.0
+tumor,moderate,D9_multiscale,majority class,true class,feedback,2202,0.0,0.0,0.0
+tumor,moderate,D9_multiscale,majority class,magnitude,small,1487,0.6536650975117687,0.6327518256823421,0.6746189259627585
+tumor,moderate,D9_multiscale,majority class,magnitude,medium,2922,0.4928131416837782,0.48208353178563934,0.5030613647510671
+tumor,moderate,D9_multiscale,majority class,magnitude,large,4317,0.4030576789437109,0.3973743533975398,0.40819366562824505
+tumor,moderate,D9_multiscale,majority class,structural subtype,periodic,1259,1.0,1.0,1.0
+tumor,moderate,D9_multiscale,majority class,structural subtype,saturation,815,1.0,1.0,1.0
+tumor,moderate,D9_multiscale,majority class,structural subtype,delay,1377,1.0,1.0,1.0
+tumor,moderate,D9_multiscale,majority class,structural subtype,omitted,701,1.0,1.0,1.0
+tumor,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,drift,2372,0.0,0.0,0.0
+tumor,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,structure,4152,0.9154624277456648,0.9048076923076923,0.9243669081309691
+tumor,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,feedback,2202,0.7325158946412352,0.7151897394078557,0.7512591850983085
+tumor,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,small,1487,0.6899798251513114,0.6688500494071147,0.7096917404558535
+tumor,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,medium,2922,0.6317590691307323,0.6182804441695839,0.6448881948636418
+tumor,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,large,4317,0.5888348390085708,0.5781314623622406,0.6000987200907958
+tumor,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,periodic,1259,0.9539316918189039,0.9398866687163818,0.9656170543260278
+tumor,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,saturation,815,0.8711656441717791,0.8410430295510941,0.9010991811005067
+tumor,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,delay,1377,0.9956427015250545,0.9919941775836972,0.9985491737455151
+tumor,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,omitted,701,0.7403708987161198,0.7103751105673126,0.7712900874635569
+tumor,moderate,D9_multiscale,LDA on residual moments,true class,drift,2372,0.637858347386172,0.6154964168525089,0.6610432372900187
+tumor,moderate,D9_multiscale,LDA on residual moments,true class,structure,4152,0.8680154142581888,0.8561722440431968,0.8801547196978958
+tumor,moderate,D9_multiscale,LDA on residual moments,true class,feedback,2202,0.6103542234332425,0.5867057136232083,0.6360554330173576
+tumor,moderate,D9_multiscale,LDA on residual moments,magnitude,small,1487,0.6919973100201748,0.669009060246862,0.7142454121455081
+tumor,moderate,D9_multiscale,LDA on residual moments,magnitude,medium,2922,0.7484599589322382,0.7337756598240469,0.7641600858216475
+tumor,moderate,D9_multiscale,LDA on residual moments,magnitude,large,4317,0.7516794069955988,0.7392826713938981,0.7622022834349615
+tumor,moderate,D9_multiscale,LDA on residual moments,structural subtype,periodic,1259,0.8490865766481335,0.8329289224726732,0.8655959967335494
+tumor,moderate,D9_multiscale,LDA on residual moments,structural subtype,saturation,815,0.8368098159509203,0.8021844660194175,0.8678347238034803
+tumor,moderate,D9_multiscale,LDA on residual moments,structural subtype,delay,1377,0.9927378358750908,0.9854740206316056,0.9985470657901403
+tumor,moderate,D9_multiscale,LDA on residual moments,structural subtype,omitted,701,0.6932952924393724,0.6569011307023542,0.7337302099863453
+tumor,moderate,D9_multiscale,RF on residual moments,true class,drift,2372,0.6753794266441822,0.6529139606003207,0.696129801810619
+tumor,moderate,D9_multiscale,RF on residual moments,true class,structure,4152,0.910645472061657,0.9004892424955754,0.9208625766669436
+tumor,moderate,D9_multiscale,RF on residual moments,true class,feedback,2202,0.6821071752951862,0.6608013011621188,0.7065726708642817
+tumor,moderate,D9_multiscale,RF on residual moments,magnitude,small,1487,0.7457969065232011,0.7236544000125561,0.7681770999491082
+tumor,moderate,D9_multiscale,RF on residual moments,magnitude,medium,2922,0.7741273100616016,0.759976957479303,0.7884736300936807
+tumor,moderate,D9_multiscale,RF on residual moments,magnitude,large,4317,0.8139911975909196,0.8040748821322989,0.8249314008557436
+tumor,moderate,D9_multiscale,RF on residual moments,structural subtype,periodic,1259,0.9142176330420969,0.8982649842271293,0.9298884582759794
+tumor,moderate,D9_multiscale,RF on residual moments,structural subtype,saturation,815,0.8871165644171779,0.8572084721139537,0.9118265408672956
+tumor,moderate,D9_multiscale,RF on residual moments,structural subtype,delay,1377,0.9941902687000727,0.9876853965305544,0.9989300922153211
+tumor,moderate,D9_multiscale,RF on residual moments,structural subtype,omitted,701,0.7674750356633381,0.7346725040520886,0.8026317353197088
+tumor,moderate,D9_multiscale,RF on all features,true class,drift,2372,0.7870994940978078,0.766864985231736,0.8077797799875464
+tumor,moderate,D9_multiscale,RF on all features,true class,structure,4152,0.9460500963391136,0.938529101794286,0.9539522139164065
+tumor,moderate,D9_multiscale,RF on all features,true class,feedback,2202,0.7829246139872843,0.7627689791675646,0.8049019790674455
+tumor,moderate,D9_multiscale,RF on all features,magnitude,small,1487,0.8197713517148622,0.7983145743490652,0.8390938773874983
+tumor,moderate,D9_multiscale,RF on all features,magnitude,medium,2922,0.8463381245722108,0.8329631269308915,0.8599955633511184
+tumor,moderate,D9_multiscale,RF on all features,magnitude,large,4317,0.8864952513319435,0.8772329356898663,0.894732539038403
+tumor,moderate,D9_multiscale,RF on all features,structural subtype,periodic,1259,0.9992057188244639,0.997588424437299,1.0
+tumor,moderate,D9_multiscale,RF on all features,structural subtype,saturation,815,0.894478527607362,0.8688449145418885,0.9198457223001402
+tumor,moderate,D9_multiscale,RF on all features,structural subtype,delay,1377,0.9912854030501089,0.9840865094338636,0.9970994510001893
+tumor,moderate,D9_multiscale,RF on all features,structural subtype,omitted,701,0.8216833095577746,0.7919587711641083,0.8536071222398615
+tumor,sparse,D9_multiscale,majority class,true class,drift,1041,0.0,0.0,0.0
+tumor,sparse,D9_multiscale,majority class,true class,structure,3443,1.0,1.0,1.0
+tumor,sparse,D9_multiscale,majority class,true class,feedback,935,0.0,0.0,0.0
+tumor,sparse,D9_multiscale,majority class,magnitude,small,917,0.8538713195201745,0.8289822262584328,0.879634426198672
+tumor,sparse,D9_multiscale,majority class,magnitude,medium,1565,0.7226837060702875,0.7025074685534591,0.7428670832149957
+tumor,sparse,D9_multiscale,majority class,magnitude,large,2937,0.5205992509363296,0.5097593500190332,0.532159388108316
+tumor,sparse,D9_multiscale,majority class,structural subtype,periodic,997,1.0,1.0,1.0
+tumor,sparse,D9_multiscale,majority class,structural subtype,saturation,739,1.0,1.0,1.0
+tumor,sparse,D9_multiscale,majority class,structural subtype,delay,1322,1.0,1.0,1.0
+tumor,sparse,D9_multiscale,majority class,structural subtype,omitted,385,1.0,1.0,1.0
+tumor,sparse,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,drift,1041,0.0,0.0,0.0
+tumor,sparse,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,structure,3443,0.9546906767354052,0.945796572886548,0.9630510886869711
+tumor,sparse,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,feedback,935,0.6973262032085561,0.6575928473327851,0.731438232349997
+tumor,sparse,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,small,917,0.8418756815703381,0.8155729686979687,0.8687579861998467
+tumor,sparse,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,medium,1565,0.7507987220447284,0.7306657568533202,0.7715169222139118
+tumor,sparse,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,large,2937,0.6782431052093973,0.6650922986944914,0.6928646654226326
+tumor,sparse,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,periodic,997,0.9859578736208626,0.978997815991264,0.9929838962558267
+tumor,sparse,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,saturation,739,0.9404600811907984,0.9163706585475868,0.9636490613060922
+tumor,sparse,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,delay,1322,0.9947049924357034,0.9879317052085584,1.0
+tumor,sparse,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,omitted,385,0.7636363636363637,0.7290435506754672,0.8010335917312662
+tumor,sparse,D9_multiscale,LDA on residual moments,true class,drift,1041,0.6464937560038425,0.6130217757534161,0.6809416375791018
+tumor,sparse,D9_multiscale,LDA on residual moments,true class,structure,3443,0.8457740342724368,0.8312173523614181,0.8601458804519301
+tumor,sparse,D9_multiscale,LDA on residual moments,true class,feedback,935,0.611764705882353,0.5687063189248414,0.6487287788844146
+tumor,sparse,D9_multiscale,LDA on residual moments,magnitude,small,917,0.6990185387131952,0.6689783572736913,0.7307104319874481
+tumor,sparse,D9_multiscale,LDA on residual moments,magnitude,medium,1565,0.805111821086262,0.7853720185853579,0.8273352616408882
+tumor,sparse,D9_multiscale,LDA on residual moments,magnitude,large,2937,0.7681307456588355,0.7529261471431228,0.7823093270868825
+tumor,sparse,D9_multiscale,LDA on residual moments,structural subtype,periodic,997,0.7452357071213641,0.7191851348205863,0.7711990938499486
+tumor,sparse,D9_multiscale,LDA on residual moments,structural subtype,saturation,739,0.8051420838971584,0.7686333333333333,0.8379170409461786
+tumor,sparse,D9_multiscale,LDA on residual moments,structural subtype,delay,1322,0.9803328290468987,0.9692581865951916,0.9893346797132779
+tumor,sparse,D9_multiscale,LDA on residual moments,structural subtype,omitted,385,0.7220779220779221,0.6767596441028426,0.7688461538461538
+tumor,sparse,D9_multiscale,RF on residual moments,true class,drift,1041,0.681075888568684,0.6497553546784812,0.7123991663548475
+tumor,sparse,D9_multiscale,RF on residual moments,true class,structure,3443,0.9183851292477491,0.9078799993388915,0.927921655535042
+tumor,sparse,D9_multiscale,RF on residual moments,true class,feedback,935,0.7358288770053476,0.69692006435637,0.7677824096494682
+tumor,sparse,D9_multiscale,RF on residual moments,magnitude,small,917,0.7851690294438386,0.756438121676635,0.813174963606276
+tumor,sparse,D9_multiscale,RF on residual moments,magnitude,medium,1565,0.8543130990415335,0.8363327308941869,0.8712061403508772
+tumor,sparse,D9_multiscale,RF on residual moments,magnitude,large,2937,0.8518896833503575,0.839445538028505,0.8655187534804762
+tumor,sparse,D9_multiscale,RF on residual moments,structural subtype,periodic,997,0.8956870611835507,0.8768089385205761,0.9135573935030593
+tumor,sparse,D9_multiscale,RF on residual moments,structural subtype,saturation,739,0.8958051420838972,0.8696215969743423,0.9215762592848601
+tumor,sparse,D9_multiscale,RF on residual moments,structural subtype,delay,1322,0.9916792738275341,0.9833393262679787,0.9977203647416414
+tumor,sparse,D9_multiscale,RF on residual moments,structural subtype,omitted,385,0.7688311688311689,0.7273837345174106,0.8140927542114876
+tumor,sparse,D9_multiscale,RF on all features,true class,drift,1041,0.7694524495677233,0.7353173258003767,0.7985591359786531
+tumor,sparse,D9_multiscale,RF on all features,true class,structure,3443,0.9607900087133314,0.9523448252133223,0.9678403018017852
+tumor,sparse,D9_multiscale,RF on all features,true class,feedback,935,0.7636363636363637,0.7271732954545455,0.7952544848341792
+tumor,sparse,D9_multiscale,RF on all features,magnitude,small,917,0.8756815703380589,0.8515589866501256,0.9007736904372583
+tumor,sparse,D9_multiscale,RF on all features,magnitude,medium,1565,0.8920127795527156,0.8758164499426272,0.9079174062228623
+tumor,sparse,D9_multiscale,RF on all features,magnitude,large,2937,0.8934286687095676,0.8823103170246346,0.9043434738519484
+tumor,sparse,D9_multiscale,RF on all features,structural subtype,periodic,997,0.9939819458375125,0.9879505489852946,0.998981176985951
+tumor,sparse,D9_multiscale,RF on all features,structural subtype,saturation,739,0.9242219215155616,0.8982805667699258,0.9464785066190688
+tumor,sparse,D9_multiscale,RF on all features,structural subtype,delay,1322,0.9878971255673222,0.9810379564437082,0.9939190009118551
+tumor,sparse,D9_multiscale,RF on all features,structural subtype,omitted,385,0.8519480519480519,0.8158392489122968,0.8875575260569741
+glucose,realistic,D9_multiscale,majority class,true class,drift,452,0.0,0.0,0.0
+glucose,realistic,D9_multiscale,majority class,true class,structure,1181,0.0,0.0,0.0
+glucose,realistic,D9_multiscale,majority class,true class,feedback,1292,1.0,1.0,1.0
+glucose,realistic,D9_multiscale,majority class,magnitude,small,395,0.30886075949367087,0.2791966050790754,0.3354622966207759
+glucose,realistic,D9_multiscale,majority class,magnitude,medium,913,0.4129244249726177,0.3897689182326054,0.4333886971476153
+glucose,realistic,D9_multiscale,majority class,magnitude,large,1617,0.4904143475572047,0.4739423517974628,0.5059464260496643
+glucose,realistic,D9_multiscale,majority class,structural subtype,periodic,490,0.0,0.0,0.0
+glucose,realistic,D9_multiscale,majority class,structural subtype,saturation,104,0.0,0.0,0.0
+glucose,realistic,D9_multiscale,majority class,structural subtype,delay,184,0.0,0.0,0.0
+glucose,realistic,D9_multiscale,majority class,structural subtype,omitted,403,0.0,0.0,0.0
+glucose,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,drift,452,0.0,0.0,0.0
+glucose,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,structure,1181,0.7070279424216765,0.6706725668364936,0.748100038984666
+glucose,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,feedback,1292,0.8831269349845201,0.8591845897984522,0.9038092417061612
+glucose,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,small,395,0.5822784810126582,0.5427778475223731,0.6217461585403482
+glucose,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,medium,913,0.6757940854326396,0.6471112761743067,0.7048877668291779
+glucose,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,large,1617,0.6982065553494124,0.6787531802527569,0.7200790198331759
+glucose,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,periodic,490,0.6918367346938775,0.631987198719872,0.7489758848925697
+glucose,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,saturation,104,0.3269230769230769,0.19900943396226417,0.4702977594339622
+glucose,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,delay,184,0.5652173913043478,0.4355813115541677,0.6657821229050279
+glucose,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,omitted,403,0.8883374689826302,0.8362898789878987,0.932515187879697
+glucose,realistic,D9_multiscale,LDA on residual moments,true class,drift,452,0.035398230088495575,0.017956366201441025,0.05839328624481176
+glucose,realistic,D9_multiscale,LDA on residual moments,true class,structure,1181,0.781541066892464,0.7482979869628459,0.8168913055466067
+glucose,realistic,D9_multiscale,LDA on residual moments,true class,feedback,1292,0.9102167182662538,0.8895543757996441,0.9296509000527228
+glucose,realistic,D9_multiscale,LDA on residual moments,magnitude,small,395,0.6177215189873417,0.5784933924560226,0.6593148306117474
+glucose,realistic,D9_multiscale,LDA on residual moments,magnitude,medium,913,0.7217962760131434,0.6921558178936438,0.7501605244698645
+glucose,realistic,D9_multiscale,LDA on residual moments,magnitude,large,1617,0.7495361781076066,0.7292868363213356,0.7688450083436263
+glucose,realistic,D9_multiscale,LDA on residual moments,structural subtype,periodic,490,0.8163265306122449,0.7715192771084338,0.8637626787626788
+glucose,realistic,D9_multiscale,LDA on residual moments,structural subtype,saturation,104,0.21153846153846154,0.1027922077922078,0.3448159003480489
+glucose,realistic,D9_multiscale,LDA on residual moments,structural subtype,delay,184,0.592391304347826,0.47437481826112243,0.7041156064155704
+glucose,realistic,D9_multiscale,LDA on residual moments,structural subtype,omitted,403,0.9727047146401985,0.946792352411365,0.9926857999571642
+glucose,realistic,D9_multiscale,RF on residual moments,true class,drift,452,0.10398230088495575,0.07167225322897956,0.13822850898494413
+glucose,realistic,D9_multiscale,RF on residual moments,true class,structure,1181,0.8247248094834886,0.7925391636081964,0.8587767448612822
+glucose,realistic,D9_multiscale,RF on residual moments,true class,feedback,1292,0.8753869969040248,0.8538791923401549,0.8956104328128562
+glucose,realistic,D9_multiscale,RF on residual moments,magnitude,small,395,0.6455696202531646,0.6053172609269817,0.687806161882679
+glucose,realistic,D9_multiscale,RF on residual moments,magnitude,medium,913,0.7360350492880613,0.7048285000824519,0.7639825295044602
+glucose,realistic,D9_multiscale,RF on residual moments,magnitude,large,1617,0.7575757575757576,0.7392091281105964,0.7778223339039272
+glucose,realistic,D9_multiscale,RF on residual moments,structural subtype,periodic,490,0.8714285714285714,0.8328397839783979,0.9087540894542276
+glucose,realistic,D9_multiscale,RF on residual moments,structural subtype,saturation,104,0.25961538461538464,0.1291919191919192,0.3869872701555869
+glucose,realistic,D9_multiscale,RF on residual moments,structural subtype,delay,184,0.7119565217391305,0.6026616825797153,0.8131868131868132
+glucose,realistic,D9_multiscale,RF on residual moments,structural subtype,omitted,403,0.9652605459057072,0.9357103130462419,0.9863766178996918
+glucose,realistic,D9_multiscale,RF on all features,true class,drift,452,0.046460176991150445,0.025446898475102335,0.06981476048782531
+glucose,realistic,D9_multiscale,RF on all features,true class,structure,1181,0.834038950042337,0.8044088910692352,0.8649463539179668
+glucose,realistic,D9_multiscale,RF on all features,true class,feedback,1292,0.913312693498452,0.8925507210518875,0.9330122386739457
+glucose,realistic,D9_multiscale,RF on all features,magnitude,small,395,0.6455696202531646,0.6057093460185481,0.6871950858593497
+glucose,realistic,D9_multiscale,RF on all features,magnitude,medium,913,0.7546549835706462,0.7251480751349998,0.7822780885742695
+glucose,realistic,D9_multiscale,RF on all features,magnitude,large,1617,0.7680890538033395,0.7506111758727881,0.7882040168533037
+glucose,realistic,D9_multiscale,RF on all features,structural subtype,periodic,490,0.8959183673469387,0.858709619093539,0.9308274551686454
+glucose,realistic,D9_multiscale,RF on all features,structural subtype,saturation,104,0.2403846153846154,0.12376179245283019,0.3709762721555173
+glucose,realistic,D9_multiscale,RF on all features,structural subtype,delay,184,0.717391304347826,0.6076256460523971,0.821275299850075
+glucose,realistic,D9_multiscale,RF on all features,structural subtype,omitted,403,0.9652605459057072,0.9376419324942449,0.9876237623762376
+glucose,dense,D9_multiscale,majority class,true class,drift,1622,0.0,0.0,0.0
+glucose,dense,D9_multiscale,majority class,true class,structure,2821,0.0,0.0,0.0
+glucose,dense,D9_multiscale,majority class,true class,feedback,3178,1.0,1.0,1.0
+glucose,dense,D9_multiscale,majority class,magnitude,small,1373,0.39184268026219954,0.37740907692899156,0.4071686594081892
+glucose,dense,D9_multiscale,majority class,magnitude,medium,2621,0.4177794734834033,0.4095987032518018,0.42642791248979295
+glucose,dense,D9_multiscale,majority class,magnitude,large,3627,0.42597187758478083,0.4184524338138796,0.43404073523535824
+glucose,dense,D9_multiscale,majority class,structural subtype,periodic,1012,0.0,0.0,0.0
+glucose,dense,D9_multiscale,majority class,structural subtype,saturation,428,0.0,0.0,0.0
+glucose,dense,D9_multiscale,majority class,structural subtype,delay,617,0.0,0.0,0.0
+glucose,dense,D9_multiscale,majority class,structural subtype,omitted,764,0.0,0.0,0.0
+glucose,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,drift,1622,0.0,0.0,0.0
+glucose,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,structure,2821,0.7302375044310528,0.706085410926053,0.7532621753300648
+glucose,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,feedback,3178,0.9638137193203272,0.9547564207596336,0.970746637839103
+glucose,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,small,1373,0.7596504005826656,0.739887763949655,0.7834184247421766
+glucose,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,medium,2621,0.6787485692483785,0.6647801761614133,0.6928379931060896
+glucose,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,large,3627,0.6344086021505376,0.6223166274535229,0.6455594874372215
+glucose,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,periodic,1012,0.7223320158102767,0.6882408600890556,0.7590282173486739
+glucose,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,saturation,428,0.10747663551401869,0.06940955608718767,0.14680659670164917
+glucose,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,delay,617,0.8492706645056726,0.8042862338723057,0.8915022973674687
+glucose,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,omitted,764,0.993455497382199,0.9869791666666666,0.9986945169712794
+glucose,dense,D9_multiscale,LDA on residual moments,true class,drift,1622,0.19297163995067818,0.17563234968464267,0.2110824284977417
+glucose,dense,D9_multiscale,LDA on residual moments,true class,structure,2821,0.7894363700815313,0.7671816318224348,0.8096145757139714
+glucose,dense,D9_multiscale,LDA on residual moments,true class,feedback,3178,0.8477029578351164,0.8336134739891741,0.860096450875299
+glucose,dense,D9_multiscale,LDA on residual moments,magnitude,small,1373,0.6919155134741443,0.6703491937927952,0.7153994631527574
+glucose,dense,D9_multiscale,LDA on residual moments,magnitude,medium,2621,0.7001144601297214,0.6849636852935876,0.7139616327964824
+glucose,dense,D9_multiscale,LDA on residual moments,magnitude,large,3627,0.6752136752136753,0.662570947853258,0.6889293843841653
+glucose,dense,D9_multiscale,LDA on residual moments,structural subtype,periodic,1012,0.8191699604743083,0.7881629756382231,0.8479252638418178
+glucose,dense,D9_multiscale,LDA on residual moments,structural subtype,saturation,428,0.17757009345794392,0.13253541925866147,0.2279151208395166
+glucose,dense,D9_multiscale,LDA on residual moments,structural subtype,delay,617,0.9059967585089141,0.8680552902979374,0.938371070311298
+glucose,dense,D9_multiscale,LDA on residual moments,structural subtype,omitted,764,0.9986910994764397,0.9959971962616823,1.0
+glucose,dense,D9_multiscale,RF on residual moments,true class,drift,1622,0.22256473489519113,0.20291245190445545,0.2427190503924022
+glucose,dense,D9_multiscale,RF on residual moments,true class,structure,2821,0.8089330024813896,0.7878344327670782,0.8296823494568019
+glucose,dense,D9_multiscale,RF on residual moments,true class,feedback,3178,0.8338577721837633,0.8195184715397813,0.8474489171726219
+glucose,dense,D9_multiscale,RF on residual moments,magnitude,small,1373,0.6780772032046614,0.6558908045977011,0.7047204043379302
+glucose,dense,D9_multiscale,RF on residual moments,magnitude,medium,2621,0.7127050743990844,0.695528326890462,0.7295394857788166
+glucose,dense,D9_multiscale,RF on residual moments,magnitude,large,3627,0.6876206231044941,0.674880942529982,0.7020010073671832
+glucose,dense,D9_multiscale,RF on residual moments,structural subtype,periodic,1012,0.8636363636363636,0.8371849081151407,0.8889709569516303
+glucose,dense,D9_multiscale,RF on residual moments,structural subtype,saturation,428,0.16822429906542055,0.12616930171277999,0.21127577142038348
+glucose,dense,D9_multiscale,RF on residual moments,structural subtype,delay,617,0.9303079416531604,0.8975398105220722,0.9591678338001868
+glucose,dense,D9_multiscale,RF on residual moments,structural subtype,omitted,764,0.9973821989528796,0.9933510638297872,1.0
+glucose,dense,D9_multiscale,RF on all features,true class,drift,1622,0.2379778051787916,0.21660635751266494,0.25976128894232686
+glucose,dense,D9_multiscale,RF on all features,true class,structure,2821,0.8287841191066998,0.8070927587920049,0.8496940279142642
+glucose,dense,D9_multiscale,RF on all features,true class,feedback,3178,0.8492762743864065,0.8355972914972278,0.8614200767435316
+glucose,dense,D9_multiscale,RF on all features,magnitude,small,1373,0.6919155134741443,0.6714990301964431,0.7164596405581914
+glucose,dense,D9_multiscale,RF on all features,magnitude,medium,2621,0.733689431514689,0.7158325914310284,0.7497145139379449
+glucose,dense,D9_multiscale,RF on all features,magnitude,large,3627,0.7030603804797353,0.6912776026853301,0.7160528712761057
+glucose,dense,D9_multiscale,RF on all features,structural subtype,periodic,1012,0.9426877470355731,0.92632171171377,0.9571927914420686
+glucose,dense,D9_multiscale,RF on all features,structural subtype,saturation,428,0.1425233644859813,0.10287081339712918,0.1865065982404692
+glucose,dense,D9_multiscale,RF on all features,structural subtype,delay,617,0.9108589951377634,0.8771309489128419,0.944251390718782
+glucose,dense,D9_multiscale,RF on all features,structural subtype,omitted,764,0.9960732984293194,0.9909713446227727,1.0
+tumor,dense,D9_multiscale,majority class,true class,drift,2827,0.0,0.0,0.0
+tumor,dense,D9_multiscale,majority class,true class,structure,4304,1.0,1.0,1.0
+tumor,dense,D9_multiscale,majority class,true class,feedback,2832,0.0,0.0,0.0
+tumor,dense,D9_multiscale,majority class,magnitude,small,1690,0.5727810650887574,0.5557480776162441,0.5915325529619498
+tumor,dense,D9_multiscale,majority class,magnitude,medium,3523,0.4422367300596083,0.4348925244761051,0.4517471765218361
+tumor,dense,D9_multiscale,majority class,magnitude,large,4750,0.3743157894736842,0.37048805163229687,0.37892667141081304
+tumor,dense,D9_multiscale,majority class,structural subtype,periodic,1223,1.0,1.0,1.0
+tumor,dense,D9_multiscale,majority class,structural subtype,saturation,864,1.0,1.0,1.0
+tumor,dense,D9_multiscale,majority class,structural subtype,delay,1368,1.0,1.0,1.0
+tumor,dense,D9_multiscale,majority class,structural subtype,omitted,849,1.0,1.0,1.0
+tumor,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,drift,2827,0.0,0.0,0.0
+tumor,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,structure,4304,0.8887081784386617,0.8770941783078545,0.9005251759192892
+tumor,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,feedback,2832,0.8774717514124294,0.8629431745789745,0.8909375988230603
+tumor,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,small,1690,0.6538461538461539,0.6333205062642095,0.6737177746265284
+tumor,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,medium,3523,0.6003406187908032,0.5884604586557162,0.6132408759124087
+tumor,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,large,4750,0.6505263157894737,0.6426064921118092,0.6590629183627269
+tumor,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,periodic,1223,0.9681112019623875,0.9542798424113831,0.9795949511165134
+tumor,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,saturation,864,0.8472222222222222,0.8149835559099063,0.8799144601005997
+tumor,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,delay,1368,0.9517543859649122,0.9379777002241424,0.9642348629308237
+tumor,dense,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,omitted,849,0.7149587750294464,0.6885578807159684,0.7454190882775334
+tumor,dense,D9_multiscale,LDA on residual moments,true class,drift,2827,0.5252918287937743,0.5000762819339781,0.5499266148664247
+tumor,dense,D9_multiscale,LDA on residual moments,true class,structure,4304,0.8633828996282528,0.8505907747123387,0.8761795377581543
+tumor,dense,D9_multiscale,LDA on residual moments,true class,feedback,2832,0.5850988700564972,0.5622698983169705,0.6084526087567427
+tumor,dense,D9_multiscale,LDA on residual moments,magnitude,small,1690,0.6911242603550296,0.6726878380435714,0.7100975122850123
+tumor,dense,D9_multiscale,LDA on residual moments,magnitude,medium,3523,0.6695997729208061,0.6564352024350723,0.6839297848599887
+tumor,dense,D9_multiscale,LDA on residual moments,magnitude,large,4750,0.7012631578947368,0.6890385581470738,0.7129173081851088
+tumor,dense,D9_multiscale,LDA on residual moments,structural subtype,periodic,1223,0.9337694194603434,0.917313144718586,0.9492243868842845
+tumor,dense,D9_multiscale,LDA on residual moments,structural subtype,saturation,864,0.7858796296296297,0.7522826313594663,0.8212755851623235
+tumor,dense,D9_multiscale,LDA on residual moments,structural subtype,delay,1368,0.9744152046783626,0.9613272719044653,0.9861212563915267
+tumor,dense,D9_multiscale,LDA on residual moments,structural subtype,omitted,849,0.6619552414605419,0.6327484906195551,0.6905073179822565
+tumor,dense,D9_multiscale,RF on residual moments,true class,drift,2827,0.6027591085956845,0.5831546933397211,0.6216354675505931
+tumor,dense,D9_multiscale,RF on residual moments,true class,structure,4304,0.8991635687732342,0.8877205198672403,0.9099499960039688
+tumor,dense,D9_multiscale,RF on residual moments,true class,feedback,2832,0.695268361581921,0.6741466265330301,0.7142227182098821
+tumor,dense,D9_multiscale,RF on residual moments,magnitude,small,1690,0.7242603550295857,0.7043384779363593,0.7448295085481306
+tumor,dense,D9_multiscale,RF on residual moments,magnitude,medium,3523,0.7394266250354812,0.7263432202674411,0.7524074354000285
+tumor,dense,D9_multiscale,RF on residual moments,magnitude,large,4750,0.7818947368421053,0.7714199656992672,0.7932083859076443
+tumor,dense,D9_multiscale,RF on residual moments,structural subtype,periodic,1223,0.9664758789860998,0.9556248290948866,0.9780045176524932
+tumor,dense,D9_multiscale,RF on residual moments,structural subtype,saturation,864,0.8576388888888888,0.8285132915173238,0.8857699579572322
+tumor,dense,D9_multiscale,RF on residual moments,structural subtype,delay,1368,0.9722222222222222,0.9598679236744451,0.983551980489644
+tumor,dense,D9_multiscale,RF on residual moments,structural subtype,omitted,849,0.7267373380447585,0.6999171261784254,0.7552311001046469
+tumor,dense,D9_multiscale,RF on all features,true class,drift,2827,0.7431906614785992,0.7245191826104377,0.759452784574605
+tumor,dense,D9_multiscale,RF on all features,true class,structure,4304,0.9405204460966543,0.9308162626661233,0.9494285055677708
+tumor,dense,D9_multiscale,RF on all features,true class,feedback,2832,0.7888418079096046,0.770088878998161,0.805751110863445
+tumor,dense,D9_multiscale,RF on all features,magnitude,small,1690,0.7905325443786982,0.7712251224591139,0.8091743798652932
+tumor,dense,D9_multiscale,RF on all features,magnitude,medium,3523,0.8416122622764689,0.8314553620959915,0.8535732396950438
+tumor,dense,D9_multiscale,RF on all features,magnitude,large,4750,0.8593684210526316,0.8497874994569319,0.868557654733395
+tumor,dense,D9_multiscale,RF on all features,structural subtype,periodic,1223,0.9942763695829926,0.989348407647588,0.9983437193084491
+tumor,dense,D9_multiscale,RF on all features,structural subtype,saturation,864,0.8969907407407407,0.870871791260964,0.9230342877659097
+tumor,dense,D9_multiscale,RF on all features,structural subtype,delay,1368,0.9883040935672515,0.9795171909290417,0.9963490986547803
+tumor,dense,D9_multiscale,RF on all features,structural subtype,omitted,849,0.8303886925795053,0.8009365260232199,0.8574405069616763
+tumor,realistic,D9_multiscale,majority class,true class,drift,1477,0.0,0.0,0.0
+tumor,realistic,D9_multiscale,majority class,true class,structure,3766,1.0,1.0,1.0
+tumor,realistic,D9_multiscale,majority class,true class,feedback,1370,0.0,0.0,0.0
+tumor,realistic,D9_multiscale,majority class,magnitude,small,1130,0.7654867256637168,0.7402449456533722,0.7906458066408871
+tumor,realistic,D9_multiscale,majority class,magnitude,medium,2104,0.6116920152091255,0.5947775236413648,0.6271934432770315
+tumor,realistic,D9_multiscale,majority class,magnitude,large,3379,0.4776561112755253,0.4694545000929468,0.48766570224969313
+tumor,realistic,D9_multiscale,majority class,structural subtype,periodic,1208,1.0,1.0,1.0
+tumor,realistic,D9_multiscale,majority class,structural subtype,saturation,750,1.0,1.0,1.0
+tumor,realistic,D9_multiscale,majority class,structural subtype,delay,1308,1.0,1.0,1.0
+tumor,realistic,D9_multiscale,majority class,structural subtype,omitted,500,1.0,1.0,1.0
+tumor,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,drift,1477,0.0,0.0,0.0
+tumor,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,structure,3766,0.8839617631439193,0.8720822370517289,0.8967697788999879
+tumor,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,feedback,1370,0.8226277372262774,0.8003587751707103,0.8428224306076121
+tumor,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,small,1130,0.7433628318584071,0.7175584562826706,0.769340311587147
+tumor,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,medium,2104,0.6753802281368821,0.6573424102952952,0.6926220768640982
+tumor,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,large,3379,0.6496004735128736,0.6368759723702786,0.6645519864750634
+tumor,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,periodic,1208,0.9420529801324503,0.9274556115359067,0.9561068839823212
+tumor,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,saturation,750,0.828,0.7936267184446391,0.8635780098280098
+tumor,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,delay,1308,0.9648318042813455,0.953431451387335,0.9771805106551429
+tumor,realistic,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,omitted,500,0.616,0.5719419394451053,0.6602982426186325
+tumor,realistic,D9_multiscale,LDA on residual moments,true class,drift,1477,0.4820582261340555,0.45689673786858603,0.5114114694867126
+tumor,realistic,D9_multiscale,LDA on residual moments,true class,structure,3766,0.8728093467870419,0.8612950457005423,0.8860515021154274
+tumor,realistic,D9_multiscale,LDA on residual moments,true class,feedback,1370,0.5233576642335767,0.4930289855072464,0.551790431642471
+tumor,realistic,D9_multiscale,LDA on residual moments,magnitude,small,1130,0.684070796460177,0.6577066805249735,0.7107961840017054
+tumor,realistic,D9_multiscale,LDA on residual moments,magnitude,medium,2104,0.748574144486692,0.7294093407305965,0.7675827514773403
+tumor,realistic,D9_multiscale,LDA on residual moments,magnitude,large,3379,0.7007990529742527,0.6871855031948882,0.7143109644141373
+tumor,realistic,D9_multiscale,LDA on residual moments,structural subtype,periodic,1208,0.8394039735099338,0.8183284850418958,0.8587533359583497
+tumor,realistic,D9_multiscale,LDA on residual moments,structural subtype,saturation,750,0.8413333333333334,0.8065563725490196,0.8760853584479507
+tumor,realistic,D9_multiscale,LDA on residual moments,structural subtype,delay,1308,0.9732415902140673,0.9618533469560644,0.982491134751773
+tumor,realistic,D9_multiscale,LDA on residual moments,structural subtype,omitted,500,0.738,0.6963801965379389,0.7808816678806769
+tumor,realistic,D9_multiscale,RF on residual moments,true class,drift,1477,0.5382532159783344,0.5113977239568136,0.567410407881395
+tumor,realistic,D9_multiscale,RF on residual moments,true class,structure,3766,0.903611258629846,0.892613991022509,0.9152481383578865
+tumor,realistic,D9_multiscale,RF on residual moments,true class,feedback,1370,0.672992700729927,0.6425097682526852,0.699999946447028
+tumor,realistic,D9_multiscale,RF on residual moments,magnitude,small,1130,0.7548672566371681,0.728385689024982,0.7801276498933738
+tumor,realistic,D9_multiscale,RF on residual moments,magnitude,medium,2104,0.7747148288973384,0.7555242125058769,0.793197993823485
+tumor,realistic,D9_multiscale,RF on residual moments,magnitude,large,3379,0.7804084048535069,0.7678050311216649,0.7943316910547419
+tumor,realistic,D9_multiscale,RF on residual moments,structural subtype,periodic,1208,0.9072847682119205,0.8910149750415973,0.9243230623347765
+tumor,realistic,D9_multiscale,RF on residual moments,structural subtype,saturation,750,0.8946666666666667,0.8662104379795397,0.9221371504660453
+tumor,realistic,D9_multiscale,RF on residual moments,structural subtype,delay,1308,0.9831804281345565,0.9734042464716693,0.9915376121916728
+tumor,realistic,D9_multiscale,RF on residual moments,structural subtype,omitted,500,0.7,0.6570257368202573,0.7463090643274853
+tumor,realistic,D9_multiscale,RF on all features,true class,drift,1477,0.6154366960054164,0.5831563089227072,0.6431351529673391
+tumor,realistic,D9_multiscale,RF on all features,true class,structure,3766,0.9341476367498672,0.9254602350217379,0.943656814107753
+tumor,realistic,D9_multiscale,RF on all features,true class,feedback,1370,0.7321167883211679,0.7014744008714596,0.762307656209024
+tumor,realistic,D9_multiscale,RF on all features,magnitude,small,1130,0.831858407079646,0.8081432773530296,0.8549681335503467
+tumor,realistic,D9_multiscale,RF on all features,magnitude,medium,2104,0.8236692015209125,0.8064040858203325,0.8396761885990229
+tumor,realistic,D9_multiscale,RF on all features,magnitude,large,3379,0.8159218703758508,0.8053555939613078,0.8292625204138617
+tumor,realistic,D9_multiscale,RF on all features,structural subtype,periodic,1208,0.9867549668874173,0.9790961014810386,0.9942416209455042
+tumor,realistic,D9_multiscale,RF on all features,structural subtype,saturation,750,0.8746666666666667,0.8451953051643193,0.9032551560869914
+tumor,realistic,D9_multiscale,RF on all features,structural subtype,delay,1308,0.9877675840978594,0.9808274744694677,0.9946072923659324
+tumor,realistic,D9_multiscale,RF on all features,structural subtype,omitted,500,0.756,0.7205449367424847,0.7929013148120636
+glucose,moderate,D9_multiscale,majority class,true class,drift,486,0.0,0.0,0.0
+glucose,moderate,D9_multiscale,majority class,true class,structure,1132,0.0,0.0,0.0
+glucose,moderate,D9_multiscale,majority class,true class,feedback,1240,1.0,1.0,1.0
+glucose,moderate,D9_multiscale,majority class,magnitude,small,380,0.35,0.3197605747031662,0.38312047737336646
+glucose,moderate,D9_multiscale,majority class,magnitude,medium,886,0.4108352144469526,0.3907265573071791,0.43017503039027916
+glucose,moderate,D9_multiscale,majority class,magnitude,large,1592,0.4667085427135678,0.45104687739027804,0.48342169848211863
+glucose,moderate,D9_multiscale,majority class,structural subtype,periodic,512,0.0,0.0,0.0
+glucose,moderate,D9_multiscale,majority class,structural subtype,saturation,126,0.0,0.0,0.0
+glucose,moderate,D9_multiscale,majority class,structural subtype,delay,175,0.0,0.0,0.0
+glucose,moderate,D9_multiscale,majority class,structural subtype,omitted,319,0.0,0.0,0.0
+glucose,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,drift,486,0.0,0.0,0.0
+glucose,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,structure,1132,0.6024734982332155,0.5593625843183366,0.6402962778538528
+glucose,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",true class,feedback,1240,0.9056451612903226,0.8839699523052464,0.925970861656939
+glucose,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,small,380,0.5684210526315789,0.5294805853375832,0.6098901098901099
+glucose,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,medium,886,0.6354401805869074,0.6053386985608112,0.6659121207649817
+glucose,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",magnitude,large,1592,0.6444723618090452,0.624002866055088,0.6641378094009514
+glucose,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,periodic,512,0.634765625,0.5715464081734817,0.688534155597723
+glucose,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,saturation,126,0.11904761904761904,0.03725847928829581,0.20717895740623013
+glucose,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,delay,175,0.38285714285714284,0.2668324607329843,0.5028846153846153
+glucose,moderate,D9_multiscale,"depth-2 rule (mean, sd, |z|)",structural subtype,omitted,319,0.8620689655172413,0.8035537974683544,0.9179583001735495
+glucose,moderate,D9_multiscale,LDA on residual moments,true class,drift,486,0.13580246913580246,0.09699595141700405,0.17382960035133949
+glucose,moderate,D9_multiscale,LDA on residual moments,true class,structure,1132,0.6775618374558304,0.6394151414776555,0.717529476670371
+glucose,moderate,D9_multiscale,LDA on residual moments,true class,feedback,1240,0.8927419354838709,0.8710817319700384,0.9143780894647979
+glucose,moderate,D9_multiscale,LDA on residual moments,magnitude,small,380,0.5710526315789474,0.5293272265790244,0.6140275104720933
+glucose,moderate,D9_multiscale,LDA on residual moments,magnitude,medium,886,0.6738148984198645,0.6427341920374707,0.7036889065634617
+glucose,moderate,D9_multiscale,LDA on residual moments,magnitude,large,1592,0.707286432160804,0.6875484771527065,0.7270707087421004
+glucose,moderate,D9_multiscale,LDA on residual moments,structural subtype,periodic,512,0.787109375,0.7384300121475468,0.834704170009669
+glucose,moderate,D9_multiscale,LDA on residual moments,structural subtype,saturation,126,0.12698412698412698,0.04955897435897436,0.20610687022900764
+glucose,moderate,D9_multiscale,LDA on residual moments,structural subtype,delay,175,0.41714285714285715,0.29803293190142155,0.532720588235294
+glucose,moderate,D9_multiscale,LDA on residual moments,structural subtype,omitted,319,0.8620689655172413,0.806150201374082,0.9124866032026226
+glucose,moderate,D9_multiscale,RF on residual moments,true class,drift,486,0.13991769547325103,0.104558732386664,0.17867788461538459
+glucose,moderate,D9_multiscale,RF on residual moments,true class,structure,1132,0.6881625441696113,0.6497247385015765,0.7238590801886792
+glucose,moderate,D9_multiscale,RF on residual moments,true class,feedback,1240,0.8685483870967742,0.8456159697357959,0.8900498674365986
+glucose,moderate,D9_multiscale,RF on residual moments,magnitude,small,380,0.5578947368421052,0.514345298281092,0.6016261877354916
+glucose,moderate,D9_multiscale,RF on residual moments,magnitude,medium,886,0.6681715575620768,0.6408286738474204,0.6990034741711344
+glucose,moderate,D9_multiscale,RF on residual moments,magnitude,large,1592,0.7035175879396985,0.684910245213302,0.7252164847207888
+glucose,moderate,D9_multiscale,RF on residual moments,structural subtype,periodic,512,0.794921875,0.7454366297169985,0.8417503091819498
+glucose,moderate,D9_multiscale,RF on residual moments,structural subtype,saturation,126,0.1111111111111111,0.04857395751376869,0.18507441860465113
+glucose,moderate,D9_multiscale,RF on residual moments,structural subtype,delay,175,0.4342857142857143,0.31790106951871655,0.5615817578294126
+glucose,moderate,D9_multiscale,RF on residual moments,structural subtype,omitted,319,0.8840125391849529,0.8312101910828026,0.929161999004232
+glucose,moderate,D9_multiscale,RF on all features,true class,drift,486,0.08641975308641975,0.05640800872178679,0.12138183310797758
+glucose,moderate,D9_multiscale,RF on all features,true class,structure,1132,0.6925795053003534,0.6536879523948883,0.7336581965568197
+glucose,moderate,D9_multiscale,RF on all features,true class,feedback,1240,0.9217741935483871,0.9010121523457405,0.9386791543503405
+glucose,moderate,D9_multiscale,RF on all features,magnitude,small,380,0.5973684210526315,0.5572144558318659,0.6374964438122332
+glucose,moderate,D9_multiscale,RF on all features,magnitude,medium,886,0.6839729119638827,0.6554744983277593,0.7149059359748773
+glucose,moderate,D9_multiscale,RF on all features,magnitude,large,1592,0.7135678391959799,0.69550112254202,0.7331871418434018
+glucose,moderate,D9_multiscale,RF on all features,structural subtype,periodic,512,0.8359375,0.7912244333886125,0.8800169698770398
+glucose,moderate,D9_multiscale,RF on all features,structural subtype,saturation,126,0.06349206349206349,0.011028983820277043,0.12551673228346455
+glucose,moderate,D9_multiscale,RF on all features,structural subtype,delay,175,0.3942857142857143,0.2835704896483733,0.5229205462445685
+glucose,moderate,D9_multiscale,RF on all features,structural subtype,omitted,319,0.8746081504702194,0.8186037022292993,0.9237048570388644

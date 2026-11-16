@@ -1,0 +1,106 @@
+{
+  "sr_false_alarm": [
+    {
+      "N": 200,
+      "A": 20,
+      "empirical": 0.99725,
+      "bound": 1.0,
+      "holds": true
+    },
+    {
+      "N": 200,
+      "A": 50,
+      "empirical": 0.865,
+      "bound": 1.0,
+      "holds": true
+    },
+    {
+      "N": 200,
+      "A": 100,
+      "empirical": 0.61575,
+      "bound": 1.0,
+      "holds": true
+    },
+    {
+      "N": 200,
+      "A": 400,
+      "empirical": 0.2085,
+      "bound": 0.5,
+      "holds": true
+    },
+    {
+      "N": 200,
+      "A": 1000,
+      "empirical": 0.08875,
+      "bound": 0.2,
+      "holds": true
+    }
+  ],
+  "sr_delay": [
+    {
+      "theta": 0.75,
+      "measured_mean_delay": 20.342,
+      "predicted_upper": 28.46708468497865,
+      "predicted_single": 22.09638434994557
+    },
+    {
+      "theta": 1.5,
+      "measured_mean_delay": 6.035666666666667,
+      "predicted_upper": 7.116771171244663,
+      "predicted_single": 5.5240960874863925
+    }
+  ],
+  "power": [
+    {
+      "delta": 0.5,
+      "n": 25,
+      "empirical": 0.80895,
+      "theory": 0.803764940015494
+    },
+    {
+      "delta": 1.0,
+      "n": 25,
+      "empirical": 0.99975,
+      "theory": 0.9996033849954737
+    }
+  ],
+  "conformal": [
+    {
+      "level": 0.05,
+      "empirical": 0.03295000000000001,
+      "valid": true
+    },
+    {
+      "level": 0.1,
+      "empirical": 0.10180000000000002,
+      "valid": true
+    },
+    {
+      "level": 0.2,
+      "empirical": 0.19505000000000003,
+      "valid": true
+    }
+  ],
+  "ekf_assumption": [
+    {
+      "model": "glucose",
+      "N_obs": 25,
+      "alpha_target": 0.05,
+      "sr_fa_empirical": 0.24,
+      "resid_sd": 1.071012440108886,
+      "resid_kurtosis": 2.9046922380476987,
+      "eps_hat": 0.3471627907789916,
+      "robust_bound": 1.0
+    },
+    {
+      "model": "tumor",
+      "N_obs": 67,
+      "alpha_target": 0.05,
+      "sr_fa_empirical": 0.48,
+      "resid_sd": 1.0222380116569731,
+      "resid_kurtosis": 8.653617166586656,
+      "eps_hat": 115261635.00158481,
+      "robust_bound": 1.0
+    }
+  ]
+}
